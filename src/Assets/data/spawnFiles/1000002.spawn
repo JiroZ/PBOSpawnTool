@@ -1,0 +1,251 @@
+<pokemons>
+    <pokemon name="Pichu" chances="35" time="day" build="OP" grass="1" ai="StatChangingMoveGenerator" id="1">
+        <stats levelDown="1" levelUp="3"/>
+        <moves>
+            <move name="Thunder Shock"/>
+            <move name="Charm"/>
+        </moves>
+        <caught-moves>
+            <move name="Thunder Shock" level="1"/>
+            <move name="Charm" level="1"/>
+        </caught-moves>
+    </pokemon>
+
+    <pokemon name="Pichu" chances="35" time="night" build="OP" grass="1" ai="StatChangingMoveGenerator" id="2">
+        <stats levelDown="1" levelUp="3"/>
+        <moves>
+            <move name="Thunder Shock"/>
+            <move name="Charm"/>
+        </moves>
+        <caught-moves>
+            <move name="Thunder Shock" level="1"/>
+            <move name="Charm" level="1"/>
+        </caught-moves>
+    </pokemon>
+
+    <pokemon name="Diglett-Alola" chances="35" time="day" build="OP" grass="1" ai="StatChangingMoveGenerator" id="3">
+        <stats levelDown="1" levelUp="3"/>
+        <moves>
+            <move name="Scratch"/>
+        </moves>
+        <caught-moves>
+            <move name="Scratch" level="1"/>
+        </caught-moves>
+        <drop id="880" chances="0.1"/>
+    </pokemon>
+
+    <pokemon name="Diglett-Alola" chances="35" time="night" build="OP" grass="1" ai="StatChangingMoveGenerator" id="4">
+        <stats levelDown="1" levelUp="3"/>
+        <moves>
+            <move name="Scratch"/>
+        </moves>
+        <caught-moves>
+            <move name="Scratch" level="1"/>
+        </caught-moves>
+        <drop id="880" chances="0.1"/>
+    </pokemon>
+
+
+    <pokemon name="Bunnelby" chances="35" time="day" build="OP" grass="1" ai="StatChangingMoveGenerator" id="5">
+        <stats levelDown="1" levelUp="3"/>
+        <moves>
+            <move name="Tackle"/>
+        </moves>
+        <caught-moves>
+            <move name="Tackle" level="1"/>
+
+        </caught-moves>
+        <drop id="879" chances="13"/>
+    </pokemon>
+
+    <pokemon name="Bunnelby" chances="35" time="night" build="OP" grass="1" ai="StatChangingMoveGenerator" id="6">
+        <stats levelDown="1" levelUp="3"/>
+        <moves>
+            <move name="Tackle"/>
+        </moves>
+        <caught-moves>
+            <move name="Tackle" level="1"/>
+
+
+        </caught-moves>
+        <drop id="879" chances="13"/>
+    </pokemon>
+
+    <pokemon name="Elekid" chances="1" time="day" build="OP" grass="1" ai="StatChangingMoveGenerator" id="7">
+        <stats levelDown="1" levelUp="3"/>
+        <moves>
+            <move name="Leer"/>
+            <move name="Quick Attack"/>
+        </moves>
+        <caught-moves>
+            <move name="Quick Attack" level="1"/>
+        </caught-moves>
+        <drop id="883" chances="5"/>
+    </pokemon>
+
+    <pokemon name="Elekid" chances="1" time="night" build="OP" grass="1" ai="StatChangingMoveGenerator" id="8">
+        <stats levelDown="1" levelUp="3"/>
+        <moves>
+            <move name="Leer"/>
+            <move name="Quick Attack"/>
+        </moves>
+        <caught-moves>
+            <move name="Quick Attack" level="1"/>
+        </caught-moves>
+        <drop id="883" chances="5"/>
+    </pokemon>
+
+    <pokemon name="Pineco" chances="0.1" time="day" build="OP" grass="1" ai="StatChangingMoveGenerator" id="9">
+        <stats levelDown="1" levelUp="2"/>
+        <moves>
+
+            <move name="Tackle"/>
+        </moves>
+        <caught-moves>
+            <move name="Tackle" level="1"/>
+            <move name="Protect" level="1"/>
+        </caught-moves>
+        <drop id="880" chances="33"/>
+    </pokemon>
+
+    <pokemon name="Pineco" chances="0.1" time="night" build="OP" grass="1" ai="StatChangingMoveGenerator" id="10">
+        <stats levelDown="1" levelUp="2"/>
+        <moves>
+
+            <move name="Tackle"/>
+        </moves>
+        <caught-moves>
+            <move name="Tackle" level="1"/>
+            <move name="Protect" level="1"/>
+        </caught-moves>
+        <drop id="880" chances="33"/>
+    </pokemon>
+
+    <pokemon name="Skorupi" chances="0.05" time="night" build="OP" grass="1" ai="StatChangingMoveGenerator" id="11"
+             sr="">
+        <stats levelDown="1" levelUp="2"/>
+        <moves>
+
+            <move name="Bite"/>
+        </moves>
+        <caught-moves>
+            <move name="Bite" level="1"/>
+            <move name="Poison Sting" level="1"/>
+        </caught-moves>
+        <drop id="880" chances="66"/>
+    </pokemon>
+
+    <pokemon name="Skorupi" chances="0.05" time="day" build="OP" grass="1" ai="StatChangingMoveGenerator" id="12" sr="">
+        <stats levelDown="1" levelUp="2"/>
+        <moves>
+
+            <move name="Bite"/>
+        </moves>
+        <caught-moves>
+            <move name="Bite" level="1"/>
+            <move name="Poison Sting" level="1"/>
+        </caught-moves>
+        <drop id="880" chances="66"/>
+    </pokemon>
+	
+	<pokemon name="Panpour" chances="20" time="day" build="OP" grass="1" ai="StatChangingMoveGenerator" id="13"
+             honey="">
+        <stats levelDown="1" levelUp="2"/>
+        <moves>
+            <move name="Scratch"/>
+        </moves>
+        <caught-moves>
+            <move name="Scratch" level="1"/>
+        </caught-moves>
+        <drop id="880" chances="50"/>
+    </pokemon>
+	
+	<pokemon name="Panpour" chances="20" time="night" build="OP" grass="1" ai="StatChangingMoveGenerator" id="14"
+             honey="">
+        <stats levelDown="1" levelUp="2"/>
+        <moves>
+            <move name="Scratch"/>
+        </moves>
+        <caught-moves>
+            <move name="Scratch" level="1"/>
+        </caught-moves>
+        <drop id="880" chances="50"/>
+    </pokemon>
+
+
+    <pokemon name="Mew" chances="0.001" time="day" build="OP" grass="1" ai="StatChangingMoveGenerator" id="1000"
+             notCatchable="" announce="">
+        <stats levelDown="15" levelUp="20"/>
+        <moves>
+            <move name="Psychic"/>
+        </moves>
+        <caught-moves>
+            <move name="Psychic" level="1"/>
+        </caught-moves>
+        <drop id="882" chances="100"/>
+    </pokemon>
+
+    <pokemon name="Mew" chances="0.001" time="night" build="OP" grass="1" ai="StatChangingMoveGenerator" id="1001"
+             notCatchable="" announce="">
+        <stats levelDown="15" levelUp="20"/>
+        <moves>
+            <move name="Psychic"/>
+        </moves>
+        <caught-moves>
+            <move name="Psychic" level="1"/>
+        </caught-moves>
+        <drop id="882" chances="100"/>
+    </pokemon>
+
+    <pokemon name="Latios" chances="0.001" time="night" build="OP" grass="1" ai="StatChangingMoveGenerator" id="1002"
+             notCatchable="" announce="">
+        <stats levelDown="15" levelUp="20"/>
+        <moves>
+            <move name="Psychic"/>
+        </moves>
+        <caught-moves>
+            <move name="Psychic" level="1"/>
+
+
+        </caught-moves>
+        <drop id="882" chances="100"/>
+    </pokemon>
+
+    <pokemon name="Latios" chances="0.001" time="day" build="OP" grass="1" ai="StatChangingMoveGenerator" id="1003"
+             notCatchable="" announce="">
+        <stats levelDown="15" levelUp="20"/>
+        <moves>
+            <move name="Psychic"/>
+        </moves>
+        <caught-moves>
+            <move name="Psychic" level="1"/>
+        </caught-moves>
+        <drop id="882" chances="100"/>
+    </pokemon>
+
+    <pokemon name="Latias" chances="0.001" time="night" build="OP" grass="1" ai="StatChangingMoveGenerator" id="1004"
+             notCatchable="" announce="">
+        <stats levelDown="15" levelUp="20"/>
+        <moves>
+            <move name="Psychic"/>
+        </moves>
+        <caught-moves>
+            <move name="Psychic" level="1"/>
+        </caught-moves>
+        <drop id="882" chances="100"/>
+    </pokemon>
+
+    <pokemon name="Latias" chances="0.001" time="day" build="OP" grass="1" ai="StatChangingMoveGenerator" id="1005"
+             notCatchable="" announce="">
+        <stats levelDown="15" levelUp="20"/>
+        <moves>
+            <move name="Psychic"/>
+        </moves>
+        <caught-moves>
+            <move name="Psychic" level="1"/>
+        </caught-moves>
+        <drop id="882" chances="100"/>
+    </pokemon>
+
+
+</pokemons>

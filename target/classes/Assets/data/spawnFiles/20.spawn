@@ -1,0 +1,402 @@
+<pokemons>
+    <pokemon name="Ponyta" chances="50" time="day" build="BP" grass="1" ai="AttackingMoveGenerator" id="1">
+        <stats levelDown="13" levelUp="16"/>
+        <moves>
+            <move name="Flame Wheel"/>
+        </moves>
+        <moves>
+            <move name="Tackle"/>
+        </moves>
+        <caught-moves>
+            <move name="Tackle" level="1"/>
+            <move name="Tail Whip" level="1"/>
+        </caught-moves>
+    </pokemon>
+    <pokemon name="Ponyta" chances="1" time="day" build="BP" grass="1" ai="StatChangingMoveGenerator" id="2">
+        <stats levelDown="1" levelUp="3"/>
+        <moves>
+            <move name="Tackle"/>
+        </moves>
+        <moves>
+            <move name="Growl"/>
+        </moves>
+        <caught-moves>
+            <move name="Tackle" level="1"/>
+            <move name="Growl" level="1"/>
+        </caught-moves>
+    </pokemon>
+    <pokemon name="Bonsly" chances="50" time="day" build="TDP" grass="1" ai="AttackingMoveGenerator" id="3">
+        <stats levelDown="13" levelUp="16"/>
+        <moves>
+            <move name="Rock Throw"/>
+        </moves>
+        <caught-moves>
+            <move name="Rock Throw" level="1"/>
+        </caught-moves>
+    </pokemon>
+    <pokemon name="Geodude-Alola" chances="30" time="day" build="TDP" grass="1" ai="AttackingMoveGenerator" id="4">
+        <stats levelDown="13" levelUp="16"/>
+        <moves>
+            <move name="Spark"/>
+        </moves>
+        <moves>
+            <move name="Rock Throw"/>
+        </moves>
+        <moves>
+            <move name="Defense Curl"/>
+        </moves>
+        <caught-moves>
+            <move name="Spark" level="1"/>
+            <move name="Defense Curl" level="1"/>
+        </caught-moves>
+        <drop id="590" chances="0.5"/>
+    </pokemon>
+    <pokemon name="Timburr" chances="30" time="day" build="BP" grass="1" ai="MostEffectiveMoveGenerator" id="5">
+        <stats levelDown="13" levelUp="16"/>
+        <moves>
+            <move name="Rock Throw"/>
+        </moves>
+        <moves>
+            <move name="Low Kick"/>
+        </moves>
+        <caught-moves>
+            <move name="Pound" level="1"/>
+            <move name="Leer" level="1"/>
+        </caught-moves>
+        <drop id="590" chances="0.5"/>
+    </pokemon>
+    <pokemon name="Nidoran-M" expLowerCap="5" expUpperCap="10" chances="50" time="day" build="BP" grass="1"
+             ai="StatChangingMoveGenerator" id="6" honey="">
+        <stats levelDown="1" levelUp="1"/>
+        <moves>
+            <move name="Leer"/>
+        </moves>
+        <caught-moves>
+            <move name="Leer" level="1"/>
+            <move name="Peck" level="1"/>
+        </caught-moves>
+    </pokemon>
+    <pokemon name="Nidoran-F" expLowerCap="5" expUpperCap="10" chances="50" time="night" build="BP" grass="1"
+             ai="StatChangingMoveGenerator" id="7" honey="">
+        <stats levelDown="1" levelUp="1"/>
+        <moves>
+            <move name="Growl"/>
+        </moves>
+        <caught-moves>
+            <move name="Growl" level="1"/>
+            <move name="Scratch" level="1"/>
+        </caught-moves>
+    </pokemon>
+    <pokemon name="Rufflet" chances="50" time="day" build="BP" grass="1" ai="StatChangingMoveGenerator" id="8" honey="">
+        <stats levelDown="1" levelUp="1"/>
+        <moves>
+            <move name="Leer"/>
+        </moves>
+        <caught-moves>
+            <move name="Leer" level="1"/>
+            <move name="Peck" level="1"/>
+        </caught-moves>
+    </pokemon>
+    <pokemon name="Ponyta" chances="50" time="night" build="BP" grass="1" ai="AttackingMoveGenerator" id="9">
+        <stats levelDown="13" levelUp="16"/>
+        <moves>
+            <move name="Flame Wheel"/>
+        </moves>
+        <moves>
+            <move name="Tackle"/>
+        </moves>
+        <caught-moves>
+            <move name="Tackle" level="1"/>
+            <move name="Tail Whip" level="1"/>
+        </caught-moves>
+    </pokemon>
+    <pokemon name="Ponyta" chances="1" time="night" build="BP" grass="1" ai="StatChangingMoveGenerator" id="10">
+        <stats levelDown="1" levelUp="1"/>
+        <moves>
+            <move name="Tackle"/>
+        </moves>
+        <moves>
+            <move name="Growl"/>
+        </moves>
+        <caught-moves>
+            <move name="Tackle" level="1"/>
+            <move name="Growl" level="1"/>
+        </caught-moves>
+    </pokemon>
+    <pokemon name="Bonsly" chances="50" time="night" build="TDP" grass="1" ai="AttackingMoveGenerator" id="11">
+        <stats levelDown="13" levelUp="16"/>
+        <moves>
+            <move name="Rock Throw"/>
+        </moves>
+        <caught-moves>
+            <move name="Rock Throw" level="1"/>
+        </caught-moves>
+    </pokemon>
+    <pokemon name="Geodude-Alola" chances="30" time="night" build="TDP" grass="1" ai="AttackingMoveGenerator" id="12">
+        <stats levelDown="13" levelUp="16"/>
+        <moves>
+            <move name="Spark"/>
+        </moves>
+        <moves>
+            <move name="Rock Throw"/>
+        </moves>
+        <moves>
+            <move name="Defense Curl"/>
+        </moves>
+        <caught-moves>
+            <move name="Tackle" level="1"/>
+            <move name="Defense Curl" level="1"/>
+        </caught-moves>
+        <drop id="590" chances="0.5"/>
+    </pokemon>
+    <pokemon name="Timburr" chances="30" time="night" build="BP" grass="1" ai="MostEffectiveMoveGenerator" id="13">
+        <stats levelDown="13" levelUp="16"/>
+        <moves>
+            <move name="Rock Throw"/>
+        </moves>
+        <moves>
+            <move name="Pound"/>
+        </moves>
+        <caught-moves>
+            <move name="Pound" level="1"/>
+            <move name="Leer" level="1"/>
+        </caught-moves>
+        <drop id="590" chances="0.5"/>
+    </pokemon>
+    <pokemon name="Timburr" chances="0.05" time="day" build="BP" grass="1" ai="AttackingMoveGenerator" id="14" sr="">
+        <stats levelDown="1" levelUp="1"/>
+        <moves>
+            <move name="Pound"/>
+            <move name="Leer" level="1"/>
+        </moves>
+        <caught-moves>
+            <move name="Pound" level="1"/>
+            <move name="Leer" level="1"/>
+        </caught-moves>
+    </pokemon>
+    <pokemon name="Timburr" chances="0.05" time="night" build="BP" grass="1" ai="AttackingMoveGenerator" id="15" sr="">
+        <stats levelDown="1" levelUp="1"/>
+        <moves>
+            <move name="Pound"/>
+            <move name="Leer" level="1"/>
+        </moves>
+        <caught-moves>
+            <move name="Pound" level="1"/>
+            <move name="Leer" level="1"/>
+        </caught-moves>
+    </pokemon>
+    <pokemon name="Rufflet" chances="50" time="night" build="BP" grass="1" ai="StatChangingMoveGenerator" id="16"
+             honey="">
+        <stats levelDown="1" levelUp="1"/>
+        <moves>
+            <move name="Leer"/>
+        </moves>
+        <caught-moves>
+            <move name="Leer" level="1"/>
+            <move name="Peck" level="1"/>
+        </caught-moves>
+    </pokemon>
+    <pokemon name="Growlithe" chances="0.5" time="day" build="BP" grass="1" ai="StatChangingMoveGenerator" id="17">
+        <stats levelDown="1" levelUp="1"/>
+        <moves>
+            <move name="Bite"/>
+        </moves>
+        <caught-moves>
+            <move name="Bite" level="1"/>
+        </caught-moves>
+    </pokemon>
+    <pokemon name="Growlithe" chances="0.5" time="night" build="BP" grass="1" ai="StatChangingMoveGenerator" id="18">
+        <stats levelDown="1" levelUp="1"/>
+        <moves>
+            <move name="Bite"/>
+        </moves>
+        <caught-moves>
+            <move name="Bite" level="1"/>
+        </caught-moves>
+    </pokemon>
+    <pokemon name="Bonsly" chances="3" time="day" build="TDP" grass="1" ai="AttackingMoveGenerator" id="19">
+        <stats levelDown="1" levelUp="3"/>
+        <moves>
+            <move name="Rock Throw"/>
+        </moves>
+        <caught-moves>
+            <move name="Fake Tears" level="1"/>
+        </caught-moves>
+    </pokemon>
+    <pokemon name="Geodude-Alola" chances="3" time="night" build="TDP" grass="1" ai="AttackingMoveGenerator" id="20">
+        <stats levelDown="1" levelUp="3"/>
+        <moves>
+            <move name="Spark"/>
+        </moves>
+        <caught-moves>
+            <move name="Tackle" level="1"/>
+            <move name="Defense Curl" level="1"/>
+        </caught-moves>
+        <drop id="590" chances="0.5"/>
+    </pokemon>
+    <pokemon name="Goldeen" chances="35" time="day" build="OP" grass="1" ai="StatChangingMoveGenerator" id="21"
+             fishing="">
+        <stats levelDown="13" levelUp="16"/>
+        <moves>
+            <move name="Peck"/>
+        </moves>
+        <caught-moves>
+            <move name="Peck" level="1"/>
+        </caught-moves>
+    </pokemon>
+    <pokemon name="Magikarp" chances="40" time="day" build="OP" grass="1" ai="StatChangingMoveGenerator" id="22"
+             fishing="">
+        <stats levelDown="13" levelUp="16"/>
+        <moves>
+            <move name="Splash"/>
+        </moves>
+        <caught-moves>
+            <move name="Splash" level="1"/>
+        </caught-moves>
+    </pokemon>
+    <pokemon name="Basculin" chances="5" time="day" build="OP" grass="1" ai="StatChangingMoveGenerator" id="23"
+             fishing="">
+        <stats levelDown="1" levelUp="3"/>
+        />
+        <moves>
+            <move name="Tackle"/>
+            <move name="Tail Whip"/>
+        </moves>
+        <caught-moves>
+            <move name="Tackle" level="1"/>
+            <move name="Tail Whip" level="1"/>
+            <move name="Water Gun" level="1"/>
+        </caught-moves>
+    </pokemon>
+    <pokemon name="Magikarp" chances="5" time="day" build="OP" grass="1" ai="StatChangingMoveGenerator" id="24"
+             fishing="">
+        <stats levelDown="1" levelUp="3"/>
+        <moves>
+            <move name="Splash"/>
+        </moves>
+        <caught-moves>
+            <move name="Splash" level="1"/>
+        </caught-moves>
+    </pokemon>
+    <pokemon name="Goldeen" chances="35" time="night" build="OP" grass="1" ai="StatChangingMoveGenerator" id="25"
+             fishing="">
+        <stats levelDown="13" levelUp="16"/>
+        <moves>
+            <move name="Peck"/>
+        </moves>
+        <caught-moves>
+            <move name="Peck" level="1"/>
+        </caught-moves>
+    </pokemon>
+    <pokemon name="Finneon" chances="40" time="night" build="OP" grass="1" ai="StatChangingMoveGenerator" id="26"
+             fishing="">
+        <stats levelDown="13" levelUp="16"/>
+        <moves>
+            <move name="Pound"/>
+        </moves>
+        <caught-moves>
+            <move name="Pound" level="1"/>
+        </caught-moves>
+    </pokemon>
+    <pokemon name="Basculin" chances="5" time="night" build="OP" grass="1" ai="StatChangingMoveGenerator" id="27"
+             fishing="">
+        <stats levelDown="1" levelUp="3"/>
+        <moves>
+            <move name="Tackle"/>
+            <move name="Tail Whip"/>
+        </moves>
+        <caught-moves>
+            <move name="Tackle" level="1"/>
+            <move name="Tail Whip" level="1"/>
+            <move name="Water Gun" level="1"/>
+        </caught-moves>
+    </pokemon>
+    <pokemon name="Alomomola" chances="2" time="day" build="BS" grass="1" ai="StatChangingMoveGenerator" id="28"
+             fishing="">
+        <stats levelDown="1" levelUp="3"/>
+        <moves>
+            <move name="Pound"/>
+        </moves>
+        <caught-moves>
+            <move name="Pound" level="1"/>
+            <move name="Hydro Pump" level="1"/>
+        </caught-moves>
+    </pokemon>
+    <pokemon name="Alomomola" chances="2" time="night" build="BS" grass="1" ai="StatChangingMoveGenerator" id="29"
+             fishing="">
+        <stats levelDown="1" levelUp="3"/>
+        <moves>
+            <move name="Pound"/>
+        </moves>
+        <caught-moves>
+            <move name="Pound" level="1"/>
+            <move name="Hydro Pump" level="1"/>
+        </caught-moves>
+    </pokemon>
+    <pokemon name="Entei" chances="0.001" time="night" build="BS" grass="1" ai="MostEffectiveMoveGenerator" id="81" notCatchable="" announce="">
+      <stats levelDown="8" levelUp="10" />
+      <moves>
+        <move name="Ember" />
+        <move name="Tackle" />
+      </moves>
+      <caught-moves>
+        <move name="Tackle" level="1" />
+      </caught-moves>
+      <drop id="791" chances="100" />
+    </pokemon>
+    <pokemon name="Entei" chances="0.001" time="day" build="BS" grass="1" ai="MostEffectiveMoveGenerator" id="82" notCatchable="" announce="">
+      <stats levelDown="8" levelUp="10" />
+      <moves>
+        <move name="Water Gun" />
+        <move name="Tackle" />
+      </moves>
+      <caught-moves>
+        <move name="Tackle" level="1" />
+      </caught-moves>
+      <drop id="791" chances="100" />
+    </pokemon>
+    <pokemon name="Suicune" chances="0.001" time="night" build="BS" grass="1" ai="MostEffectiveMoveGenerator" id="83" notCatchable="" announce="">
+      <stats levelDown="8" levelUp="10" />
+      <moves>
+        <move name="Water Gun" />
+        <move name="Tackle" />
+      </moves>
+      <caught-moves>
+        <move name="Tackle" level="1" />
+      </caught-moves>
+      <drop id="791" chances="100" />
+    </pokemon>
+    <pokemon name="Suicune" chances="0.001" time="day" build="BS" grass="1" ai="MostEffectiveMoveGenerator" id="84" notCatchable="" announce="">
+      <stats levelDown="8" levelUp="10" />
+      <moves>
+        <move name="Tackle" />
+        <move name="Tackle" />
+      </moves>
+      <caught-moves>
+        <move name="Tackle" level="1" />
+      </caught-moves>
+      <drop id="791" chances="100" />
+    </pokemon>
+    <pokemon name="Raikou" chances="0.001" time="day" build="BS" grass="1" ai="MostEffectiveMoveGenerator" id="85" notCatchable="" announce="">
+      <stats levelDown="8" levelUp="10" />
+      <moves>
+        <move name="Thunder Shock" />
+        <move name="Tackle" />
+      </moves>
+      <caught-moves>
+        <move name="Tackle" level="1" />
+      </caught-moves>
+      <drop id="791" chances="100" />
+    </pokemon>
+    <pokemon name="Raikou" chances="0.001" time="night" build="BS" grass="1" ai="MostEffectiveMoveGenerator" id="86" notCatchable="" announce="">
+      <stats levelDown="8" levelUp="10" />
+      <moves>
+        <move name="Thunder Shock" />
+        <move name="Tackle" />
+      </moves>
+      <caught-moves>
+        <move name="Tackle" level="1" />
+      </caught-moves>
+      <drop id="791" chances="100" />
+    </pokemon>
+</pokemons>

@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: PBOSpawnTool
+Bundle-SymbolicName: PBOSpawnTool
+Bundle-Version: 1.0.0.qualifier
+Bundle-ClassPath: PBOSpawnTool.jar,
+ lib/miglayout-swing.jar,
+ lib/miglayout-core.jar
+Export-Package: .,
+ Assets.data,
+ Assets.data.spawnFiles,
+ net.miginfocom.layout,
+ net.miginfocom.swing

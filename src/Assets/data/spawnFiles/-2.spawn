@@ -1,0 +1,110 @@
+<pokemons>
+    <pokemon name="Patrat" chances="10" time="day" build="OP" grass="1" ai="AttackingMoveGenerator" id="1">
+        <stats levelDown="1" levelUp="1"/>
+        <moves>
+            <move name="Tackle"/>
+        </moves>
+        <caught-moves>
+            <move name="Tackle" level="1"/>
+        </caught-moves>
+    </pokemon>
+
+    <pokemon name="Sandshrew" chances="10" time="day" build="OP" grass="1" ai="AttackingMoveGenerator" id="2">
+        <stats levelDown="1" levelUp="1"/>
+        <moves>
+            <move name="Scratch"/>
+        </moves>
+        <caught-moves>
+            <move name="Scratch" level="1"/>
+            <move name="Defense Curl" level="1"/>
+        </caught-moves>
+    </pokemon>
+
+    <pokemon name="Pidove" chances="10" time="day" build="OP" grass="1" ai="StatChangingMoveGenerator" id="3">
+        <stats levelDown="1" levelUp="1"/>
+        <moves>
+            <move name="Tackle"/>
+        </moves>
+        <caught-moves>
+            <move name="Tackle" level="1"/>
+            <move name="Growl" level="1"/>
+        </caught-moves>
+    </pokemon>
+
+    <pokemon name="Wingull" chances="10" time="day" build="BS" grass="1" ai="AttackingMoveGenerator" id="4">
+        <stats levelDown="1" levelUp="1"/>
+        <moves>
+            <move name="Growl"/>
+        </moves>
+        <caught-moves>
+            <move name="Water Gun" level="1"/>
+
+        </caught-moves>
+    </pokemon>
+
+    <pokemon name="Qwilfish" chances="10" time="day" build="BP" grass="1" ai="AttackingMoveGenerator" id="5">
+        <stats levelDown="1" levelUp="1"/>
+        <moves>
+            <move name="Tackle"/>
+        </moves>
+        <caught-moves>
+            <move name="Tackle" level="1"/>
+        </caught-moves>
+    </pokemon>
+
+    <pokemon name="Munchlax" chances="10" time="day" build="OP" grass="1" ai="StatChangingMoveGenerator" id="6">
+        <stats levelDown="1" levelUp="1"/>
+        <moves>
+            <move name="Tackle"/>
+        </moves>
+        <caught-moves>
+            <move name="Tackle" level="1"/>
+
+        </caught-moves>
+    </pokemon>
+
+    <pokemon name="Tynamo" chances="10" time="day" build="BS" grass="1" ai="AttackingMoveGenerator" id="7">
+        <stats levelDown="1" levelUp="1"/>
+        <moves>
+            <move name="Charge Beam"/>
+            <move name="Spark"/>
+        </moves>
+        <caught-moves>
+            <move name="Charge Beam"/>
+            <move name="Spark"/>
+        </caught-moves>
+    </pokemon>
+
+
+    <pokemon name="Gligar" chances="10" time="day" build="OP" grass="1" ai="MostEffectiveMoveGenerator" id="8">
+        <stats levelDown="1" levelUp="2"/>
+        <moves>
+            <move name="Poison Sting" />
+        </moves>
+        <caught-moves>
+            <move name="Poison Sting" level="1" />
+        </caught-moves>
+    </pokemon>
+
+    <pokemon name="Chimchar" chances="10" time="day" build="BS" grass="1" ai="AttackingMoveGenerator" id="9">
+        <stats levelDown="1" levelUp="1"/>
+        <moves>
+            <move name="Scratch"/>
+            <move name="Leer"/>
+        </moves>
+        <caught-moves>
+            <move name="Scratch" level="1"/>
+            <move name="Leer" level="1"/>
+        </caught-moves>
+    </pokemon>
+
+    <pokemon name="Beldum" chances="10" time="day" build="BS" grass="1" ai="AttackingMoveGenerator" id="10">
+        <stats levelDown="1" levelUp="1"/>
+        <moves>
+            <move name="Tackle"/>
+        </moves>
+        <caught-moves>
+            <move name="Tackle" level="1"/>
+        </caught-moves>
+    </pokemon>
+</pokemons>

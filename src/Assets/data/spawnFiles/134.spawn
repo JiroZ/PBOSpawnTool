@@ -1,0 +1,67 @@
+<pokemons>
+	<pokemon name="Luvdisc" chances="50" time="day" build="OP" grass="1" ai="AttackingMoveGenerator" id="1" notCatchable="">
+		<stats levelDown="3" levelUp="5" />
+		<moves>
+			<move name="Tackle" />
+		</moves>
+		<caught-moves>
+			<move name="Tackle" level="1" />
+			<move name="Water Gun" level="4" />
+		</caught-moves>
+	</pokemon>
+	<pokemon name="Woobat" chances="50" time="day" build="OP" grass="1" ai="AttackingMoveGenerator" id="2" notCatchable="">
+		<stats levelDown="3" levelUp="5" />
+		<moves>
+			<move name="Heart Stamp" />
+		</moves>
+		<caught-moves>
+			<move name="Heart Stamp" level="1" />
+		</caught-moves>
+	</pokemon>
+	<pokemon name="Luvdisc" chances="0.1" time="day" build="OP" grass="1" ai="AttackingMoveGenerator" id="3" notCatchable="">
+		<stats levelDown="1" levelUp="2" />
+		<moves>
+			<move name="Tackle" />
+		</moves>
+		<caught-moves>
+			<move name="Tackle" level="1" />
+		</caught-moves>
+	</pokemon>
+	<pokemon name="Woobat" chances="0.01" time="day" build="OP" grass="1" ai="AttackingMoveGenerator" id="4" notCatchable="">
+		<stats levelDown="1" levelUp="2" />
+		<moves>
+			<move name="Confusion" />
+		</moves>
+		<caught-moves>
+			<move name="Confusion" level="1" />
+		</caught-moves>
+	</pokemon>
+	<pokemon name="Furfrou" chances="0.05" time="day" build="OP" grass="1" ai="AttackingMoveGenerator" id="5" notCatchable="">
+		<stats levelDown="1" levelUp="2" />
+		<moves>
+			<move name="Tackle" />
+		</moves>
+		<caught-moves>
+			<move name="Tackle" level="1" />
+		</caught-moves>
+	</pokemon>
+	<pokemon name="Jigglypuff" chances="25" time="day" build="OP" grass="1" ai="AttackingMoveGenerator" id="5" notCatchable="">
+		<stats levelDown="1" levelUp="2" />
+		<moves>
+			<move name="Pound" />
+		</moves>
+		<caught-moves>
+			<move name="Pound" level="1" />
+		</caught-moves>
+	</pokemon>
+	<pokemon name="Alomomola" chances="25" time="day" build="OP" grass="1" ai="AttackingMoveGenerator" id="7" honey="" notCatchable="">
+		<stats levelDown="1" levelUp="2"/>
+		<moves>
+			<move name="Pound" />
+		</moves>
+		<caught-moves>
+			<move name="Pound" level="1" />
+			<move name="Hydro Pump" level="1" />
+		</caught-moves>
+	</pokemon>
+</pokemons>

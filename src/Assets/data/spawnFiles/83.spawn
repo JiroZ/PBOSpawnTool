@@ -1,0 +1,96 @@
+<pokemons>
+    <pokemon name="Politoed" chances="30" time="day" build="BS" grass="1" ai="MostEffectiveMoveGenerator"
+             id="1"
+             fishing="">
+        <stats levelDown="65" levelUp="68"/>
+        <moves>
+            <move name="Hyper Voice"/>
+            <move name="Bubble Beam"/>
+        </moves>
+        <caught-moves>
+            <move name="Bubble Beam"/>
+        </caught-moves>
+    </pokemon>
+    <pokemon name="Kingler" chances="30" time="day" build="OP" grass="1" ai="MostEffectiveMoveGenerator"
+             id="2"
+             fishing="">
+        <stats levelDown="65" levelUp="68"/>
+        <moves>
+            <move name="Crabhammer"/>
+            <move name="Slam"/>
+        </moves>
+        <caught-moves>
+            <move name="Slam"/>
+        </caught-moves>
+    </pokemon>
+    <pokemon name="Poliwrath" chances="30" time="day" build="OP" grass="1" ai="MostEffectiveMoveGenerator"
+             id="3"
+             fishing="">
+        <stats levelDown="65" levelUp="68"/>
+        <moves>
+            <move name="Brick Break"/>
+            <move name="Bubble Beam"/>
+        </moves>
+        <caught-moves>
+            <move name="Bubble Beam"/>
+        </caught-moves>
+    </pokemon>
+    <pokemon name="Chinchou" chances="0.05" time="day" build="OS" grass="1" ai="MostEffectiveMoveGenerator"
+             id="4"
+             fishing="" sr="">
+        <stats levelDown="1" levelUp="3"/>
+        <moves>
+            <move name="Bubble"/>
+        </moves>
+        <caught-moves>
+            <move name="Bubble"/>
+        </caught-moves>
+    </pokemon>
+    <pokemon name="Politoed" chances="30" time="night" build="BS" grass="1" ai="MostEffectiveMoveGenerator"
+             id="5"
+             fishing="">
+        <stats levelDown="65" levelUp="68"/>
+        <moves>
+            <move name="Hyper Voice"/>
+            <move name="Bubble Beam"/>
+        </moves>
+        <caught-moves>
+            <move name="Bubble Beam"/>
+        </caught-moves>
+    </pokemon>
+    <pokemon name="Kingler" chances="30" time="night" build="OP" grass="1" ai="MostEffectiveMoveGenerator"
+             id="6"
+             fishing="">
+        <stats levelDown="65" levelUp="68"/>
+        <moves>
+            <move name="Crabhammer"/>
+            <move name="Slam"/>
+        </moves>
+        <caught-moves>
+            <move name="Slam"/>
+        </caught-moves>
+    </pokemon>
+    <pokemon name="Poliwrath" chances="30" time="night" build="OP" grass="1" ai="MostEffectiveMoveGenerator"
+             id="7"
+             fishing="">
+        <stats levelDown="65" levelUp="68"/>
+        <moves>
+            <move name="Brick Break"/>
+            <move name="Bubble Beam"/>
+        </moves>
+        <caught-moves>
+            <move name="Bubble Beam"/>
+        </caught-moves>
+    </pokemon>
+    <pokemon name="Chinchou" chances="0.05" time="night" build="OS" grass="1" ai="MostEffectiveMoveGenerator"
+             id="8"
+             fishing="" sr="">
+        <stats levelDown="1" levelUp="3"/>
+        <moves>
+            <move name="Bubble"/>
+        </moves>
+        <caught-moves>
+            <move name="Bubble"/>
+        </caught-moves>
+    </pokemon>
+</pokemons>

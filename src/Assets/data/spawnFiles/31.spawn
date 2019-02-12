@@ -1,0 +1,177 @@
+<pokemons>
+	<pokemon name="Swanna" chances="40" time="day" build="BS" grass="1" ai="MostEffectiveMoveGenerator" id="1">
+		<stats levelDown="33" levelUp="33"/>
+		<moves>
+			<move name="Bubble Beam" />
+            <move name="Air Cutter" />
+		</moves>
+		<caught-moves>
+			<move name="Bubble" level="1" />
+		</caught-moves>
+	</pokemon>
+	<pokemon name="Swoobat" chances="30" time="day" build="BS" grass="1" ai="MostEffectiveMoveGenerator" id="2">
+		<stats levelDown="33" levelUp="33"/>
+		<moves>
+			<move name="Psychic" />
+            <move name="Air Cutter" />
+		</moves>
+		<caught-moves>
+			<move name="Confusion" level="1" />
+		</caught-moves>
+		<drop id="403" chances="0.5" />
+	</pokemon>
+	<pokemon name="Swoobat" chances="30" time="night" build="BS" grass="1" ai="MostEffectiveMoveGenerator" id="3">
+		<stats levelDown="33" levelUp="33"/>
+		<moves>
+			<move name="Psychic" />
+            <move name="Air Cutter" />
+		</moves>
+		<caught-moves>
+			<move name="Confusion" level="1" />
+		</caught-moves>
+		<drop id="403" chances="0.5" />
+	</pokemon>
+	<pokemon name="Unfezant" chances="40" time="night" build="BP" grass="1" ai="MostEffectiveMoveGenerator" id="4">
+		<stats levelDown="33" levelUp="33"/>
+		<moves>
+            <move name="Aerial Ace" />
+			<move name="Facade" />
+        </moves>
+		<caught-moves>
+			<move name="Quick Attack" level="1" />
+			<move name="Gust" level="1" />
+		</caught-moves>
+	</pokemon>
+	<pokemon name="Ducklett" chances="5" time="day" build="BS" grass="1" ai="AttackingMoveGenerator" id="5">
+		<stats levelDown="1" levelUp="1" />
+		<moves>
+			<move name="Bubble" />
+		</moves>
+		<caught-moves>
+			<move name="Bubble" />
+		</caught-moves>
+	</pokemon>
+	<pokemon name="Ducklett" chances="5" time="night" build="BS" grass="1" ai="AttackingMoveGenerator" id="6">
+		<stats levelDown="1" levelUp="1" />
+		<moves>
+			<move name="Bubble" />
+		</moves>
+		<caught-moves>
+			<move name="Bubble" />
+		</caught-moves>
+	</pokemon>
+	<pokemon name="Lumineon" chances="35" time="day" build="BS" grass="1" ai="MostEffectiveMoveGenerator" id="7" fishing="">
+		<stats levelDown="28" levelUp="30" />
+		<moves>
+			<move name="Water Pulse" />
+			<move name="Gust" />
+		</moves>
+		<caught-moves>
+			<move name="Water Gun" />
+		</caught-moves>
+	</pokemon>
+	<pokemon name="Poliwhirl" chances="35" time="day" build="BS" grass="1" ai="MostEffectiveMoveGenerator" id="8" fishing="">
+		<stats levelDown="28" levelUp="30" />
+		<moves>
+			<move name="Water Pulse" />
+		</moves>
+		<caught-moves>
+			<move name="Water Pulse" />
+		</caught-moves>
+	</pokemon>
+	<pokemon name="Clawitzer" chances="20" time="day" build="BS" grass="1" ai="MostEffectiveMoveGenerator" id="9" fishing="">
+		<stats levelDown="28" levelUp="30" />
+		<moves>
+			<move name="Water Pulse" />
+		</moves>
+		<caught-moves>
+			<move name="Water Pulse" />
+		</caught-moves>
+	</pokemon>
+	<pokemon name="Staryu" chances="0.25" time="day" build="BS" grass="1" ai="AttackingMoveGenerator" id="10" fishing="">
+		<stats levelDown="1" levelUp="2" />
+		<moves>
+			<move name="Tackle" />
+		</moves>
+		<caught-moves>
+			<move name="Tackle" />
+		</caught-moves>
+	</pokemon>
+	<pokemon name="Luvdisc" chances="6" time="day" build="BS" grass="1" ai="MostEffectiveMoveGenerator" id="11" fishing="">
+		<stats levelDown="1" levelUp="2" />
+		<moves>
+			<move name="Tackle" />
+		</moves>
+		<caught-moves>
+			<move name="Tackle" />
+		</caught-moves>
+		<drop id="157" chances="1" />
+	</pokemon>
+	<pokemon name="Luvdisc" chances="45" time="day" build="BS" grass="1" ai="MostEffectiveMoveGenerator" id="12" fishing="">
+		<stats levelDown="28" levelUp="30" />
+		<moves>
+			<move name="Water Pulse" />
+		</moves>
+		<caught-moves>
+			<move name="Water Gun" />
+		</caught-moves>
+		<drop id="157" chances="1" />
+	</pokemon>
+	<pokemon name="Lumineon" chances="35" time="night" build="BS" grass="1" ai="MostEffectiveMoveGenerator" id="13" fishing="">
+		<stats levelDown="28" levelUp="30" />
+		<moves>
+			<move name="Water Pulse" />
+			<move name="Gust" />
+		</moves>
+		<caught-moves>
+			<move name="Water Gun" />
+		</caught-moves>
+	</pokemon>
+	<pokemon name="Poliwhirl" chances="35" time="night" build="BS" grass="1" ai="MostEffectiveMoveGenerator" id="14" fishing="">
+		<stats levelDown="28" levelUp="30" />
+		<moves>
+			<move name="Water Pulse" />
+		</moves>
+		<caught-moves>
+			<move name="Water Pulse" />
+		</caught-moves>
+	</pokemon>
+	<pokemon name="Clawitzer" chances="20" time="night" build="BS" grass="1" ai="MostEffectiveMoveGenerator" id="15" fishing="">
+		<stats levelDown="28" levelUp="30" />
+		<moves>
+			<move name="Water Pulse" />
+		</moves>
+		<caught-moves>
+			<move name="Water Pulse" />
+		</caught-moves>
+	</pokemon>
+	<pokemon name="Staryu" chances="0.25" time="night" build="BS" grass="1" ai="AttackingMoveGenerator" id="16" fishing="">
+		<stats levelDown="1" levelUp="2" />
+		<moves>
+			<move name="Tackle" />
+		</moves>
+		<caught-moves>
+			<move name="Tackle" />
+		</caught-moves>
+	</pokemon>
+	<pokemon name="Luvdisc" chances="6" time="night" build="BS" grass="1" ai="MostEffectiveMoveGenerator" id="17" fishing="">
+		<stats levelDown="1" levelUp="2" />
+		<moves>
+			<move name="Tackle" />
+		</moves>
+		<caught-moves>
+			<move name="Tackle" />
+		</caught-moves>
+		<drop id="157" chances="1" />
+	</pokemon>
+	<pokemon name="Luvdisc" chances="45" time="night" build="BS" grass="1" ai="MostEffectiveMoveGenerator" id="18" fishing="">
+		<stats levelDown="28" levelUp="30" />
+		<moves>
+			<move name="Water Pulse" />
+		</moves>
+		<caught-moves>
+			<move name="Water Gun" />
+		</caught-moves>
+		<drop id="157" chances="1" />
+	</pokemon>
+</pokemons>

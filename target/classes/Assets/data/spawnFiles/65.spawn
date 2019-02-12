@@ -1,0 +1,156 @@
+<pokemons>
+	<pokemon name="Amoonguss" chances="30" time="day" build="BS" grass="1" ai="MostEffectiveMoveGenerator" id="1">
+		<stats levelDown="52" levelUp="54"/>
+		<moves>
+			<move name="Energy Ball" />
+			<move name="Sludge Bomb" />
+				</moves>
+		<caught-moves>
+			<move name="Energy Ball" level="1" />
+		</caught-moves>
+		<drop id="625" chances="0.5" />
+	</pokemon>
+	<pokemon name="Amoonguss" chances="30" time="night" build="BS" grass="1" ai="MostEffectiveMoveGenerator" id="2">
+		<stats levelDown="52" levelUp="54"/>
+		<moves>
+			<move name="Energy Ball" />
+			<move name="Sludge Bomb" />
+				</moves>
+		<caught-moves>
+			<move name="Energy Ball" level="1" />
+		</caught-moves>
+		<drop id="625" chances="0.5" />
+	</pokemon>
+	
+	<pokemon name="Quagsire" chances="30" time="day" build="BP" grass="1" ai="MostEffectiveMoveGenerator" id="3">
+        <stats levelDown="53" levelUp="56"/>
+        <moves>
+            <move name="Water Pulse"/>
+            <move name="Earthquake"/>
+        </moves>
+        <caught-moves>
+            <move name="Slam" level="1"/>
+        </caught-moves>
+    </pokemon>
+    <pokemon name="Wooper" chances="0.75" time="day" build="OP" grass="1" ai="AttackingMoveGenerator" id="5">
+        <stats levelDown="1" levelUp="3"/>
+        <moves>
+            <move name="Tail Whip"/>
+            <move name="Water Gun"/>
+        </moves>
+        <caught-moves>
+            <move name="Tail Whip" level="1"/>
+            <move name="Water Gun" level="1"/>
+        </caught-moves>
+    </pokemon>
+
+    <pokemon name="Gastrodon" chances="30" time="day" build="BS" grass="1" ai="MostEffectiveMoveGenerator" id="6">
+        <stats levelDown="53" levelUp="56"/>
+        <moves>
+            <move name="Muddy Water"/>
+            <move name="Mud Bomb"/>
+        </moves>
+        <caught-moves>
+            <move name="Muddy Water" level="1"/>
+        </caught-moves>
+    </pokemon>
+    <pokemon name="Gastrodon" chances="30" time="night" build="BS" grass="1" ai="MostEffectiveMoveGenerator" id="7">
+        <stats levelDown="53" levelUp="56"/>
+        <moves>
+            <move name="Muddy Water"/>
+            <move name="Mud Bomb"/>
+        </moves>
+        <caught-moves>
+            <move name="Muddy Water" level="1"/>
+        </caught-moves>
+    </pokemon>
+	
+	<pokemon name="Golisopod" chances="30" time="night" build="TDP" grass="1" ai="StatChangingMoveGenerator" id="9">
+		<stats levelDown="52" levelUp="54"/>
+		<moves>
+			<move name="First Impression" />
+			<move name="Sucker Punch" />
+			<move name="Razor Shell" />
+		</moves>
+		<caught-moves>
+			<move name="Slash" level="1" />
+			</caught-moves>
+	</pokemon>
+	
+	<pokemon name="Foongus" chances="75" time="day" build="BS" grass="1" ai="MostEffectiveMoveGenerator" id="10" honey="">
+		<stats levelDown="1" levelUp="1"/>
+		<moves>
+			<move name="Absorb"/>
+		</moves>
+		<caught-moves>
+			<move name="Absorb" level="1"/>
+		</caught-moves>
+	</pokemon>
+	<pokemon name="Foongus" chances="75" time="night" build="BS" grass="1" ai="MostEffectiveMoveGenerator" id="11" honey="">
+		<stats levelDown="1" levelUp="1"/>
+		<moves>
+			<move name="Absorb"/>
+		</moves>
+		<caught-moves>
+			<move name="Absorb" level="1"/>
+		</caught-moves>
+	</pokemon>
+	
+	<pokemon name="Chikorita" chances="0.05" time="day" build="OP" grass="1" ai="StatChangingMoveGenerator" id="12" sr="">
+		<stats levelDown="1" levelUp="2"/>
+		<moves>
+			<move name="Growl" />
+			<move name="Tackle" />
+		</moves>
+		<caught-moves>
+			<move name="Growl" level="1" />
+			<move name="Tackle" level="1" />
+		</caught-moves>
+	</pokemon>
+	<pokemon name="Chikorita" chances="0.05" time="night" build="OP" grass="1" ai="StatChangingMoveGenerator" id="13" sr="">
+		<stats levelDown="1" levelUp="2"/>
+		<moves>
+			<move name="Growl" />
+			<move name="Tackle" />
+		</moves>
+		<caught-moves>
+			<move name="Growl" level="1" />
+			<move name="Tackle" level="1" />
+		</caught-moves>
+	</pokemon>
+	<pokemon name="Cottonee" chances="0.5" time="night" build="OP" grass="1" ai="AttackingMoveGenerator" id="14">
+		<stats levelDown="1" levelUp="3"/>
+		<moves>
+			<move name="Absorb" />
+			<move name="Fairy Wind" />
+		</moves>
+		<caught-moves>
+			<move name="Absorb" level="1" />
+			<move name="Fairy Wind" level="1" />
+		</caught-moves>
+	</pokemon>
+	
+	<pokemon name="Goomy" chances="0.005" time="day" build="BS" grass="1" ai="StatChangingMoveGenerator" id="15" announce="">
+		<stats levelDown="1" levelUp="2"/>
+		<moves>
+			<move name="Bubble" />
+			<move name="Tackle" />
+		</moves>
+		<caught-moves>
+			<move name="Bubble" />
+			<move name="Tackle" />
+			</caught-moves>
+	</pokemon>
+
+	<pokemon name="Goomy" chances="0.005" time="night" build="BS" grass="1" ai="StatChangingMoveGenerator" id="16" announce="">
+		<stats levelDown="1" levelUp="2"/>
+		<moves>
+			<move name="Bubble" />
+			<move name="Tackle" />
+		</moves>
+		<caught-moves>
+			<move name="Bubble" />
+			<move name="Tackle" />
+			</caught-moves>
+	</pokemon>
+</pokemons>

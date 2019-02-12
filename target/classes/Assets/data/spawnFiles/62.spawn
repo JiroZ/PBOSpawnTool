@@ -1,0 +1,171 @@
+<pokemons>
+  <pokemons>
+      <pokemon name="Cyndaquil" chances="0.05" time="day" build="OP" grass="1" ai="StatChangingMoveGenerator" id="1" sr="">
+        <stats levelDown="1" levelUp="2"/>
+        <moves>
+          <move name="Leer" />
+          <move name="Tackle" />
+        </moves>
+        <caught-moves>
+          <move name="Leer" level="1" />
+          <move name="Tackle" level="1" />
+        </caught-moves>
+      </pokemon>
+
+      <pokemon name="Cyndaquil" chances="0.05" time="night" build="OP" grass="1" ai="StatChangingMoveGenerator" id="2" sr="">
+        <stats levelDown="1" levelUp="2"/>
+        <moves>
+          <move name="Leer" />
+          <move name="Tackle" />
+        </moves>
+        <caught-moves>
+          <move name="Leer" level="1" />
+          <move name="Tackle" level="1" />
+        </caught-moves>
+      </pokemon>
+
+
+
+      <pokemon name="Ninetales" chances="30" time="day" build="OS" grass="1" ai="MostEffectiveMoveGenerator" id="3">
+        <stats levelDown="53" levelUp="55"/>
+        <moves>
+          <move name="Flamethrower" />
+          <move name="Extrasensory" />
+            </moves>
+        <caught-moves>
+          <move name="Flamethrower" level="1" />
+        </caught-moves>
+<drop id="325" chances="0.1"/>
+      </pokemon>
+
+      <pokemon name="Ninetales" chances="30" time="night" build="OS" grass="1" ai="MostEffectiveMoveGenerator" id="4">
+        <stats levelDown="53" levelUp="55"/>
+        <moves>
+          <move name="Flamethrower" />
+          <move name="Extrasensory" />
+            </moves>
+        <caught-moves>
+          <move name="Flamethrower" level="1" />
+        </caught-moves>
+
+        <drop id="325" chances="0.1"/>
+
+      </pokemon>
+
+      <pokemon name="Magmortar" chances="30" time="night" build="OS" grass="1" ai="MostEffectiveMoveGenerator" id="5">
+            <stats levelDown="52" levelUp="54"/>
+            <moves>
+              <move name="Flamethrower" />
+                </moves>
+            <caught-moves>
+              <move name="Flamethrower" level="1" />
+            </caught-moves>
+          </pokemon>
+
+          <pokemon name="Magmortar" chances="30" time="day" build="OS" grass="1" ai="MostEffectiveMoveGenerator" id="6">
+              <stats levelDown="52" levelUp="54"/>
+              <moves>
+                <move name="Flamethrower" />
+                  </moves>
+              <caught-moves>
+                <move name="Flamethrower" level="1" />
+              </caught-moves>
+            </pokemon>
+
+      <pokemon name="Camerupt" chances="30" time="night" build="BS" grass="1" ai="StatChangingMoveGenerator" id="7">
+        <stats levelDown="52" levelUp="54"/>
+        <moves>
+          <move name="Earth Power" />
+          <move name="Lava Plume" />
+        </moves>
+        <caught-moves>
+          <move name="Lava Plume" level="1" />
+          </caught-moves>
+      </pokemon>
+
+      <pokemon name="Camerupt" chances="30" time="day" build="BS" grass="1" ai="StatChangingMoveGenerator" id="8">
+        <stats levelDown="52" levelUp="54"/>
+        <moves>
+          <move name="Earth Power" />
+          <move name="Lava Plume" />
+        </moves>
+        <caught-moves>
+          <move name="Lava Plume" level="1" />
+          </caught-moves>
+      </pokemon>
+
+      <pokemon name="Entei" chances="0.001" time="night" build="BS" grass="1" ai="MostEffectiveMoveGenerator" id="81"
+               notCatchable="" announce="">
+          <stats levelDown="53" levelUp="55"/>
+          <moves>
+              <move name="Lava Plume"/>
+              <move name="Extrasensory"/>
+          </moves>
+          <caught-moves>
+              <move name="Lava Plume" level="1"/>
+          </caught-moves>
+          <drop id="791" chances="100"/>
+      </pokemon>
+      <pokemon name="Entei" chances="0.001" time="day" build="BS" grass="1" ai="MostEffectiveMoveGenerator" id="82"
+               notCatchable="" announce="">
+          <stats levelDown="53" levelUp="55"/>
+          <moves>
+              <move name="Lava Plume"/>
+              <move name="Extrasensory"/>
+          </moves>
+          <caught-moves>
+              <move name="Lava Plume" level="1"/>
+          </caught-moves>
+          <drop id="791" chances="100"/>
+      </pokemon>
+      <pokemon name="Suicune" chances="0.001" time="day" build="BS" grass="1" ai="MostEffectiveMoveGenerator" id="83"
+               notCatchable="" announce="">
+          <stats levelDown="53" levelUp="55"/>
+          <moves>
+              <move name="Hydro Pump"/>
+              <move name="Extrasensory"/>
+          </moves>
+          <caught-moves>
+              <move name="Lava Plume" level="1"/>
+          </caught-moves>
+          <drop id="791" chances="100"/>
+      </pokemon>
+      <pokemon name="Suicune" chances="0.001" time="night" build="BS" grass="1" ai="MostEffectiveMoveGenerator" id="84"
+               notCatchable="" announce="">
+          <stats levelDown="53" levelUp="55"/>
+          <moves>
+              <move name="Hydro Pump"/>
+              <move name="Extrasensory"/>
+          </moves>
+          <caught-moves>
+              <move name="Lava Plume" level="1"/>
+          </caught-moves>
+          <drop id="791" chances="100"/>
+      </pokemon>
+
+      <pokemon name="Raikou" chances="0.001" time="night" build="BS" grass="1" ai="MostEffectiveMoveGenerator" id="85"
+               notCatchable="" announce="">
+          <stats levelDown="53" levelUp="55"/>
+          <moves>
+              <move name="Thunderbolt"/>
+              <move name="Extrasensory"/>
+          </moves>
+          <caught-moves>
+              <move name="Thunderbolt" level="1"/>
+          </caught-moves>
+          <drop id="791" chances="100"/>
+      </pokemon>
+      <pokemon name="Raikou" chances="0.001" time="day" build="BS" grass="1" ai="MostEffectiveMoveGenerator" id="86"
+               notCatchable="" announce="">
+          <stats levelDown="53" levelUp="55"/>
+          <moves>
+              <move name="Thunderbolt"/>
+              <move name="Extrasensory"/>
+          </moves>
+          <caught-moves>
+              <move name="Thunderbolt" level="1"/>
+          </caught-moves>
+          <drop id="791" chances="100"/>
+      </pokemon>
+  </pokemons>
+</pokemons>

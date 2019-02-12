@@ -1,0 +1,93 @@
+<pokemons>
+	<pokemon name="Lillipup" chances="50" time="day" grass="1" ai="AttackingMoveGenerator" id="1">
+		<stats levelDown="1" levelUp="2"/>
+		<exp level="1" exp="3" />
+		<exp level="2" exp="8" />
+		<moves>
+			<move name="Tackle" />
+		</moves>
+		<caught-moves>
+			<move name="Tackle" level="1" />
+		</caught-moves>
+	</pokemon>
+	<pokemon name="Litleo" chances="50" time="day" grass="1" ai="AttackingMoveGenerator" id="2">
+		<stats levelDown="1" levelUp="2"/>
+		<exp level="1" exp="3" />
+		<exp level="2" exp="8" />
+		<moves>
+			<move name="Tackle" />
+		</moves>
+		<caught-moves>
+			<move name="Tackle" level="1" />
+		</caught-moves>
+	</pokemon>
+	<pokemon name="Togepi" chances="50" time="day" grass="1" ai="AttackingMoveGenerator" id="3">
+		<stats levelDown="1" levelUp="2"/>
+		<exp level="1" exp="3" />
+		<exp level="2" exp="8" />
+		<moves>
+			<move name="Growl" />
+		</moves>
+		<caught-moves>
+			<move name="Growl" level="1" />
+		</caught-moves>
+	</pokemon>
+	<pokemon name="Ralts" chances="50" time="day" grass="1" ai="AttackingMoveGenerator" id="4">
+		<stats levelDown="1" levelUp="2"/>
+		<exp level="1" exp="3" />
+		<exp level="2" exp="8" />
+		<moves>
+			<move name="Growl" />
+		</moves>
+		<caught-moves>
+			<move name="Growl" level="1" />
+		</caught-moves>
+	</pokemon>
+	<pokemon name="Smoochum" chances="50" time="day" grass="1" ai="AttackingMoveGenerator" id="5">
+		<stats levelDown="1" levelUp="2"/>
+		<exp level="1" exp="3" />
+		<exp level="2" exp="8" />
+		<moves>
+			<move name="Pound" />
+		</moves>
+		<caught-moves>
+			<move name="Pound" level="1" />
+		</caught-moves>
+	</pokemon>
+
+    <pokemon name="Fennekin" chances="50" time="day" grass="1" ai="AttackingMoveGenerator" id="6">
+        <stats levelDown="1" levelUp="2"/>
+        <moves>
+            <move name="Scratch"/>
+            <move name="Tail Whip"/>
+        </moves>
+        <caught-moves>
+            <move name="Scratch"/>
+            <move name="Tail Whip"/>
+        </caught-moves>
+    </pokemon>
+
+	<pokemon name="Chespin" chances="50" time="day" grass="1" ai="AttackingMoveGenerator" id="7">
+		<stats levelDown="1" levelUp="2"/>
+		<moves>
+			<move name="Vine Whip"/>
+			<move name="Growl"/>
+		</moves>
+		<caught-moves>
+			<move name="Vine Whip"/>
+			<move name="Growl"/>
+		</caught-moves>
+	</pokemon>
+
+    <pokemon name="Froakie" chances="50" time="day" grass="1" ai="AttackingMoveGenerator" id="8">
+        <stats levelDown="1" levelUp="2"/>
+        <moves>
+            <move name="Growl"/>
+            <move name="Pound"/>
+        </moves>
+        <caught-moves>
+            <move name="Growl"/>
+            <move name="Pound"/>
+        </caught-moves>
+    </pokemon>
+</pokemons>

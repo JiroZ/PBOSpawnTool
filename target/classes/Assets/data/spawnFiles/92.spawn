@@ -1,0 +1,204 @@
+<pokemons>
+    <pokemon name="Altaria" chances="30" time="day" build="BS" grass="1" ai="MostEffectiveMoveGenerator" id="1">
+        <stats levelDown="69" levelUp="72"/>
+        <moves>
+            <move name="Moonblast" />
+            <move name="Dragon Breath" />
+        </moves>
+        <caught-moves>
+            <move name="Peck" level="1" />
+        </caught-moves>
+    </pokemon>
+    <pokemon name="Drampa" chances="30" time="day" build="BS" grass="1" ai="MostEffectiveMoveGenerator" id="2">
+        <stats levelDown="69" levelUp="72"/>
+        <moves>
+            <move name="Hyper Voice" />
+            <move name="Dragon Pulse" />
+        </moves>
+        <caught-moves>
+            <move name="Echoed Voice" level="1" />
+        </caught-moves>
+    </pokemon>
+    <pokemon name="Gogoat" chances="30" time="day" build="BP" grass="1" ai="MostEffectiveMoveGenerator" id="3">
+        <stats levelDown="69" levelUp="72"/>
+        <moves>
+            <move name="Horn Leech" />
+            <move name="Bulldoze" />
+        </moves>
+        <caught-moves>
+            <move name="Tackle" level="1" />
+        </caught-moves>
+    </pokemon>
+    <pokemon name="Altaria" chances="30" time="night" build="BS" grass="1" ai="MostEffectiveMoveGenerator" id="4">
+        <stats levelDown="69" levelUp="72"/>
+        <moves>
+            <move name="Moonblast" />
+            <move name="Dragon Breath" />
+        </moves>
+        <caught-moves>
+            <move name="Peck" level="1" />
+        </caught-moves>
+    </pokemon>
+    <pokemon name="Drampa" chances="30" time="night" build="BS" grass="1" ai="MostEffectiveMoveGenerator" id="5">
+        <stats levelDown="69" levelUp="72"/>
+        <moves>
+            <move name="Hyper Voice" />
+            <move name="Dragon Pulse" />
+        </moves>
+        <caught-moves>
+            <move name="Echoed Voice" level="1" />
+        </caught-moves>
+    </pokemon>
+    <pokemon name="Gogoat" chances="30" time="night" build="BP" grass="1" ai="MostEffectiveMoveGenerator" id="6">
+        <stats levelDown="69" levelUp="72"/>
+        <moves>
+            <move name="Horn Leech" />
+            <move name="Bulldoze" />
+        </moves>
+        <caught-moves>
+            <move name="Tackle" level="1" />
+        </caught-moves>
+    </pokemon>
+    <pokemon name="Whiscash" chances="30" time="day" build="BP" grass="1" ai="MostEffectiveMoveGenerator"
+             id="7"
+             fishing="">
+        <stats levelDown="69" levelUp="72"/>
+        <moves>
+            <move name="Aqua Tail"/>
+        </moves>
+        <caught-moves>
+            <move name="Water Gun"/>
+        </caught-moves>
+    </pokemon>
+    <pokemon name="Bibarel" chances="30" time="day" build="BP" grass="1" ai="MostEffectiveMoveGenerator"
+             id="8"
+             fishing="">
+        <stats levelDown="69" levelUp="72"/>
+        <moves>
+            <move name="Take Down"/>
+            <move name="Aqua Jet"/>
+        </moves>
+        <caught-moves>
+            <move name="Tackle"/>
+        </caught-moves>
+    </pokemon>
+    <pokemon name="Golisopod" chances="30" time="day" build="OP" grass="1" ai="MostEffectiveMoveGenerator"
+             id="9"
+             fishing="">
+        <stats levelDown="69" levelUp="72"/>
+        <moves>
+            <move name="First Impression"/>
+            <move name="Liquidation"/>
+        </moves>
+        <caught-moves>
+            <move name="Struggle Bug"/>
+        </caught-moves>
+    </pokemon>
+    <pokemon name="Whiscash" chances="30" time="night" build="BP" grass="1" ai="MostEffectiveMoveGenerator"
+             id="10"
+             fishing="">
+        <stats levelDown="69" levelUp="72"/>
+        <moves>
+            <move name="Aqua Tail"/>
+        </moves>
+        <caught-moves>
+            <move name="Water Gun"/>
+        </caught-moves>
+    </pokemon>
+    <pokemon name="Bibarel" chances="30" time="night" build="BP" grass="1" ai="MostEffectiveMoveGenerator"
+             id="11"
+             fishing="">
+        <stats levelDown="69" levelUp="72"/>
+        <moves>
+            <move name="Take Down"/>
+            <move name="Aqua Jet"/>
+        </moves>
+        <caught-moves>
+            <move name="Tackle"/>
+        </caught-moves>
+    </pokemon>
+    <pokemon name="Golisopod" chances="30" time="night" build="OP" grass="1" ai="MostEffectiveMoveGenerator"
+             id="12"
+             fishing="">
+        <stats levelDown="69" levelUp="72"/>
+        <moves>
+            <move name="First Impression"/>
+            <move name="Liquidation"/>
+        </moves>
+        <caught-moves>
+            <move name="Struggle Bug"/>
+        </caught-moves>
+    </pokemon>
+    <pokemon name="Entei" chances="0.001" time="night" build="BS" grass="1" ai="MostEffectiveMoveGenerator" id="81"
+             notCatchable="" announce="">
+        <stats levelDown="69" levelUp="72"/>
+        <moves>
+            <move name="Lava Plume"/>
+            <move name="Extrasensory"/>
+        </moves>
+        <caught-moves>
+            <move name="Lava Plume" level="1"/>
+        </caught-moves>
+        <drop id="791" chances="100"/>
+    </pokemon>
+    <pokemon name="Entei" chances="0.001" time="day" build="BS" grass="1" ai="MostEffectiveMoveGenerator" id="82"
+             notCatchable="" announce="">
+        <stats levelDown="69" levelUp="72"/>
+        <moves>
+            <move name="Lava Plume"/>
+            <move name="Extrasensory"/>
+        </moves>
+        <caught-moves>
+            <move name="Lava Plume" level="1"/>
+        </caught-moves>
+        <drop id="791" chances="100"/>
+    </pokemon>
+    <pokemon name="Suicune" chances="0.001" time="day" build="BS" grass="1" ai="MostEffectiveMoveGenerator" id="83"
+             notCatchable="" announce="">
+        <stats levelDown="69" levelUp="72"/>
+        <moves>
+            <move name="Hydro Pump"/>
+            <move name="Extrasensory"/>
+        </moves>
+        <caught-moves>
+            <move name="Lava Plume" level="1"/>
+        </caught-moves>
+        <drop id="791" chances="100"/>
+    </pokemon>
+    <pokemon name="Suicune" chances="0.001" time="night" build="BS" grass="1" ai="MostEffectiveMoveGenerator" id="84"
+             notCatchable="" announce="">
+        <stats levelDown="69" levelUp="72"/>
+        <moves>
+            <move name="Hydro Pump"/>
+            <move name="Extrasensory"/>
+        </moves>
+        <caught-moves>
+            <move name="Lava Plume" level="1"/>
+        </caught-moves>
+        <drop id="791" chances="100"/>
+    </pokemon>
+    <pokemon name="Raikou" chances="0.001" time="night" build="BS" grass="1" ai="MostEffectiveMoveGenerator" id="85"
+             notCatchable="" announce="">
+        <stats levelDown="69" levelUp="72"/>
+        <moves>
+            <move name="Thunderbolt"/>
+            <move name="Extrasensory"/>
+        </moves>
+        <caught-moves>
+            <move name="Thunderbolt" level="1"/>
+        </caught-moves>
+        <drop id="791" chances="100"/>
+    </pokemon>
+    <pokemon name="Raikou" chances="0.001" time="day" build="BS" grass="1" ai="MostEffectiveMoveGenerator" id="86"
+             notCatchable="" announce="">
+        <stats levelDown="69" levelUp="72"/>
+        <moves>
+            <move name="Thunderbolt"/>
+            <move name="Extrasensory"/>
+        </moves>
+        <caught-moves>
+            <move name="Thunderbolt" level="1"/>
+        </caught-moves>
+        <drop id="791" chances="100"/>
+    </pokemon>
+</pokemons>

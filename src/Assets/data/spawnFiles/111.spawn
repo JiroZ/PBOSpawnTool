@@ -1,0 +1,81 @@
+<pokemons>
+    <pokemon name="Gengar" chances="30" time="day" build="OS" grass="1" ai="AttackingMoveGenerator" id="1" notCatachable="">
+        <stats levelDown="52" levelUp="56"/>
+        <moves>
+            <move name="Shadow Ball"/>
+            <move name="Sludge Wave"/>
+            <move name="Dark Pulse"/>
+            <move name="Focus Blast"/>
+        </moves>
+        <caught-moves>
+            <move name="Shadow Ball"/>
+            <move name="Sludge Wave"/>
+            <move name="Dark Pulse"/>
+            <move name="Focus Blast"/>
+        </caught-moves>
+    </pokemon>
+    <pokemon name="Gengar" chances="30" time="night" build="OS" grass="1" ai="AttackingMoveGenerator" id="2" notCatachable="">
+        <stats levelDown="52" levelUp="56"/>
+        <moves>
+            <move name="Shadow Ball"/>
+            <move name="Sludge Wave"/>
+            <move name="Dark Pulse"/>
+            <move name="Focus Blast"/>
+        </moves>
+        <caught-moves>
+            <move name="Shadow Ball"/>
+            <move name="Sludge Wave"/>
+            <move name="Dark Pulse"/>
+            <move name="Focus Blast"/>
+        </caught-moves>
+    </pokemon>
+
+    <pokemon name="Cofagrigus" chances="30" time="day" build="OS" grass="1" ai="AttackingMoveGenerator" id="5" notCatachable="">
+        <stats levelDown="52" levelUp="56"/>
+        <moves>
+            <move name="Shadow Ball"/>
+            <move name="Ominous Wind"/>
+        </moves>
+        <caught-moves>
+            <move name="Shadow Ball"/>
+            <move name="Ominous Wind"/>
+        </caught-moves>
+    </pokemon>
+    <pokemon name="Cofagrigus" chances="30" time="night" build="OS" grass="1" ai="AttackingMoveGenerator" id="6" notCatachable="">
+        <stats levelDown="52" levelUp="56"/>
+        <moves>
+            <move name="Shadow Ball"/>
+            <move name="Ominous Wind"/>
+        </moves>
+        <caught-moves>
+            <move name="Shadow Ball"/>
+            <move name="Ominous Wind"/>
+        </caught-moves>
+    </pokemon>
+
+    <pokemon name="Crawdaunt" chances="30" time="day" build="OP" grass="1" ai="AttackingMoveGenerator" id="3" notCatachable="">
+        <stats levelDown="52" levelUp="56"/>
+        <moves>
+            <move name="Night Slash"/>
+            <move name="Crabhammer"/>
+        </moves>
+        <caught-moves>
+            <move name="Night Slash"/>
+            <move name="Crabhammer"/>
+        </caught-moves>
+        <drop id="822" chances="10" />
+    </pokemon>
+    <pokemon name="Trevenant" chances="30" time="night" build="OP" grass="1" ai="AttackingMoveGenerator" id="4" notCatachable="">
+        <stats levelDown="52" levelUp="56"/>
+        <moves>
+            <move name="Night Slash"/>
+            <move name="Crabhammer"/>
+        </moves>
+        <caught-moves>
+            <move name="Night Slash"/>
+            <move name="Crabhammer"/>
+        </caught-moves>
+        <drop id="822" chances="10" />
+    </pokemon>
+
+</pokemons>

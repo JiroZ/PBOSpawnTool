@@ -1,0 +1,155 @@
+    <pokemons>
+    <pokemon name="Crabominable" chances="30" time="day" build="OP" grass="1" ai="MostEffectiveMoveGenerator" id="1">
+        <stats levelDown="65" levelUp="67"/>
+        <moves>
+            <move name="Ice Punch"/>
+            <move name="Pursuit"/>
+        </moves>
+        <caught-moves>
+            <move name="Ice Punch" level="1"/>
+        </caught-moves>
+    </pokemon>
+    <pokemon name="Crabominable" chances="30" time="night" build="OP" grass="1" ai="MostEffectiveMoveGenerator" id="2">
+        <stats levelDown="65" levelUp="67"/>
+        <moves>
+            <move name="Ice Punch"/>
+            <move name="Pursuit"/>
+        </moves>
+        <caught-moves>
+            <move name="Ice Punch" level="1"/>
+        </caught-moves>
+    </pokemon>
+    <pokemon name="Dewgong" chances="30" time="night" build="OP" grass="1" ai="MostEffectiveMoveGenerator" id="3">
+        <stats levelDown="65" levelUp="67"/>
+        <moves>
+            <move name="Ice Shard"/>
+            <move name="Aqua Tail"/>
+        </moves>
+        <caught-moves>
+            <move name="Ice Shard" level="1"/>
+        </caught-moves>
+    </pokemon>
+    <pokemon name="Dewgong" chances="30" time="day" build="OP" grass="1" ai="MostEffectiveMoveGenerator" id="4">
+        <stats levelDown="65" levelUp="67"/>
+        <moves>
+            <move name="Ice Shard"/>
+            <move name="Aqua Tail"/>
+        </moves>
+        <caught-moves>
+            <move name="Ice Shard" level="1"/>
+        </caught-moves>
+    </pokemon>
+    <pokemon name="Vanilluxe" chances="30" time="day" build="OS" grass="1" ai="MostEffectiveMoveGenerator" id="5">
+        <stats levelDown="65" levelUp="67"/>
+        <moves>
+            <move name="Ice Beam"/>
+            <move name="Uproar"/>
+        </moves>
+        <caught-moves>
+            <move name="Uproar" level="1"/>
+        </caught-moves>
+    </pokemon>
+    <pokemon name="Vanilluxe" chances="30" time="night" build="OS" grass="1" ai="MostEffectiveMoveGenerator" id="6">
+        <stats levelDown="65" levelUp="67"/>
+        <moves>
+            <move name="Ice Beam"/>
+            <move name="Uproar"/>
+        </moves>
+        <caught-moves>
+            <move name="Uproar" level="1"/>
+        </caught-moves>
+    </pokemon>
+	<pokemon name="Vulpix-Alola" chances="0.005" time="day" build="OP" grass="1" ai="MostEffectiveMoveGenerator" id="9"
+             announce="">
+        <stats levelDown="1" levelUp="2"/>
+        <moves>
+            <move name="Powder Snow"/>
+        </moves>
+        <caught-moves>
+            <move name="Powder Snow" level="1"/>
+        </caught-moves>
+    </pokemon>
+    <pokemon name="Vulpix-Alola" chances="0.005" time="night" build="OP" grass="1" ai="MostEffectiveMoveGenerator"
+             id="10" announce="">
+        <stats levelDown="1" levelUp="2"/>
+        <moves>
+            <move name="Powder Snow"/>
+        </moves>
+        <caught-moves>
+            <move name="Powder Snow" level="1"/>
+        </caught-moves>
+    </pokemon>
+    <pokemon name="Entei" chances="0.001" time="night" build="BS" grass="1" ai="MostEffectiveMoveGenerator" id="81"
+             notCatchable="" announce="">
+        <stats levelDown="65" levelUp="67"/>
+        <moves>
+            <move name="Tackle"/>
+            <move name="Tackle"/>
+        </moves>
+        <caught-moves>
+            <move name="Tackle" level="1"/>
+        </caught-moves>
+        <drop id="791" chances="100"/>
+    </pokemon>
+    <pokemon name="Entei" chances="0.001" time="day" build="BS" grass="1" ai="MostEffectiveMoveGenerator" id="82"
+             notCatchable="" announce="">
+        <stats levelDown="65" levelUp="67"/>
+        <moves>
+            <move name="Tackle"/>
+            <move name="Tackle"/>
+        </moves>
+        <caught-moves>
+            <move name="Tackle" level="1"/>
+        </caught-moves>
+        <drop id="791" chances="100"/>
+    </pokemon>
+    <pokemon name="Suicune" chances="0.001" time="night" build="BS" grass="1" ai="MostEffectiveMoveGenerator" id="83"
+             notCatchable="" announce="">
+        <stats levelDown="65" levelUp="67"/>
+        <moves>
+            <move name="Tackle"/>
+            <move name="Tackle"/>
+        </moves>
+        <caught-moves>
+            <move name="Tackle" level="1"/>
+        </caught-moves>
+        <drop id="791" chances="100"/>
+    </pokemon>
+    <pokemon name="Suicune" chances="0.001" time="day" build="BS" grass="1" ai="MostEffectiveMoveGenerator" id="84"
+             notCatchable="" announce="">
+        <stats levelDown="65" levelUp="67"/>
+        <moves>
+            <move name="Tackle"/>
+            <move name="Tackle"/>
+        </moves>
+        <caught-moves>
+            <move name="Tackle" level="1"/>
+        </caught-moves>
+        <drop id="791" chances="100"/>
+    </pokemon>
+    <pokemon name="Raikou" chances="0.001" time="night" build="BS" grass="1" ai="MostEffectiveMoveGenerator" id="85"
+             notCatchable="" announce="">
+        <stats levelDown="65" levelUp="67"/>
+        <moves>
+            <move name="Tackle"/>
+            <move name="Tackle"/>
+        </moves>
+        <caught-moves>
+            <move name="Tackle" level="1"/>
+        </caught-moves>
+        <drop id="791" chances="100"/>
+    </pokemon>
+    <pokemon name="Raikou" chances="0.001" time="day" build="BS" grass="1" ai="MostEffectiveMoveGenerator" id="86"
+             notCatchable="" announce="">
+        <stats levelDown="65" levelUp="67"/>
+        <moves>
+            <move name="Tackle"/>
+            <move name="Tackle"/>
+        </moves>
+        <caught-moves>
+            <move name="Tackle" level="1"/>
+        </caught-moves>
+        <drop id="791" chances="100"/>
+    </pokemon>
+
+</pokemons>

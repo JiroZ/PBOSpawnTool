@@ -1,0 +1,183 @@
+<pokemons>
+    <pokemon name="Beedrill" chances="25" time="day" build="OP" grass="1" ai="AttackingMoveGenerator" id="1">
+        <stats levelDown="59" levelUp="63"/>
+        <moves>
+            <move name="Poison Jab"/>
+            <move name="Pin Missile"/>
+        </moves>
+        <caught-moves>
+            <move name="Poison Jab"/>
+
+        </caught-moves>
+    </pokemon>
+    <pokemon name="Beedrill" chances="25" time="night" build="OP" grass="1" ai="AttackingMoveGenerator" id="2">
+        <stats levelDown="59" levelUp="63"/>
+        <moves>
+            <move name="Poison Jab"/>
+            <move name="Pin Missile"/>
+        </moves>
+        <caught-moves>
+            <move name="Poison Jab"/>
+
+        </caught-moves>
+    </pokemon>
+
+    <pokemon name="Tangrowth" chances="25" time="day" build="BS" grass="1" ai="AttackingMoveGenerator" id="3">
+        <stats levelDown="59" levelUp="63"/>
+        <moves>
+            <move name="Giga Drain"/>
+            <move name="Ancient Power"/>
+        </moves>
+        <caught-moves>
+            <move name="Giga Drain"/>
+            <move name="Ancient Power"/>
+        </caught-moves>
+    </pokemon>
+    <pokemon name="Tangrowth" chances="25" time="night" build="BS" grass="1" ai="AttackingMoveGenerator" id="4">
+        <stats levelDown="59" levelUp="63"/>
+        <moves>
+            <move name="Giga Drain"/>
+            <move name="Ancient Power"/>
+        </moves>
+        <caught-moves>
+            <move name="Giga Drain"/>
+            <move name="Ancient Power"/>
+        </caught-moves>
+    </pokemon>
+
+    <pokemon name="Leavanny" chances="25" time="day" build="OP" grass="1" ai="MostEffectiveMoveGenerator" id="7">
+        <stats levelDown="59" levelUp="63"/>
+        <moves>
+            <move name="Razor Leaf"/>
+            <move name="X-Scissor"/>
+            <move name="Slash"/>
+        </moves>
+        <caught-moves>
+            <move name="Razor Leaf"/>
+        </caught-moves>
+    </pokemon>
+    <pokemon name="Leavanny" chances="25" time="night" build="OP" grass="1" ai="MostEffectiveMoveGenerator" id="8">
+        <stats levelDown="59" levelUp="63"/>
+        <moves>
+            <move name="Razor Leaf"/>
+            <move name="X-Scissor"/>
+            <move name="Slash"/>
+        </moves>
+        <caught-moves>
+            <move name="Razor Leaf"/>
+        </caught-moves>
+    </pokemon>
+	
+    <pokemon name="Karrablast" chances="0.005" time="day" build="OP" grass="1" ai="MostEffectiveMoveGenerator" id="9" announce="">
+        <stats levelDown="1" levelUp="3"/>
+        <moves>
+            <move name="Peck"/>
+        </moves>
+        <caught-moves>
+            <move name="Peck"/>
+            </caught-moves>
+    </pokemon>
+    <pokemon name="Karrablast" chances="0.005" time="night" build="OP" grass="1" ai="MostEffectiveMoveGenerator" id="10" announce="">
+        <stats levelDown="1" levelUp="3"/>
+        <moves>
+            <move name="Peck"/>
+        </moves>
+        <caught-moves>
+            <move name="Peck"/>
+        </caught-moves>
+    </pokemon>
+
+    <pokemon name="Yanma" chances="100" time="day" build="OP" grass="1" ai="MostEffectiveMoveGenerator" id="11" honey="">
+        <stats levelDown="1" levelUp="1"/>
+        <moves>
+            <move name="Tackle"/>
+        </moves>
+        <caught-moves>
+            <move name="Tackle"/>
+        </caught-moves>
+    </pokemon>
+    <pokemon name="Yanma" chances="100" time="night" build="OP" grass="1" ai="MostEffectiveMoveGenerator" id="12" honey="">
+        <stats levelDown="1" levelUp="1"/>
+        <moves>
+            <move name="Tackle"/>
+        </moves>
+        <caught-moves>
+            <move name="Tackle"/>
+        </caught-moves>
+    </pokemon>
+
+    <pokemon name="Entei" chances="0.001" time="night" build="BS" grass="1" ai="MostEffectiveMoveGenerator" id="81"
+             notCatchable="" announce="">
+        <stats levelDown="59" levelUp="63"/>
+        <moves>
+            <move name="Lava Plume"/>
+            <move name="Extrasensory"/>
+        </moves>
+        <caught-moves>
+            <move name="Lava Plume" level="1"/>
+        </caught-moves>
+        <drop id="791" chances="100"/>
+    </pokemon>
+    <pokemon name="Entei" chances="0.001" time="day" build="BS" grass="1" ai="MostEffectiveMoveGenerator" id="82"
+             notCatchable="" announce="">
+        <stats levelDown="59" levelUp="63"/>
+        <moves>
+            <move name="Lava Plume"/>
+            <move name="Extrasensory"/>
+        </moves>
+        <caught-moves>
+            <move name="Lava Plume" level="1"/>
+        </caught-moves>
+        <drop id="791" chances="100"/>
+    </pokemon>
+
+    <pokemon name="Suicune" chances="0.001" time="day" build="BS" grass="1" ai="MostEffectiveMoveGenerator" id="83"
+             notCatchable="" announce="">
+        <stats levelDown="59" levelUp="63"/>
+        <moves>
+            <move name="Hydro Pump"/>
+            <move name="Extrasensory"/>
+        </moves>
+        <caught-moves>
+            <move name="Lava Plume" level="1"/>
+        </caught-moves>
+        <drop id="791" chances="100"/>
+    </pokemon>
+    <pokemon name="Suicune" chances="0.001" time="night" build="BS" grass="1" ai="MostEffectiveMoveGenerator" id="84"
+             notCatchable="" announce="">
+        <stats levelDown="59" levelUp="63"/>
+        <moves>
+            <move name="Hydro Pump"/>
+            <move name="Extrasensory"/>
+        </moves>
+        <caught-moves>
+            <move name="Lava Plume" level="1"/>
+        </caught-moves>
+        <drop id="791" chances="100"/>
+    </pokemon>
+
+    <pokemon name="Raikou" chances="0.001" time="night" build="BS" grass="1" ai="MostEffectiveMoveGenerator" id="85"
+             notCatchable="" announce="">
+        <stats levelDown="59" levelUp="63"/>
+        <moves>
+            <move name="Thunderbolt"/>
+            <move name="Extrasensory"/>
+        </moves>
+        <caught-moves>
+            <move name="Thunderbolt" level="1"/>
+        </caught-moves>
+        <drop id="791" chances="100"/>
+    </pokemon>
+    <pokemon name="Raikou" chances="0.001" time="day" build="BS" grass="1" ai="MostEffectiveMoveGenerator" id="86"
+             notCatchable="" announce="">
+        <stats levelDown="59" levelUp="63"/>
+        <moves>
+            <move name="Thunderbolt"/>
+            <move name="Extrasensory"/>
+        </moves>
+        <caught-moves>
+            <move name="Thunderbolt" level="1"/>
+        </caught-moves>
+        <drop id="791" chances="100"/>
+    </pokemon>
+</pokemons>

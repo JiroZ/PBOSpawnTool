@@ -1,0 +1,202 @@
+<pokemons>
+    <pokemon name="Persian" chances="35" time="day" grass="1" build="OP" ai="MostEffectiveMoveGenerator" id="1">
+        <stats levelDown="34" levelUp="36"/>
+        <moves>
+            <move name="Slash"/>
+            <move name="Feint Attack"/>
+        </moves>
+        <caught-moves>
+            <move name="Bite"/>
+        </caught-moves>
+    </pokemon>
+    <pokemon name="Wormadam-Sandy" chances="35" time="day" grass="1" build="TDP" ai="MostEffectiveMoveGenerator" id="2">
+        <stats levelDown="34" levelUp="36"/>
+        <moves>
+            <move name="Bug Bite"/>
+            <move name="Sucker Punch"/>
+            <move name="Rock Blast"/>
+        </moves>
+        <caught-moves>
+            <move name="Bug Bite"/>
+        </caught-moves>
+    </pokemon>
+    <pokemon name="Unfezant" chances="35" time="day" grass="1" build="BP" ai="MostEffectiveMoveGenerator" id="3">
+        <stats levelDown="34" levelUp="36"/>
+        <moves>
+            <move name="Aerial Ace"/>
+            <move name="Quick Attack"/>
+        </moves>
+        <caught-moves>
+            <move name="Quick Attack"/>
+        </caught-moves>
+    </pokemon>
+    <pokemon name="Granbull" chances="35" time="night" build="BP" grass="1" ai="AttackingMoveGenerator" id="4">
+        <stats levelDown="34" levelUp="36"/>
+        <moves>
+            <move name="Thunder Fang"/>
+            <move name="Fire Fang"/>
+            <move name="Lick"/>
+        </moves>
+        <caught-moves>
+            <move name="Bite"/>
+        </caught-moves>
+    </pokemon>
+    <pokemon name="Granbull" chances="35" time="day" grass="1" build="BP" ai="AttackingMoveGenerator" id="5">
+        <stats levelDown="34" levelUp="36"/>
+        <moves>
+            <move name="Thunder Fang"/>
+            <move name="Fire Fang"/>
+            <move name="Lick"/>
+        </moves>
+        <caught-moves>
+            <move name="Bite"/>
+        </caught-moves>
+    </pokemon>
+    <pokemon name="Persian-Alola" chances="35" time="night" grass="1" build="OP" ai="MostEffectiveMoveGenerator" id="6">
+        <stats levelDown="34" levelUp="36"/>
+        <moves>
+            <move name="Feint Attack"/>
+            <move name="Slash"/>
+        </moves>
+        <caught-moves>
+            <move name="Bite"/>
+        </caught-moves>
+    </pokemon>
+    <pokemon name="Wormadam-Sandy" chances="35" time="night" grass="1" build="TDP" ai="MostEffectiveMoveGenerator"
+             id="7">
+        <stats levelDown="34" levelUp="36"/>
+        <moves>
+            <move name="Bug Bite"/>
+            <move name="Sucker Punch"/>
+            <move name="Rock Blast"/>
+        </moves>
+        <caught-moves>
+            <move name="Bug Bite"/>
+        </caught-moves>
+    </pokemon>
+    <pokemon name="Honchkrow" chances="30" time="night" build="BP" grass="1" ai="MostEffectiveMoveGenerator" id="8">
+        <stats levelDown="34" levelUp="36"/>
+        <moves>
+            <move name="Wing Attack"/>
+            <move name="Feint Attack"/>
+        </moves>
+        <caught-moves>
+            <move name="Wing Attack"/>
+            <drop id="97" chances="0.25"/>
+        </caught-moves>
+    </pokemon>
+    <pokemon name="Scraggy" chances="1" time="day" grass="1" build="BP" ai="AttackingMoveGenerator" id="11">
+        <stats levelDown="1" levelUp="3"/>
+        <moves>
+            <move name="Headbutt"/>
+        </moves>
+        <caught-moves>
+            <move name="Leer"/>
+            <move name="Headbutt"/>
+        </caught-moves>
+    </pokemon>
+    <pokemon name="Scraggy" chances="1" time="night" build="BP" grass="1" ai="AttackingMoveGenerator" id="12">
+        <stats levelDown="1" levelUp="3"/>
+        <moves>
+            <move name="Headbutt"/>
+        </moves>
+        <caught-moves>
+            <move name="Leer"/>
+            <move name="Headbutt"/>
+        </caught-moves>
+    </pokemon>
+    <pokemon name="Burmy-Sandy" chances="4" time="day" build="BP" grass="1" ai="AttackingMoveGenerator" id="13">
+        <stats levelDown="1" levelUp="3"/>
+        <moves>
+            <move name="Protect"/>
+        </moves>
+        <caught-moves>
+            <move name="Protect"/>
+        </caught-moves>
+    </pokemon>
+    <pokemon name="Burmy-Sandy" chances="4" time="night" build="BP" grass="1" ai="AttackingMoveGenerator" id="14">
+        <stats levelDown="1" levelUp="3"/>
+        <moves>
+            <move name="Protect"/>
+        </moves>
+        <caught-moves>
+            <move name="Protect"/>
+        </caught-moves>
+    </pokemon>
+
+
+    <pokemon name="Entei" chances="0.001" time="night" build="BS" grass="1" ai="MostEffectiveMoveGenerator" id="81"
+             notCatchable="" announce="">
+        <stats levelDown="34" levelUp="36"/>
+        <moves>
+            <move name="Lava Plume"/>
+            <move name="Extrasensory"/>
+        </moves>
+        <caught-moves>
+            <move name="Lava Plume" level="1"/>
+        </caught-moves>
+        <drop id="791" chances="100"/>
+    </pokemon>
+    <pokemon name="Entei" chances="0.001" time="day" build="BS" grass="1" ai="MostEffectiveMoveGenerator" id="82"
+             notCatchable="" announce="">
+        <stats levelDown="34" levelUp="36"/>
+        <moves>
+            <move name="Lava Plume"/>
+            <move name="Extrasensory"/>
+        </moves>
+        <caught-moves>
+            <move name="Lava Plume" level="1"/>
+        </caught-moves>
+        <drop id="791" chances="100"/>
+    </pokemon>
+
+    <pokemon name="Suicune" chances="0.001" time="day" build="BS" grass="1" ai="MostEffectiveMoveGenerator" id="83"
+             notCatchable="" announce="">
+        <stats levelDown="34" levelUp="36"/>
+        <moves>
+            <move name="Hydro Pump"/>
+            <move name="Extrasensory"/>
+        </moves>
+        <caught-moves>
+            <move name="Lava Plume" level="1"/>
+        </caught-moves>
+        <drop id="791" chances="100"/>
+    </pokemon>
+    <pokemon name="Suicune" chances="0.001" time="night" build="BS" grass="1" ai="MostEffectiveMoveGenerator" id="84"
+             notCatchable="" announce="">
+        <stats levelDown="34" levelUp="36"/>
+        <moves>
+            <move name="Hydro Pump"/>
+            <move name="Extrasensory"/>
+        </moves>
+        <caught-moves>
+            <move name="Lava Plume" level="1"/>
+        </caught-moves>
+        <drop id="791" chances="100"/>
+    </pokemon>
+
+    <pokemon name="Raikou" chances="0.001" time="night" build="BS" grass="1" ai="MostEffectiveMoveGenerator" id="85"
+             notCatchable="" announce="">
+        <stats levelDown="34" levelUp="36"/>
+        <moves>
+            <move name="Thunderbolt"/>
+            <move name="Extrasensory"/>
+        </moves>
+        <caught-moves>
+            <move name="Thunderbolt" level="1"/>
+        </caught-moves>
+        <drop id="791" chances="100"/>
+    </pokemon>
+    <pokemon name="Raikou" chances="0.001" time="day" build="BS" grass="1" ai="MostEffectiveMoveGenerator" id="86"
+             notCatchable="" announce="">
+        <stats levelDown="34" levelUp="36"/>
+        <moves>
+            <move name="Thunderbolt"/>
+            <move name="Extrasensory"/>
+        </moves>
+        <caught-moves>
+            <move name="Thunderbolt" level="1"/>
+        </caught-moves>
+        <drop id="791" chances="100"/>
+    </pokemon>
+</pokemons>

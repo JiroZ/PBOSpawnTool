@@ -1,0 +1,102 @@
+<pokemons>
+	<pokemon name="Gyarados" chances="45" time="day" build="BP" grass="1" ai="AttackingMoveGenerator" id="1" fishing="">
+		<stats levelDown="40" levelUp="42" />
+		<moves>
+			<move name="Dragon Rage" />
+			<move name="Aqua Tail" />
+		</moves>
+		<caught-moves>
+			<move name="Bite" level="1" />
+		</caught-moves>
+	</pokemon>
+	<pokemon name="Floatzel" chances="40" time="day" build="BP" grass="1" ai="MostEffectiveMoveGenerator" id="2" fishing="">
+		<stats levelDown="40" levelUp="42" />
+		<moves>
+			<move name="Sonic Boom" />
+		</moves>
+		<moves>
+			<move name="Aqua Jet" />
+		</moves>
+		<caught-moves>
+			<move name="Aqua Jet" level="1" />
+		</caught-moves>
+	</pokemon>
+	<pokemon name="Sharpedo" chances="40" time="day" build="OP" grass="1" ai="MostEffectiveMoveGenerator" id="3" fishing="">
+		<stats levelDown="40" levelUp="42" />
+		<moves>
+			<move name="Aqua Jet" />
+			<move name="Assurance" />
+		</moves>
+		<caught-moves>
+			<move name="Aqua Jet" level="1" />
+		</caught-moves>
+	</pokemon>
+	<pokemon name="Gyarados" chances="40" time="night" build="BP" grass="1" ai="AttackingMoveGenerator" id="4" fishing="">
+		<stats levelDown="40" levelUp="42" />
+		<moves>
+			<move name="Dragon Rage" />
+			<move name="Aqua Tail" />
+		</moves>
+		<caught-moves>
+			<move name="Bite" level="1" />
+		</caught-moves>
+	</pokemon>
+	<pokemon name="Floatzel" chances="40" time="night" build="BP" grass="1" ai="MostEffectiveMoveGenerator" id="5" fishing="">
+		<stats levelDown="40" levelUp="42" />
+		<moves>
+			<move name="Sonic Boom" />
+		</moves>
+		<moves>
+			<move name="Aqua Jet" />
+		</moves>
+		<caught-moves>
+			<move name="Aqua Jet" level="1" />
+		</caught-moves>
+	</pokemon>
+	<pokemon name="Sharpedo" chances="40" time="night" build="OP" grass="1" ai="MostEffectiveMoveGenerator" id="6" fishing="">
+		<stats levelDown="40" levelUp="42" />
+		<moves>
+			<move name="Aqua Jet" />
+			<move name="Assurance" />
+		</moves>
+		<caught-moves>
+			<move name="Aqua Jet" level="1" />
+		</caught-moves>
+	</pokemon>
+	<pokemon name="Buizel" chances="4" time="day" build="BS" grass="1" ai="AttackingMoveGenerator" id="7" fishing="">
+		<stats levelDown="1" levelUp="3" />
+		<moves>
+			<move name="Sonic Boom" />
+		</moves>
+		<caught-moves>
+			<move name="Sonic Boom" level="1" />
+		</caught-moves>
+	</pokemon>
+	<pokemon name="Buizel" chances="4" time="night" build="BS" grass="1" ai="AttackingMoveGenerator" id="8" fishing="">
+		<stats levelDown="1" levelUp="3" />
+		<moves>
+			<move name="Sonic Boom" />
+		</moves>
+		<caught-moves>
+			<move name="Sonic Boom" level="1" />
+		</caught-moves>
+	</pokemon>
+	<pokemon name="Feebas" chances="1" time="day" build="BS" grass="1" ai="AttackingMoveGenerator" id="9" fishing="">
+		<stats levelDown="1" levelUp="2" />
+		<moves>
+			<move name="Tackle" />
+		</moves>
+		<caught-moves>
+			<move name="Tackle" level="1" />
+		</caught-moves>
+	</pokemon>
+	<pokemon name="Feebas" chances="1" time="night" build="BS" grass="1" ai="AttackingMoveGenerator" id="10" fishing="">
+		<stats levelDown="1" levelUp="2" />
+		<moves>
+			<move name="Tackle" />
+		</moves>
+		<caught-moves>
+			<move name="Tackle" level="1" />
+		</caught-moves>
+	</pokemon>
+</pokemons>

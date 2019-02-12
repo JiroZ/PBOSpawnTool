@@ -1,0 +1,242 @@
+<pokemons>
+    <pokemon name="Pidgeot" chances="30" time="day" build="BP" grass="1" ai="MostEffectiveMoveGenerator" id="1">
+        <stats levelDown="65" levelUp="68"/>
+        <moves>
+            <move name="Wing Attack"/>
+            <move name="Quick Attack"/>
+        </moves>
+        <caught-moves>
+            <move name="Wing Attack"/>
+        </caught-moves>
+    </pokemon>
+
+    <pokemon name="Bellossom" chances="30" time="day" build="BS" grass="1" ai="MostEffectiveMoveGenerator" id="2">
+        <stats levelDown="65" levelUp="68"/>
+        <moves>
+            <move name="Magical Leaf"/>
+        </moves>
+        <caught-moves>
+            <move name="Magical Leaf"/>
+        </caught-moves>
+    </pokemon>
+
+    <pokemon name="Araquanid" chances="30" time="day" build="OP" grass="1" ai="MostEffectiveMoveGenerator" id="3">
+        <stats levelDown="65" levelUp="68"/>
+        <moves>
+            <move name="Liquidation"/>
+            <move name="Bug Bite"/>
+        </moves>
+        <caught-moves>
+            <move name="Bubble"/>
+        </caught-moves>
+    </pokemon>
+
+    <pokemon name="Spinda" chances="0.1" time="day" build="OP" grass="1" ai="MostEffectiveMoveGenerator" id="4">
+        <stats levelDown="1" levelUp="3"/>
+        <moves>
+            <move name="Tackle"/>
+        </moves>
+        <caught-moves>
+            <move name="Tackle"/>
+        </caught-moves>
+    </pokemon>
+    <pokemon name="Pidgeot" chances="30" time="night" build="BP" grass="1" ai="MostEffectiveMoveGenerator" id="5">
+        <stats levelDown="65" levelUp="68"/>
+        <moves>
+            <move name="Wing Attack"/>
+            <move name="Quick Attack"/>
+        </moves>
+        <caught-moves>
+            <move name="Wing Attack"/>
+        </caught-moves>
+    </pokemon>
+    <pokemon name="Vileplume" chances="30" time="night" build="BS" grass="1" ai="MostEffectiveMoveGenerator" id="6">
+        <stats levelDown="65" levelUp="68"/>
+        <moves>
+            <move name="Mega Drain"/>
+        </moves>
+        <caught-moves>
+            <move name="Mega Drain"/>
+        </caught-moves>
+    </pokemon>
+    <pokemon name="Araquanid" chances="30" time="night" build="OP" grass="1" ai="MostEffectiveMoveGenerator" id="7">
+        <stats levelDown="65" levelUp="68"/>
+        <moves>
+            <move name="Liquidation"/>
+            <move name="Bug Bite"/>
+        </moves>
+        <caught-moves>
+            <move name="Bubble"/>
+        </caught-moves>
+    </pokemon>
+    <pokemon name="Spinda" chances="0.1" time="night" build="OP" grass="1" ai="MostEffectiveMoveGenerator" id="8">
+        <stats levelDown="1" levelUp="3"/>
+        <moves>
+            <move name="Tackle"/>
+        </moves>
+        <caught-moves>
+            <move name="Tackle"/>
+        </caught-moves>
+    </pokemon>
+    <pokemon name="Qwilfish" chances="30" time="day" build="OP" grass="1" ai="MostEffectiveMoveGenerator"
+             id="9" fishing="">
+        <stats levelDown="65" levelUp="68"/>
+        <moves>
+            <move name="Aqua Tail"/>
+        </moves>
+        <caught-moves>
+            <move name="Aqua Tail"/>
+        </caught-moves>
+    </pokemon>
+    <pokemon name="Kingler" chances="30" time="day" build="OP" grass="1" ai="MostEffectiveMoveGenerator"
+             id="10" fishing="">
+        <stats levelDown="65" levelUp="68"/>
+        <moves>
+            <move name="Crabhammer"/>
+            <move name="Slam"/>
+        </moves>
+        <caught-moves>
+            <move name="Slam"/>
+        </caught-moves>
+    </pokemon>
+    <pokemon name="Poliwrath" chances="30" time="day" build="OP" grass="1" ai="MostEffectiveMoveGenerator"
+             id="11" fishing="">
+        <stats levelDown="65" levelUp="68"/>
+        <moves>
+
+            <move name="Bubble Beam"/>
+        </moves>
+        <caught-moves>
+            <move name="Bubble Beam"/>
+        </caught-moves>
+    </pokemon>
+    <pokemon name="Qwilfish" chances="1" time="day" build="OP" grass="1" ai="MostEffectiveMoveGenerator"
+             id="12" fishing="">
+        <stats levelDown="1" levelUp="3"/>
+        <moves>
+            <move name="Water Gun"/>
+        </moves>
+        <caught-moves>
+            <move name="Water Gun"/>
+        </caught-moves>
+    </pokemon>
+    <pokemon name="Qwilfish" chances="30" time="night" build="OP" grass="1" ai="MostEffectiveMoveGenerator"
+             id="13" fishing="">
+        <stats levelDown="65" levelUp="68"/>
+        <moves>
+            <move name="Aqua Tail"/>
+        </moves>
+        <caught-moves>
+            <move name="Aqua Tail"/>
+        </caught-moves>
+    </pokemon>
+    <pokemon name="Kingler" chances="30" time="night" build="OP" grass="1" ai="MostEffectiveMoveGenerator"
+             id="14" fishing="">
+        <stats levelDown="65" levelUp="68"/>
+        <moves>
+            <move name="Crabhammer"/>
+            <move name="Slam"/>
+        </moves>
+        <caught-moves>
+            <move name="Slam"/>
+        </caught-moves>
+    </pokemon>
+    <pokemon name="Poliwrath" chances="30" time="night" build="OP" grass="1" ai="MostEffectiveMoveGenerator"
+             id="15"
+             fishing="">
+        <stats levelDown="65" levelUp="68"/>
+        <moves>
+
+            <move name="Bubble Beam"/>
+        </moves>
+        <caught-moves>
+            <move name="Bubble Beam"/>
+        </caught-moves>
+    </pokemon>
+    <pokemon name="Qwilfish" chances="1" time="night" build="OP" grass="1" ai="MostEffectiveMoveGenerator"
+             id="16"
+             fishing="">
+        <stats levelDown="1" levelUp="3"/>
+        <moves>
+            <move name="Water Gun"/>
+        </moves>
+        <caught-moves>
+            <move name="Water Gun"/>
+        </caught-moves>
+
+    </pokemon>
+    <pokemon name="Entei" chances="0.001" time="night" build="BS" grass="1" ai="MostEffectiveMoveGenerator" id="81"
+             notCatchable="" announce="">
+        <stats levelDown="65" levelUp="68"/>
+        <moves>
+            <move name="Tackle"/>
+            <move name="Tackle"/>
+        </moves>
+        <caught-moves>
+            <move name="Tackle" level="1"/>
+        </caught-moves>
+        <drop id="791" chances="100"/>
+    </pokemon>
+    <pokemon name="Entei" chances="0.001" time="day" build="BS" grass="1" ai="MostEffectiveMoveGenerator" id="82"
+             notCatchable="" announce="">
+        <stats levelDown="65" levelUp="68"/>
+        <moves>
+            <move name="Tackle"/>
+            <move name="Tackle"/>
+        </moves>
+        <caught-moves>
+            <move name="Tackle" level="1"/>
+        </caught-moves>
+        <drop id="791" chances="100"/>
+    </pokemon>
+    <pokemon name="Suicune" chances="0.001" time="night" build="BS" grass="1" ai="MostEffectiveMoveGenerator" id="83"
+             notCatchable="" announce="">
+        <stats levelDown="65" levelUp="68"/>
+        <moves>
+            <move name="Tackle"/>
+            <move name="Tackle"/>
+        </moves>
+        <caught-moves>
+            <move name="Tackle" level="1"/>
+        </caught-moves>
+        <drop id="791" chances="100"/>
+    </pokemon>
+    <pokemon name="Suicune" chances="0.001" time="day" build="BS" grass="1" ai="MostEffectiveMoveGenerator" id="84"
+             notCatchable="" announce="">
+        <stats levelDown="65" levelUp="68"/>
+        <moves>
+            <move name="Tackle"/>
+            <move name="Tackle"/>
+        </moves>
+        <caught-moves>
+            <move name="Tackle" level="1"/>
+        </caught-moves>
+        <drop id="791" chances="100"/>
+    </pokemon>
+    <pokemon name="Raikou" chances="0.001" time="night" build="BS" grass="1" ai="MostEffectiveMoveGenerator" id="85"
+             notCatchable="" announce="">
+        <stats levelDown="65" levelUp="68"/>
+        <moves>
+            <move name="Tackle"/>
+            <move name="Tackle"/>
+        </moves>
+        <caught-moves>
+            <move name="Tackle" level="1"/>
+        </caught-moves>
+        <drop id="791" chances="100"/>
+    </pokemon>
+    <pokemon name="Raikou" chances="0.001" time="day" build="BS" grass="1" ai="MostEffectiveMoveGenerator" id="86"
+             notCatchable="" announce="">
+        <stats levelDown="65" levelUp="68"/>
+        <moves>
+            <move name="Tackle"/>
+            <move name="Tackle"/>
+        </moves>
+        <caught-moves>
+            <move name="Tackle" level="1"/>
+        </caught-moves>
+        <drop id="791" chances="100"/>
+    </pokemon>
+</pokemons>
+
+

@@ -1,0 +1,180 @@
+<pokemons>
+	<pokemon name="Diglett-Alola" chances="40" time="day" build="BP" grass="1" ai="MostEffectiveMoveGenerator" id="1">
+		<stats levelDown="22" levelUp="24" />
+		<moves>
+			<move name="Magnitude" />
+			<move name="Metal Claw" />
+		</moves>
+		<caught-moves>
+			<move name="Metal Claw" level="1" />
+		</caught-moves>
+	</pokemon>
+	<pokemon name="Machop" chances="35" time="day" build="BP" grass="1" ai="MostEffectiveMoveGenerator" id="2">
+		<stats levelDown="22" levelUp="24" />
+		<moves>
+			<move name="Karate Chop" />
+			<move name="Knock Off" />
+		</moves>
+		<caught-moves>
+			<move name="Karate Chop" level="1" />
+		</caught-moves>
+		<drop id="590" chances="1" />
+	</pokemon>
+	<pokemon name="Emolga" chances="4" time="day" build="BP" grass="1" ai="AttackingMoveGenerator" id="4">
+		<stats levelDown="1" levelUp="1" />
+		<moves>
+			<move name="Thunder Shock" />
+		</moves>
+		<caught-moves>
+			<move name="Thunder Shock" level="1" />
+		</caught-moves>
+	</pokemon>
+	<pokemon name="Diglett-Alola" chances="40" time="night" build="BP" grass="1" ai="MostEffectiveMoveGenerator" id="6">
+		<stats levelDown="22" levelUp="24" />
+		<moves>
+			<move name="Magnitude" />
+			<move name="Metal Claw" />
+		</moves>
+		<caught-moves>
+			<move name="Metal Claw" level="1" />
+		</caught-moves>
+	</pokemon>
+	<pokemon name="Machop" chances="40" time="night" build="BP" grass="1" ai="MostEffectiveMoveGenerator" id="7">
+		<stats levelDown="22" levelUp="24" />
+		<moves>
+			<move name="Karate Chop" />
+			<move name="Knock Off" />
+		</moves>
+		<caught-moves>
+			<move name="Karate Chop" level="1" />
+		</caught-moves>
+		<drop id="590" chances="0.5" />
+	</pokemon>
+	<pokemon name="Shinx" chances="30" time="night" build="BP" grass="1" ai="MostEffectiveMoveGenerator" id="8">
+		<stats levelDown="22" levelUp="24" />
+		<moves>
+			<move name="Spark" />
+			<move name="Bite" />
+		</moves>
+		<caught-moves>
+			<move name="Spark" level="1" />
+		</caught-moves>
+	</pokemon>
+	<pokemon name="Shinx" chances="4" time="night" build="BP" grass="1" ai="AttackingMoveGenerator" id="9">
+		<stats levelDown="1" levelUp="1" />
+		<moves>
+			<move name="Tackle" />
+		</moves>
+		<caught-moves>
+			<move name="Tackle" level="1" />
+		</caught-moves>
+	</pokemon>
+	<pokemon name="Diglett" chances="5" time="day" build="BP" grass="1" ai="AttackingMoveGenerator" id="11">
+		<stats levelDown="1" levelUp="1" />
+		<moves>
+			<move name="Scratch" />
+			<move name="Sand Attack" />
+		</moves>
+		<caught-moves>
+			<move name="Scratch" level="1" />
+		</caught-moves>
+	</pokemon>
+	<pokemon name="Machop" chances="5" time="night" build="BP" grass="1" ai="AttackingMoveGenerator" id="12">
+		<stats levelDown="1" levelUp="1" />
+		<moves>
+			<move name="Low Kick" />
+		</moves>
+		<caught-moves>
+			<move name="Low Kick" level="1" />
+		</caught-moves>
+		<drop id="590" chances="0.5" />
+	</pokemon>
+	<pokemon name="Diglett" chances="4" time="day" build="BP" grass="1" ai="AttackingMoveGenerator" id="13">
+		<stats levelDown="1" levelUp="1" />
+		<moves>
+			<move name="Sucker Punch" />
+			<move name="Sand Attack" />
+		</moves>
+		<caught-moves>
+			<move name="Scratch" level="1" />
+			<move name="Sand Attack" level="1" />
+		</caught-moves>
+	</pokemon>
+	<pokemon name="Diglett-Alola" chances="4" time="night" build="BP" grass="1" ai="AttackingMoveGenerator" id="14">
+		<stats levelDown="1" levelUp="1" />
+		<moves>
+			<move name="Metal Claw" />
+			<move name="Sand Attack" />
+		</moves>
+		<caught-moves>
+			<move name="Scratch" level="1" />
+			<move name="Sand Attack" level="1" />
+		</caught-moves>
+	</pokemon>
+	<pokemon name="Entei" chances="0.001" time="night" build="BS" grass="1" ai="MostEffectiveMoveGenerator" id="81" notCatchable="" announce="">
+		<stats levelDown="20" levelUp="24" />
+		<moves>
+			<move name="Ember" />
+			<move name="Tackle" />
+		</moves>
+		<caught-moves>
+			<move name="Tackle" level="1" />
+		</caught-moves>
+		<drop id="791" chances="100" />
+	</pokemon>
+	<pokemon name="Entei" chances="0.001" time="day" build="BS" grass="1" ai="MostEffectiveMoveGenerator" id="82" notCatchable="" announce="">
+		<stats levelDown="20" levelUp="24" />
+		<moves>
+			<move name="Water Gun" />
+			<move name="Tackle" />
+		</moves>
+		<caught-moves>
+			<move name="Tackle" level="1" />
+		</caught-moves>
+		<drop id="791" chances="100" />
+	</pokemon>
+	<pokemon name="Suicune" chances="0.001" time="night" build="BS" grass="1" ai="MostEffectiveMoveGenerator" id="83" notCatchable="" announce="">
+		<stats levelDown="20" levelUp="24" />
+		<moves>
+			<move name="Water Gun" />
+			<move name="Tackle" />
+		</moves>
+		<caught-moves>
+			<move name="Tackle" level="1" />
+		</caught-moves>
+		<drop id="791" chances="100" />
+	</pokemon>
+	<pokemon name="Suicune" chances="0.001" time="day" build="BS" grass="1" ai="MostEffectiveMoveGenerator" id="84" notCatchable="" announce="">
+		<stats levelDown="20" levelUp="24" />
+		<moves>
+			<move name="Tackle" />
+			<move name="Tackle" />
+		</moves>
+		<caught-moves>
+			<move name="Tackle" level="1" />
+		</caught-moves>
+		<drop id="791" chances="100" />
+	</pokemon>
+	<pokemon name="Raikou" chances="0.001" time="day" build="BS" grass="1" ai="MostEffectiveMoveGenerator" id="85" notCatchable="" announce="">
+		<stats levelDown="20" levelUp="24" />
+		<moves>
+			<move name="Thunder Shock" />
+			<move name="Tackle" />
+		</moves>
+		<caught-moves>
+			<move name="Tackle" level="1" />
+		</caught-moves>
+		<drop id="791" chances="100" />
+	</pokemon>
+	<pokemon name="Raikou" chances="0.001" time="night" build="BS" grass="1" ai="MostEffectiveMoveGenerator" id="86" notCatchable="" announce="">
+		<stats levelDown="20" levelUp="24" />
+		<moves>
+			<move name="Thunder Shock" />
+			<move name="Tackle" />
+		</moves>
+		<caught-moves>
+			<move name="Tackle" level="1" />
+		</caught-moves>
+		<drop id="791" chances="100" />
+	</pokemon>
+</pokemons>

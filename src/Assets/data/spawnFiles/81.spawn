@@ -1,0 +1,103 @@
+<pokemons>
+    <pokemon name="Kingler" chances="40" time="day" build="BP" grass="1" ai="MostEffectiveMoveGenerator" id="1"
+             fishing="">
+        <stats levelDown="58" levelUp="61"/>
+        <moves>
+            <move name="Crabhammer"/>
+            <move name="Slam"/>
+        </moves>
+        <caught-moves>
+            <move name="Slam"/>
+        </caught-moves>
+    </pokemon>
+
+    <pokemon name="Kingler" chances="40" time="night" build="BP" grass="1" ai="MostEffectiveMoveGenerator" id="2"
+             fishing="">
+        <stats levelDown="58" levelUp="61"/>
+        <moves>
+            <move name="Crabhammer"/>
+            <move name="Slam"/>
+        </moves>
+        <caught-moves>
+            <move name="Slam"/>
+        </caught-moves>
+    </pokemon>
+
+    <pokemon name="Walrein" chances="40" time="day" build="BS" grass="1" ai="MostEffectiveMoveGenerator" id="3"
+             fishing="">
+        <stats levelDown="58" levelUp="61"/>
+        <moves>
+            <move name="Aurora Beam"/>
+            <move name="Brine"/>
+        </moves>
+        <caught-moves>
+            <move name="Brine"/>
+        </caught-moves>
+    </pokemon>
+
+    <pokemon name="Walrein" chances="40" time="night" build="BS" grass="1" ai="MostEffectiveMoveGenerator" id="4"
+             fishing="">
+        <stats levelDown="58" levelUp="61"/>
+        <moves>
+            <move name="Aurora Beam"/>
+            <move name="Brine"/>
+        </moves>
+        <caught-moves>
+            <move name="Brine"/>
+        </caught-moves>
+    </pokemon>
+
+    <pokemon name="Cloyster" chances="40" time="day" build="BP" grass="1" ai="MostEffectiveMoveGenerator" id="5"
+             fishing="" notCatchable="">
+        <stats levelDown="58" levelUp="61"/>
+        <moves>
+            <move name="Icicle Crash"/>
+            <move name="Hydro Pump"/>
+        </moves>
+        <caught-moves>
+            <move name="Icicle Crash"/>
+        </caught-moves>
+    </pokemon>
+
+    <pokemon name="Cloyster" chances="40" time="night" build="BP" grass="1" ai="MostEffectiveMoveGenerator" id="6"
+             fishing="" notCatchable="">
+        <stats levelDown="58" levelUp="61"/>
+        <moves>
+            <move name="Icicle Crash"/>
+            <move name="Hydro Pump"/>
+        </moves>
+        <caught-moves>
+            <move name="Icicle Crash"/>
+        </caught-moves>
+    </pokemon>
+
+    <pokemon name="Spheal" chances="0.1" time="day" build="BP" grass="1" ai="MostEffectiveMoveGenerator" id="7"
+             fishing="">
+        <stats levelDown="1" levelUp="2"/>
+        <moves>
+            <move name="Water Gun"/>
+        </moves>
+        <caught-moves>
+            <move name="Defense Curl"/>
+            <move name="Growl"/>
+            <move name="Water Gun"/>
+            <move name="Powder Snow"/>
+        </caught-moves>
+    </pokemon>
+
+    <pokemon name="Spheal" chances="0.1" time="night" build="BP" grass="1" ai="MostEffectiveMoveGenerator" id="8"
+             fishing="">
+        <stats levelDown="1" levelUp="2"/>
+        <moves>
+            <move name="Water Gun"/>
+        </moves>
+        <caught-moves>
+            <move name="Defense Curl"/>
+            <move name="Growl"/>
+            <move name="Water Gun"/>
+            <move name="Powder Snow"/>
+        </caught-moves>
+    </pokemon>
+
+
+</pokemons>

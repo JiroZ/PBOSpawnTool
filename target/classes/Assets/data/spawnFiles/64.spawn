@@ -1,0 +1,211 @@
+<pokemons>
+    <pokemon name="Swanna" chances="30" time="day" build="BS" grass="1" ai="MostEffectiveMoveGenerator" id="1">
+        <stats levelDown="53" levelUp="56"/>
+        <moves>
+            <move name="Water Pulse"/>
+            <move name="Air Slash"/>
+        </moves>
+        <caught-moves>
+            <move name="Muddy Water" level="1"/>
+        </caught-moves>
+    </pokemon>
+    <pokemon name="Swanna" chances="30" time="night" build="BS" grass="1" ai="MostEffectiveMoveGenerator" id="2">
+        <stats levelDown="53" levelUp="56"/>
+        <moves>
+            <move name="Water Pulse"/>
+            <move name="Air Slash"/>
+        </moves>
+        <caught-moves>
+            <move name="Water Pulse" level="1"/>
+        </caught-moves>
+    </pokemon>
+    <pokemon name="Ducklett" chances="1" time="day" build="BS" grass="1" ai="MostEffectiveMoveGenerator" id="3">
+        <stats levelDown="1" levelUp="3"/>
+        <moves>
+            <move name="Water Gun"/>
+        </moves>
+        <caught-moves>
+            <move name="Water Gun" level="1"/>
+        </caught-moves>
+    </pokemon>
+    <pokemon name="Ducklett" chances="1" time="night" build="BS" grass="1" ai="MostEffectiveMoveGenerator" id="4">
+        <stats levelDown="1" levelUp="3"/>
+        <moves>
+            <move name="Water Gun"/>
+        </moves>
+        <caught-moves>
+            <move name="Water Gun" level="1"/>
+        </caught-moves>
+    </pokemon>
+
+    <pokemon name="Carnivine" chances="30" time="day" build="BP" grass="1" ai="MostEffectiveMoveGenerator" id="5">
+        <stats levelDown="53" levelUp="56"/>
+        <moves>
+            <move name="Crunch"/>
+            <move name="Razor Leaf"/>
+        </moves>
+        <caught-moves>
+            <move name="Vine Whip" level="1"/>
+        </caught-moves>
+    </pokemon>
+    <pokemon name="Carnivine" chances="30" time="night" build="BP" grass="1" ai="MostEffectiveMoveGenerator" id="6">
+        <stats levelDown="53" levelUp="56"/>
+        <moves>
+            <move name="Crunch"/>
+            <move name="Razor Leaf"/>
+        </moves>
+        <caught-moves>
+            <move name="Vine Whip" level="1"/>
+        </caught-moves>
+    </pokemon>
+    <pokemon name="Carnivine" chances="0.1" time="night" build="BP" grass="1" ai="MostEffectiveMoveGenerator" id="7">
+        <stats levelDown="1" levelUp="3"/>
+        <moves>
+            <move name="Crunch"/>
+            <move name="Razor Leaf"/>
+        </moves>
+        <caught-moves>
+            <move name="Vine Whip" level="1"/>
+        </caught-moves>
+    </pokemon>
+
+    <pokemon name="Lilligant" chances="30" time="day" build="TDS" grass="1" ai="MostEffectiveMoveGenerator" id="8">
+        <stats levelDown="53" levelUp="56"/>
+        <moves>
+            <move name="Magical Leaf"/>
+        </moves>
+        <caught-moves>
+            <move name="Magical Leaf" level="1"/>
+        </caught-moves>
+    </pokemon>
+    <pokemon name="Lilligant" chances="30" time="night" build="TDS" grass="1" ai="MostEffectiveMoveGenerator" id="9">
+        <stats levelDown="53" levelUp="56"/>
+        <moves>
+            <move name="Magical Leaf"/>
+        </moves>
+        <caught-moves>
+            <move name="Magical Leaf" level="1"/>
+        </caught-moves>
+    </pokemon>
+    <pokemon name="Petilil" chances="0.01" time="day" build="OS" grass="1" ai="StatChangingMoveGenerator" id="10">
+        <stats levelDown="1" levelUp="2"/>
+        <moves>
+            <move name="Absorb"/>
+        </moves>
+        <caught-moves>
+            <move name="Absorb" level="1"/>
+        </caught-moves>
+    </pokemon>
+
+    <pokemon name="Seismitoad" chances="30" time="day" build="BS" grass="1" ai="MostEffectiveMoveGenerator" id="11"
+             fishing="">
+        <stats levelDown="53" levelUp="56"/>
+        <moves>
+            <move name="Muddy Water"/>
+        </moves>
+        <caught-moves>
+            <move name="Muddy Water" level="1"/>
+        </caught-moves>
+    </pokemon>
+
+    <pokemon name="Seismitoad" chances="30" time="night" build="BS" grass="1" ai="MostEffectiveMoveGenerator" id="12"
+             fishing="">
+        <stats levelDown="53" levelUp="56"/>
+        <moves>
+            <move name="Muddy Water"/>
+        </moves>
+        <caught-moves>
+            <move name="Muddy Water" level="1"/>
+        </caught-moves>
+    </pokemon>
+
+    <pokemon name="Slowbro" chances="30" time="day" build="TDS" grass="1" ai="MostEffectiveMoveGenerator" id="13"
+             fishing="">
+        <stats levelDown="53" levelUp="56"/>
+        <moves>
+            <move name="Water Pulse"/>
+            <move name="Headbutt"/>
+        </moves>
+        <caught-moves>
+            <move name="Water Pulse" level="1"/>
+        </caught-moves>
+    </pokemon>
+    <pokemon name="Slowbro" chances="30" time="night" build="TDS" grass="1" ai="MostEffectiveMoveGenerator" id="14"
+             fishing="">
+        <stats levelDown="53" levelUp="56"/>
+        <moves>
+            <move name="Water Pulse"/>
+            <move name="Headbutt"/>
+        </moves>
+        <caught-moves>
+            <move name="Water Pulse" level="1"/>
+        </caught-moves>
+    </pokemon>
+
+
+    <pokemon name="Alomomola" chances="30" time="day" build="TDS" grass="1" ai="MostEffectiveMoveGenerator" id="15"
+             fishing="">
+        <stats levelDown="53" levelUp="56"/>
+        <moves>
+            <move name="Brine"/>
+        </moves>
+        <caught-moves>
+            <move name="Brine" level="1"/>
+        </caught-moves>
+    </pokemon>
+    <pokemon name="Alomomola" chances="30" time="night" build="TDS" grass="1" ai="MostEffectiveMoveGenerator" id="16"
+             fishing="">
+        <stats levelDown="53" levelUp="56"/>
+        <moves>
+            <move name="Brine"/>
+        </moves>
+        <caught-moves>
+            <move name="Brine" level="1"/>
+        </caught-moves>
+    </pokemon>
+
+    <pokemon name="Tympole" chances="0.5" time="day" build="OP" grass="1" ai="StatChangingMoveGenerator" id="17"
+             fishing="">
+        <stats levelDown="1" levelUp="2"/>
+        <moves>
+            <move name="Bubble"/>
+        </moves>
+        <caught-moves>
+            <move name="Bubble" level="1"/>
+        </caught-moves>
+    </pokemon>
+    <pokemon name="Tympole" chances="0.5" time="night" build="OP" grass="1" ai="StatChangingMoveGenerator" id="18"
+             fishing="">
+        <stats levelDown="1" levelUp="2"/>
+        <moves>
+            <move name="Bubble"/>
+        </moves>
+        <caught-moves>
+            <move name="Bubble" level="1"/>
+        </caught-moves>
+    </pokemon>
+
+    <pokemon name="Dratini" chances="0.005" time="day" build="OP" grass="1" ai="StatChangingMoveGenerator" id="19"
+             fishing="" announce="">
+        <stats levelDown="1" levelUp="2"/>
+        <moves>
+            <move name="Leer"/>
+        </moves>
+        <caught-moves>
+            <move name="Leer" level="1"/>
+            <move name="Wrap" level="1"/>
+        </caught-moves>
+    </pokemon>
+
+    <pokemon name="Dratini" chances="0.005" time="night" build="OP" grass="1" ai="StatChangingMoveGenerator" id="20"
+             fishing="" announce="">
+        <stats levelDown="1" levelUp="2"/>
+        <moves>
+            <move name="Leer"/>
+        </moves>
+        <caught-moves>
+            <move name="Leer" level="1"/>
+            <move name="Wrap" level="1"/>
+        </caught-moves>
+    </pokemon>
+</pokemons>

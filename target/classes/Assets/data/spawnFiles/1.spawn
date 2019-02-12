@@ -1,0 +1,211 @@
+<pokemons>
+	<pokemon name="Staravia" chances="35" time="day" grass="1" build="BP" ai="AttackingMoveGenerator" id="1">
+		<stats levelDown="24" levelUp="26"/>
+		<moves>
+			<move name="Wing Attack" />
+      <move name="Quick Attack" />
+		</moves>
+		<caught-moves>
+			<move name="Quick Attack" level="1" />
+		</caught-moves>
+	</pokemon>
+	<pokemon name="Fletchinder" chances="35" time="day" grass="1" build="BP" ai="AttackingMoveGenerator" id="2">
+		<stats levelDown="24" levelUp="26"/>
+		<moves>
+			<move name="Peck" />
+      <move name="Ember" />
+		</moves>
+		<caught-moves>
+			<move name="Ember" level="1" />
+		</caught-moves>
+	</pokemon>
+	<pokemon name="Floette" chances="30" time="day" grass="1" build="BS" ai="AttackingMoveGenerator" id="3">
+		<stats levelDown="24" levelUp="26"/>
+		<moves>
+			<move name="Magical Leaf" />
+			<move name="Fairy Wind" />
+		</moves>
+		<caught-moves>
+			<move name="Fairy Wind" level="1" />
+		</caught-moves>
+	</pokemon>
+
+
+	<pokemon name="Staravia" chances="35" time="night" grass="1" build="BP" ai="AttackingMoveGenerator" id="4">
+		<stats levelDown="24" levelUp="26"/>
+		<moves>
+			<move name="Wing Attack" />
+			<move name="Quick Attack" />
+		</moves>
+		<caught-moves>
+			<move name="Quick Attack" level="1" />
+		</caught-moves>
+	</pokemon>
+	<pokemon name="Fletchinder" chances="35" time="night" grass="1" build="BP" ai="AttackingMoveGenerator" id="5">
+		<stats levelDown="24" levelUp="26"/>
+		<moves>
+			<move name="Peck" />
+			<move name="Ember" />
+		</moves>
+		<caught-moves>
+			<move name="Ember" level="1" />
+		</caught-moves>
+	</pokemon>
+	<pokemon name="Floette" chances="30" time="night" grass="1" build="BS" ai="AttackingMoveGenerator" id="6">
+		<stats levelDown="24" levelUp="26"/>
+		<moves>
+			<move name="Magical Leaf" />
+			<move name="Fairy Wind" />
+		</moves>
+		<caught-moves>
+			<move name="Fairy Wind" level="1" />
+		</caught-moves>
+	</pokemon>
+
+
+	<pokemon name="Larvesta" chances="0.025" time="day" grass="1" build="BS" ai="AttackingMoveGenerator" id="7" announce="">
+		<stats levelDown="1" levelUp="2"/>
+		<moves>
+			<move name="Ember" />
+			<move name="String Shot" />
+		</moves>
+		<caught-moves>
+			<move name="Ember" />
+			<move name="String Shot" />
+		</caught-moves>
+	</pokemon>
+	<pokemon name="Larvesta" chances="0.025" time="night" grass="1" build="BS" ai="AttackingMoveGenerator" id="8" announce="">
+		<stats levelDown="1" levelUp="2"/>
+		<moves>
+			<move name="Ember" />
+			<move name="String Shot" />
+		</moves>
+		<caught-moves>
+			<move name="Ember" />
+			<move name="String Shot" />
+		</caught-moves>
+	</pokemon>
+
+	<pokemon name="Blitzle" chances="0.5" time="day" grass="1" build="BS" ai="StatChangingMoveGenerator" id="9">
+		<stats levelDown="1" levelUp="2"/>
+		<moves>
+			<move name="Quick Attack" />
+		</moves>
+		<caught-moves>
+			<move name="Quick Attack" />
+		</caught-moves>
+	</pokemon>
+	<pokemon name="Blitzle" chances="0.5" time="night" grass="1" build="BS" ai="StatChangingMoveGenerator" id="10">
+		<stats levelDown="1" levelUp="2"/>
+		<moves>
+			<move name="Quick Attack" />
+		</moves>
+		<caught-moves>
+			<move name="Quick Attack" />
+		</caught-moves>
+	</pokemon>
+
+	<pokemon name="Luvdisc" chances="35" time="day" build="BS" grass="1" ai="MostEffectiveMoveGenerator" id="13" fishing="">
+		<stats levelDown="25" levelUp="26" />
+		<moves>
+			<move name="Water Pulse" />
+		</moves>
+		<caught-moves>
+			<move name="Water Gun" />
+		</caught-moves>
+		<drop id="157" chances="1" />
+	</pokemon>
+	<pokemon name="Gyarados" chances="30" time="night" grass="1" build="BP" ai="AttackingMoveGenerator" id="14" fishing="">
+		<stats levelDown="24" levelUp="26"/>
+		<moves>
+			<move name="Thrash" />
+			<move name="Bite" />
+		</moves>
+		<caught-moves>
+			<move name="Bite" level="1" />
+		</caught-moves>
+	</pokemon>
+	<pokemon name="Swanna" chances="30" time="night" grass="1" build="BS" ai="AttackingMoveGenerator" id="15" fishing="">
+		<stats levelDown="24" levelUp="26"/>
+		<moves>
+			<move name="Bubble Beam" />
+			<move name="Air Cutter" />
+		</moves>
+		<caught-moves>
+			<move name="Bubble Beam" level="1" />
+		</caught-moves>
+	</pokemon>
+
+	<pokemon name="Luvdisc" chances="35" time="day" build="BS" grass="1" ai="MostEffectiveMoveGenerator" id="16" fishing="">
+		<stats levelDown="25" levelUp="26" />
+		<moves>
+			<move name="Water Pulse" />
+		</moves>
+		<caught-moves>
+			<move name="Water Gun" />
+		</caught-moves>
+		<drop id="157" chances="1" />
+	</pokemon>
+	<pokemon name="Gyarados" chances="30" time="night" grass="1" build="BP" ai="AttackingMoveGenerator" id="17" fishing="">
+		<stats levelDown="24" levelUp="26"/>
+		<moves>
+			<move name="Thrash" />
+			<move name="Bite" />
+		</moves>
+		<caught-moves>
+			<move name="Bite" level="1" />
+		</caught-moves>
+	</pokemon>
+	<pokemon name="Swanna" chances="30" time="night" grass="1" build="BS" ai="AttackingMoveGenerator" id="18" fishing="">
+		<stats levelDown="24" levelUp="26"/>
+		<moves>
+			<move name="Bubble Beam" />
+			<move name="Air Cutter" />
+		</moves>
+		<caught-moves>
+			<move name="Bubble Beam" level="1" />
+		</caught-moves>
+	</pokemon>
+
+	<pokemon name="Clamperl" chances="0.5" time="day" grass="1" build="BS" ai="AttackingMoveGenerator" id="21" fishing="">
+		<stats levelDown="1" levelUp="3"/>
+		<moves>
+			<move name="Water Gun" />
+			<move name="Iron Defense" />
+		</moves>
+		<caught-moves>
+			<move name="Water Gun" />
+			<move name="Iron Defense" />
+		</caught-moves>
+	</pokemon>
+	<pokemon name="Clamperl" chances="0.5" time="night" grass="1" build="BS" ai="AttackingMoveGenerator" id="22" fishing="">
+		<stats levelDown="1" levelUp="3"/>
+		<moves>
+			<move name="Water Gun" />
+			<move name="Iron Defense" />
+		</moves>
+		<caught-moves>
+			<move name="Water Gun" />
+			<move name="Iron Defense" />
+		</caught-moves>
+	</pokemon>
+
+	<pokemon name="Piplup" chances="0.075" time="day" grass="1" build="BS" ai="AttackingMoveGenerator" id="23" fishing="" sr="">
+		<stats levelDown="1" levelUp="2"/>
+		<moves>
+			<move name="Pound" />
+		</moves>
+		<caught-moves>
+			<move name="Pound" level="1" />
+		</caught-moves>
+	</pokemon>
+	<pokemon name="Piplup" chances="0.075" time="night" grass="1" build="BS" ai="AttackingMoveGenerator" id="24" fishing="" sr="">
+		<stats levelDown="1" levelUp="2"/>
+		<moves>
+			<move name="Pound" />
+		</moves>
+		<caught-moves>
+			<move name="Pound" level="1" />
+		</caught-moves>
+	</pokemon>
+</pokemons>

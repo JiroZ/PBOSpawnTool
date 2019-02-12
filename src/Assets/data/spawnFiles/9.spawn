@@ -1,0 +1,61 @@
+<pokemons>
+    <pokemon name="Scatterbug" chances="30" time="day" build="OP" grass="1" ai="StatChangingMoveGenerator" id="1">
+        <stats levelDown="1" levelUp="3"/>
+        <moves>
+            <move name="String Shot"/>
+        </moves>
+        <caught-moves>
+            <move name="Leer" level="1"/>
+        </caught-moves>
+    </pokemon>
+    <pokemon name="Sewaddle" chances="30" time="day" build="OP" grass="1" ai="StatChangingMoveGenerator" id="2">
+        <stats levelDown="1" levelUp="3"/>
+        <moves>
+            <move name="String Shot"/>
+        </moves>
+        <caught-moves>
+            <move name="Tackle" level="1"/>
+            <move name="String Shot" level="1"/>
+        </caught-moves>
+    </pokemon>
+    <pokemon name="Sentret" chances="30" time="day" build="OP" grass="1" ai="StatChangingMoveGenerator" id="3">
+        <stats levelDown="1" levelUp="3"/>
+        <moves>
+            <move name="Tail Whip"/>
+        </moves>
+        <caught-moves>
+            <move name="Tail Whip" level="1"/>
+        </caught-moves>
+    </pokemon>
+
+    <pokemon name="Scatterbug" chances="30" time="night" build="OP" grass="1" ai="StatChangingMoveGenerator" id="5">
+        <stats levelDown="1" levelUp="3"/>
+        <moves>
+            <move name="String Shot"/>
+        </moves>
+        <caught-moves>
+            <move name="Tackle" level="1"/>
+            <move name="Leer" level="1"/>
+        </caught-moves>
+    </pokemon>
+    <pokemon name="Sewaddle" chances="30" time="night" build="OP" grass="1" ai="StatChangingMoveGenerator" id="6">
+        <stats levelDown="1" levelUp="3"/>
+        <moves>
+            <move name="String Shot"/>
+        </moves>
+        <caught-moves>
+            <move name="Tackle" level="1"/>
+            <move name="String Shot" level="1"/>
+        </caught-moves>
+    </pokemon>
+    <pokemon name="Sentret" chances="30" time="night" build="OP" grass="1" ai="StatChangingMoveGenerator" id="7">
+        <stats levelDown="1" levelUp="3"/>
+        <moves>
+            <move name="Tail Whip"/>
+        </moves>
+        <caught-moves>
+            <move name="Tackle" level="1"/>
+            <move name="Tail Whip" level="1"/>
+        </caught-moves>
+    </pokemon>
+</pokemons>

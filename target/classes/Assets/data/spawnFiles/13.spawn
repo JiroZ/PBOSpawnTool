@@ -1,0 +1,155 @@
+<pokemons>
+	<pokemon name="Poochyena" chances="30" time="night" build="OP" grass="1" ai="StatChangingMoveGenerator" id="1">
+		<stats levelDown="1" levelUp="3"/>
+		<moves>
+			<move name="Tackle" />
+		</moves>
+		<caught-moves>
+			<move name="Tackle" level="1" />
+		</caught-moves>
+		<drop id="494" chances="0.75" />
+	</pokemon>
+	<pokemon name="Yungoos" chances="30" time="day" build="OP" grass="1" ai="StatChangingMoveGenerator" id="2">
+		<stats levelDown="1" levelUp="3"/>
+		<moves>
+			<move name="Leer" />
+		</moves>
+		<caught-moves>
+			<move name="Tackle" level="1" />
+			<move name="Leer" level="3" />
+		</caught-moves>
+		  <drop id="632" chances="10" />
+	</pokemon>
+	<pokemon name="Patrat" chances="30" time="day" build="OP" grass="1" ai="StatChangingMoveGenerator" id="3">
+		<stats levelDown="1" levelUp="3"/>
+		<moves>
+			<move name="Leer" />
+		</moves>
+		<caught-moves>
+			<move name="Tackle" level="1" />
+			<move name="Leer" level="3" />
+		</caught-moves>
+		  <drop id="632" chances="10" />
+	</pokemon>
+	<pokemon name="Patrat" chances="30" time="night" build="OP" grass="1" ai="StatChangingMoveGenerator" id="4">
+		<stats levelDown="1" levelUp="3"/>
+		<moves>
+			<move name="Leer" />
+		</moves>
+		<caught-moves>
+			<move name="Tackle" level="1" />
+			<move name="Leer" level="3" />
+		</caught-moves>
+		  <drop id="632" chances="10" />
+	</pokemon>
+	<pokemon name="Zigzagoon" chances="30" time="day" build="OP" grass="1" ai="StatChangingMoveGenerator" id="5">
+		<stats levelDown="1" levelUp="3"/>
+		<moves>
+			<move name="Growl" />
+		</moves>
+		<caught-moves>
+			<move name="Tackle" level="1" />
+			<move name="Growl" level="1" />
+		</caught-moves>
+		  <drop id="632" chances="10" />
+	</pokemon>
+	<pokemon name="Zigzagoon" chances="30" time="night" build="OP" grass="1" ai="StatChangingMoveGenerator" id="6">
+		<stats levelDown="1" levelUp="3"/>
+		<moves>
+			<move name="Growl" />
+		</moves>
+		<caught-moves>
+			<move name="Tackle" level="1" />
+			<move name="Growl" level="1" />
+		</caught-moves>
+		  <drop id="632" chances="10" />
+	</pokemon>
+	<pokemon name="Meowth" chances="1" time="day" build="OP" grass="1" ai="StatChangingMoveGenerator" id="7" >
+		<stats levelDown="1" levelUp="1"/>
+		<moves>
+			<move name="Growl" />
+		</moves>
+		<caught-moves>
+			<move name="Growl" level="1" />
+			<move name="Scratch" level="1" />
+		</caught-moves>
+		  <drop id="632" chances="10" />
+	</pokemon>
+	<pokemon name="Meowth-Alola" chances="1" time="night" build="OP" grass="1" ai="StatChangingMoveGenerator" id="8" >
+		<stats levelDown="1" levelUp="1"/>
+		<moves>
+			<move name="Growl" />
+		</moves>
+		<caught-moves>
+			<move name="Growl" level="1" />
+			<move name="Scratch" level="1" />
+		</caught-moves>
+		  <drop id="632" chances="10" />
+	</pokemon>
+	<pokemon name="Entei" chances="0.001" time="night" build="BS" grass="1" ai="MostEffectiveMoveGenerator" id="81" notCatchable="" announce="">
+		<stats levelDown="1" levelUp="3" />
+		<moves>
+			<move name="Tackle" />
+			<move name="Tackle" />
+		</moves>
+		<caught-moves>
+			<move name="Tackle" level="1" />
+		</caught-moves>
+		<drop id="791" chances="100" />
+	</pokemon>
+	<pokemon name="Entei" chances="0.001" time="day" build="BS" grass="1" ai="MostEffectiveMoveGenerator" id="82" notCatchable="" announce="">
+		<stats levelDown="1" levelUp="3" />
+		<moves>
+			<move name="Tackle" />
+			<move name="Tackle" />
+		</moves>
+		<caught-moves>
+			<move name="Tackle" level="1" />
+		</caught-moves>
+		<drop id="791" chances="100" />
+	</pokemon>
+	<pokemon name="Suicune" chances="0.001" time="night" build="BS" grass="1" ai="MostEffectiveMoveGenerator" id="83" notCatchable="" announce="">
+		<stats levelDown="1" levelUp="3" />
+		<moves>
+			<move name="Tackle" />
+			<move name="Tackle" />
+		</moves>
+		<caught-moves>
+			<move name="Tackle" level="1" />
+		</caught-moves>
+		<drop id="791" chances="100" />
+	</pokemon>
+	<pokemon name="Suicune" chances="0.001" time="day" build="BS" grass="1" ai="MostEffectiveMoveGenerator" id="84" notCatchable="" announce="">
+		<stats levelDown="1" levelUp="3" />
+		<moves>
+			<move name="Tackle" />
+			<move name="Tackle" />
+		</moves>
+		<caught-moves>
+			<move name="Tackle" level="1" />
+		</caught-moves>
+		<drop id="791" chances="100" />
+	</pokemon>
+	<pokemon name="Raikou" chances="0.001" time="night" build="BS" grass="1" ai="MostEffectiveMoveGenerator" id="85" notCatchable="" announce="">
+		<stats levelDown="1" levelUp="3" />
+		<moves>
+			<move name="Tackle" />
+			<move name="Tackle" />
+		</moves>
+		<caught-moves>
+			<move name="Tackle" level="1" />
+		</caught-moves>
+		<drop id="791" chances="100" />
+	</pokemon>
+	<pokemon name="Raikou" chances="0.001" time="day" build="BS" grass="1" ai="MostEffectiveMoveGenerator" id="86" notCatchable="" announce="">
+		<stats levelDown="1" levelUp="3" />
+		<moves>
+			<move name="Tackle" />
+			<move name="Tackle" />
+		</moves>
+		<caught-moves>
+			<move name="Tackle" level="1" />
+		</caught-moves>
+		<drop id="791" chances="100" />
+	</pokemon>
+</pokemons>

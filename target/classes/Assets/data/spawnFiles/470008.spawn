@@ -1,0 +1,134 @@
+<pokemons>
+    <pokemon name="Hippowdon" chances="30" time="day" grass="1" build="TDP" ai="MostEffectiveMoveGenerator" id="1" cannotRun="" notCatchable="">
+        <stats levelDown="36" levelUp="38"/>
+        <moves>
+            <move name="Earthquake" />
+            <move name="Crunch" />
+        </moves>
+        <caught-moves>
+            <move name="Bite" />
+        </caught-moves>
+    </pokemon>
+    <pokemon name="Crustle" chances="30" time="day" grass="1" build="TDP" ai="MostEffectiveMoveGenerator" id="2" cannotRun="" notCatchable="">
+        <stats levelDown="36" levelUp="38"/>
+        <moves>
+            <move name="X-Scissor" />
+            <move name="Feint Attack" />
+            <move name="Rock Slide" />
+        </moves>
+        <caught-moves>
+            <move name="Bug Bite" />
+        </caught-moves>
+    </pokemon>
+    <pokemon name="Maractus" chances="30" time="day" grass="1" build="BP" ai="MostEffectiveMoveGenerator" id="3" cannotRun="" notCatchable="">
+        <stats levelDown="36" levelUp="38"/>
+        <moves>
+            <move name="Needle Arm" />
+            <move name="Sucker Punch" />
+            <move name="Pin Missile" />
+        </moves>
+        <caught-moves>
+            <move name="Needle Arm" />
+        </caught-moves>
+    </pokemon>
+    <pokemon name="Dugtrio-Alola" chances="40" time="day" grass="1" build="BP" ai="MostEffectiveMoveGenerator" id="4" cannotRun="" notCatchable="">
+        <stats levelDown="36" levelUp="38"/>
+        <moves>
+            <move name="Iron Head" />
+            <move name="Earthquake" />
+            <move name="Rock Slide" />
+        </moves>
+        <caught-moves>
+            <move name="Earthquake" />
+        </caught-moves>
+    </pokemon>
+    <pokemon name="Golem" chances="40" time="day" grass="1" build="OP" ai="MostEffectiveMoveGenerator" id="5" cannotRun="" notCatchable="">
+        <stats levelDown="36" levelUp="38"/>
+        <moves>
+            <move name="Stone Edge" />
+            <move name="Earthquake" />
+            <move name="Thunder Punch" />
+            <move name="Fire Punch" />
+        </moves>
+        <caught-moves>
+            <move name="Earthquake" />
+        </caught-moves>
+    </pokemon>
+    <pokemon name="Hippowdon" chances="30" time="night" grass="1" build="TDP" ai="MostEffectiveMoveGenerator" id="6" cannotRun="" notCatchable="">
+        <stats levelDown="36" levelUp="38"/>
+        <moves>
+            <move name="Earthquake" />
+            <move name="Crunch" />
+        </moves>
+        <caught-moves>
+            <move name="Bite" />
+        </caught-moves>
+        <drop id="547" chances="0.05" />
+    </pokemon>
+    <pokemon name="Cacturne" chances="30" time="night" grass="1" build="TDP" ai="MostEffectiveMoveGenerator" id="7" cannotRun="" notCatchable="">
+        <stats levelDown="36" levelUp="38"/>
+        <moves>
+            <move name="Needle Arm" />
+            <move name="Sucker Punch" />
+            <move name="Revenge" />
+        </moves>
+        <caught-moves>
+            <move name="Needle Arm" />
+        </caught-moves>
+    </pokemon>
+    <pokemon name="Mandibuzz" chances="25" time="night" build="TSS" grass="1" ai="MostEffectiveMoveGenerator" id="8" cannotRun="" notCatchable="">
+        <stats levelDown="36" levelUp="38"/>
+        <moves>
+            <move name="Air Slash" />
+            <move name="Dark Pulse" />
+        </moves>
+        <caught-moves>
+            <move name="Brave Bird" />
+        </caught-moves>
+    </pokemon>
+    <pokemon name="Sandslash" chances="30" time="day" grass="1" build="TDP" ai="MostEffectiveMoveGenerator" id="15" cannotRun="" notCatchable="">
+        <stats levelDown="36" levelUp="38"/>
+        <moves>
+            <move name="Magnitude" />
+            <move name="Slash" />
+            <move name="Gyro Ball" />
+        </moves>
+        <caught-moves>
+            <move name="Slash" />
+        </caught-moves>
+    </pokemon>
+    <pokemon name="Sandslash" chances="30" time="day" grass="1" build="TDP" ai="MostEffectiveMoveGenerator" id="16" cannotRun="" notCatchable="">
+        <stats levelDown="36" levelUp="38"/>
+        <moves>
+            <move name="Magnitude" />
+            <move name="Slash" />
+            <move name="Gyro Ball" />
+        </moves>
+        <caught-moves>
+            <move name="Slash" />
+        </caught-moves>
+    </pokemon>
+    <pokemon name="Dugtrio-Alola" chances="30" time="night" grass="1" build="BP" ai="MostEffectiveMoveGenerator" id="17" cannotRun="" notCatchable="">
+        <stats levelDown="36" levelUp="38"/>
+        <moves>
+            <move name="Iron Head" />
+            <move name="Earthquake" />
+            <move name="Rock Slide" />
+        </moves>
+        <caught-moves>
+            <move name="Earthquake" />
+        </caught-moves>
+    </pokemon>
+    <pokemon name="Golem" chances="40" time="day" grass="1" build="OP" ai="MostEffectiveMoveGenerator" id="18" cannotRun="" notCatchable="">
+        <stats levelDown="36" levelUp="38"/>
+        <moves>
+            <move name="Stone Edge" />
+            <move name="Earthquake" />
+            <move name="Thunder Punch" />
+            <move name="Fire Punch" />
+        </moves>
+        <caught-moves>
+            <move name="Earthquake" />
+        </caught-moves>
+    </pokemon>
+</pokemons>

@@ -1,0 +1,71 @@
+<pokemons>
+    <pokemon name="Dewgong" chances="30" time="day" grass="1" build="TDP" ai="MostEffectiveMoveGenerator" id="1"
+             cannotRun="" notCatchable="">
+        <stats levelDown="50" levelUp="52"/>
+        <moves>
+            <move name="Ice Shard"/>
+        </moves>
+        <caught-moves>
+            <move name="Ice Shard" level="1"/>
+        </caught-moves>
+    </pokemon>
+    <pokemon name="Dewgong" chances="30" time="night" grass="1" build="TDP" ai="MostEffectiveMoveGenerator" id="2"
+             cannotRun="" notCatchable="">
+        <stats levelDown="50" levelUp="52"/>
+        <moves>
+            <move name="Ice Shard"/>
+        </moves>
+        <caught-moves>
+            <move name="Ice Shard" level="1"/>
+        </caught-moves>
+    </pokemon>
+    <pokemon name="Vanilluxe" chances="30" time="day" build="OS" grass="1" ai="MostEffectiveMoveGenerator" id="3"
+             cannotRun="" notCatchable="">
+        <stats levelDown="50" levelUp="52"/>
+        <moves>
+            <move name="Ice Beam"/>
+            <move name="Uproar"/>
+        </moves>
+        <caught-moves>
+            <move name="Uproar" level="1"/>
+        </caught-moves>
+    </pokemon>
+
+    <pokemon name="Vanilluxe" chances="30" time="night" build="OS" grass="1" ai="MostEffectiveMoveGenerator" id="4"
+             cannotRun="" notCatchable="">
+        <stats levelDown="50" levelUp="52"/>
+        <moves>
+            <move name="Ice Beam"/>
+            <move name="Uproar"/>
+        </moves>
+        <caught-moves>
+            <move name="Uproar" level="1"/>
+        </caught-moves>
+    </pokemon>
+
+
+    <pokemon name="Crabominable" chances="30" time="day" build="OP" grass="1" ai="MostEffectiveMoveGenerator" id="5"
+             cannotRun="" notCatchable="">
+        <stats levelDown="50" levelUp="52"/>
+        <moves>
+            <move name="Ice Punch"/>
+            <move name="Pursuit"/>
+        </moves>
+        <caught-moves>
+            <move name="Ice Punch" level="1"/>
+        </caught-moves>
+    </pokemon>
+
+    <pokemon name="Crabominable" chances="30" time="night" build="OP" grass="1" ai="MostEffectiveMoveGenerator" id="6"
+             cannotRun="" notCatchable="">
+        <stats levelDown="58" levelUp="60"/>
+        <moves>
+            <move name="Ice Punch"/>
+            <move name="Pursuit"/>
+        </moves>
+        <caught-moves>
+            <move name="Ice Punch" level="1"/>
+        </caught-moves>
+    </pokemon>
+
+</pokemons>

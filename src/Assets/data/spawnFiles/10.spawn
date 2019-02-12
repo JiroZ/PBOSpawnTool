@@ -1,0 +1,91 @@
+<pokemons>
+    <pokemon name="Goldeen" chances="40" time="day" build="OP" grass="1" ai="StatChangingMoveGenerator" id="1"
+             fishing="">
+        <stats levelDown="3" levelUp="4"/>
+        <moves>
+            <move name="Peck"/>
+        </moves>
+        <caught-moves>
+            <move name="Peck" level="1"/>
+        </caught-moves>
+        <drop id="632" chances="10" />
+    </pokemon>
+    <pokemon name="Magikarp" chances="50" time="day" build="OP" grass="1" ai="StatChangingMoveGenerator" id="2"
+             fishing="">
+        <stats levelDown="3" levelUp="4"/>
+        <moves>
+            <move name="Splash"/>
+        </moves>
+        <caught-moves>
+            <move name="Splash" level="1"/>
+        </caught-moves>
+        <drop id="632" chances="10" />
+    </pokemon>
+    <pokemon name="Goldeen" chances="5" time="day" build="OP" grass="1" ai="StatChangingMoveGenerator" id="3"
+             fishing="">
+        <stats levelDown="1" levelUp="1"/>
+        />
+        <moves>
+            <move name="Peck"/>
+        </moves>
+        <caught-moves>
+            <move name="Peck" level="1"/>
+        </caught-moves>
+          <drop id="632" chances="10" />
+    </pokemon>
+    <pokemon name="Magikarp" chances="10" time="day" build="OP" grass="1" ai="StatChangingMoveGenerator" id="4"
+             fishing="">
+        <stats levelDown="1" levelUp="1"/>
+        <moves>
+            <move name="Splash"/>
+        </moves>
+        <caught-moves>
+            <move name="Splash" level="1"/>
+        </caught-moves>
+          <drop id="632" chances="10" />
+    </pokemon>
+    <pokemon name="Goldeen" chances="40" time="night" build="OP" grass="1" ai="StatChangingMoveGenerator" id="5"
+             fishing="">
+        <stats levelDown="3" levelUp="4"/>
+        <moves>
+            <move name="Peck"/>
+        </moves>
+        <caught-moves>
+            <move name="Peck" level="1"/>
+        </caught-moves>
+        <drop id="632" chances="10" />
+    </pokemon>
+    <pokemon name="Finneon" chances="40" time="night" build="OP" grass="1" ai="StatChangingMoveGenerator" id="6"
+             fishing="">
+        <stats levelDown="3" levelUp="4"/>
+        <moves>
+            <move name="Pound"/>
+        </moves>
+        <caught-moves>
+            <move name="Pound" level="1"/>
+        </caught-moves>
+          <drop id="632" chances="10" />
+    </pokemon>
+    <pokemon name="Magikarp" chances="10" time="night" build="OP" grass="1" ai="StatChangingMoveGenerator" id="7"
+             fishing="">
+        <stats levelDown="1" levelUp="1"/>
+        <moves>
+            <move name="Splash"/>
+        </moves>
+        <caught-moves>
+            <move name="Splash" level="1"/>
+        </caught-moves>
+          <drop id="632" chances="10" />
+    </pokemon>
+    <pokemon name="Finneon" chances="5" time="night" build="OP" grass="1" ai="StatChangingMoveGenerator" id="8"
+             fishing="">
+        <stats levelDown="1" levelUp="1"/>
+        <moves>
+            <move name="Pound"/>
+        </moves>
+        <caught-moves>
+            <move name="Pound" level="1"/>
+        </caught-moves>
+          <drop id="632" chances="10" />
+    </pokemon>
+</pokemons>

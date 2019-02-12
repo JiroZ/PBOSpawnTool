@@ -1,0 +1,161 @@
+<pokemons>
+    <pokemon name="Fearow" chances="25" time="day" build="BP" grass="1" ai="AttackingMoveGenerator" id="1">
+        <stats levelDown="59" levelUp="63"/>
+        <moves>
+            <move name="Drill Peck"/>
+            <move name="Drill Run"/>
+        </moves>
+        <caught-moves>
+            <move name="Drill Peck"/>
+        </caught-moves>
+    </pokemon>
+    <pokemon name="Fearow" chances="25" time="night" build="BP" grass="1" ai="AttackingMoveGenerator" id="2">
+        <stats levelDown="59" levelUp="63"/>
+        <moves>
+            <move name="Drill Peck"/>
+            <move name="Drill Run"/>
+        </moves>
+        <caught-moves>
+            <move name="Drill Peck"/>
+        </caught-moves>
+    </pokemon>
+
+    <pokemon name="Ursaring" chances="25" time="day" build="OP" grass="1" ai="AttackingMoveGenerator" id="3">
+        <stats levelDown="59" levelUp="63"/>
+        <moves>
+            <move name="Hammer Arm"/>
+            <move name="Feint Attack"/>
+        </moves>
+        <caught-moves>
+            <move name="Hammer Arm"/>
+          </caught-moves>
+    </pokemon>
+    <pokemon name="Ursaring" chances="25" time="night" build="OP" grass="1" ai="AttackingMoveGenerator" id="4">
+        <stats levelDown="59" levelUp="63"/>
+        <moves>
+            <move name="Hammer Arm"/>
+            <move name="Feint Attack"/>
+        </moves>
+        <caught-moves>
+            <move name="Hammer Arm"/>
+          </caught-moves>
+    </pokemon>
+
+    <pokemon name="Sudowoodo" chances="25" time="night" build="BS" grass="1" ai="AttackingMoveGenerator" id="5">
+        <stats levelDown="59" levelUp="63"/>
+        <moves>
+            <move name="Wood Hammer"/>
+            <move name="Rock Slide"/>
+        </moves>
+        <caught-moves>
+            <move name="Wood Hammer"/>
+
+        </caught-moves>
+    </pokemon>
+    <pokemon name="Sudowoodo" chances="25" time="day" build="BS" grass="1" ai="AttackingMoveGenerator" id="6">
+        <stats levelDown="59" levelUp="63"/>
+        <moves>
+            <move name="Wood Hammer"/>
+            <move name="Rock Slide"/>
+        </moves>
+        <caught-moves>
+            <move name="Wood Hammer"/>
+        </caught-moves>
+    </pokemon>
+
+    <pokemon name="Teddiursa" chances="0.1" time="day" build="BP" grass="1" ai="MostEffectiveMoveGenerator" id="7">
+        <stats levelDown="1" levelUp="3"/>
+        <moves>
+            <move name="Scratch"/>
+          </moves>
+        <caught-moves>
+            <move name="Scratch"/>
+            <move name="Lick"/>
+        </caught-moves>
+    </pokemon>
+    <pokemon name="Teddiursa" chances="0.1" time="night" build="BP" grass="1" ai="MostEffectiveMoveGenerator" id="8">
+        <stats levelDown="1" levelUp="3"/>
+        <moves>
+            <move name="Scratch"/>
+          </moves>
+        <caught-moves>
+            <move name="Scratch"/>
+            <move name="Lick"/>
+        </caught-moves>
+    </pokemon>
+
+    <pokemon name="Entei" chances="0.001" time="night" build="BS" grass="1" ai="MostEffectiveMoveGenerator" id="10"
+             notCatchable="" announce="">
+        <stats levelDown="59" levelUp="63"/>
+        <moves>
+            <move name="Lava Plume"/>
+            <move name="Extrasensory"/>
+        </moves>
+        <caught-moves>
+            <move name="Lava Plume" level="1"/>
+        </caught-moves>
+        <drop id="791" chances="100"/>
+    </pokemon>
+    <pokemon name="Entei" chances="0.001" time="day" build="BS" grass="1" ai="MostEffectiveMoveGenerator" id="11"
+             notCatchable="" announce="">
+        <stats levelDown="59" levelUp="63"/>
+        <moves>
+            <move name="Lava Plume"/>
+            <move name="Extrasensory"/>
+        </moves>
+        <caught-moves>
+            <move name="Lava Plume" level="1"/>
+        </caught-moves>
+        <drop id="791" chances="100"/>
+    </pokemon>
+
+    <pokemon name="Suicune" chances="0.001" time="day" build="BS" grass="1" ai="MostEffectiveMoveGenerator" id="12"
+             notCatchable="" announce="">
+        <stats levelDown="59" levelUp="63"/>
+        <moves>
+            <move name="Hydro Pump"/>
+            <move name="Extrasensory"/>
+        </moves>
+        <caught-moves>
+            <move name="Lava Plume" level="1"/>
+        </caught-moves>
+        <drop id="791" chances="100"/>
+    </pokemon>
+    <pokemon name="Suicune" chances="0.001" time="night" build="BS" grass="1" ai="MostEffectiveMoveGenerator" id="13"
+             notCatchable="" announce="">
+        <stats levelDown="59" levelUp="63"/>
+        <moves>
+            <move name="Hydro Pump"/>
+            <move name="Extrasensory"/>
+        </moves>
+        <caught-moves>
+            <move name="Lava Plume" level="1"/>
+        </caught-moves>
+        <drop id="791" chances="100"/>
+    </pokemon>
+
+    <pokemon name="Raikou" chances="0.001" time="night" build="BS" grass="1" ai="MostEffectiveMoveGenerator" id="14"
+             notCatchable="" announce="">
+        <stats levelDown="59" levelUp="63"/>
+        <moves>
+            <move name="Thunderbolt"/>
+            <move name="Extrasensory"/>
+        </moves>
+        <caught-moves>
+            <move name="Thunderbolt" level="1"/>
+        </caught-moves>
+        <drop id="791" chances="100"/>
+    </pokemon>
+    <pokemon name="Raikou" chances="0.001" time="day" build="BS" grass="1" ai="MostEffectiveMoveGenerator" id="15"
+             notCatchable="" announce="">
+        <stats levelDown="59" levelUp="63"/>
+        <moves>
+            <move name="Thunderbolt"/>
+            <move name="Extrasensory"/>
+        </moves>
+        <caught-moves>
+            <move name="Thunderbolt" level="1"/>
+        </caught-moves>
+        <drop id="791" chances="100"/>
+    </pokemon>
+</pokemons>

@@ -1,0 +1,197 @@
+<pokemons>
+    <pokemon name="Grimer-Alola" chances="10" time="day" build="OP" grass="1" ai="AttackingMoveGenerator" id="1">
+        <stats levelDown="1" levelUp="1"/>
+        <moves>
+            <move name="Pound"/>
+            <move name="Pound"/>
+            <move name="Pound"/>
+            <move name="Pound"/>
+        </moves>
+        <caught-moves>
+            <move name="Pound" level="1"/>
+			<move name="Poison Gas" level="1"/>
+        </caught-moves>
+        <drop id="926" chances="100"/>
+    </pokemon>
+
+    <pokemon name="Dhelmise" chances="10" time="day" build="OP" grass="1" ai="AttackingMoveGenerator" id="2">
+        <stats levelDown="1" levelUp="1"/>
+        <moves>
+            <move name="Rapid Spin"/>
+			<move name="Rapid Spin"/>
+			<move name="Rapid Spin"/>
+			<move name="Rapid Spin"/>
+        </moves>
+        <caught-moves>
+            <move name="Rapid Spin" level="1"/>
+            <move name="Absorb" level="1"/>
+			<move name="Astonish" level="1"/>
+			<move name="Growth" level="1"/>
+        </caught-moves>
+        <drop id="926" chances="100"/>
+    </pokemon>
+
+    <pokemon name="Litwick" chances="10" time="day" build="OP" grass="1" ai="StatChangingMoveGenerator" id="3">
+        <stats levelDown="1" levelUp="1"/>
+        <moves>
+            <move name="Ember"/>
+			<move name="Astonish"/>
+            <move name="Ember"/>
+            <move name="Astonish"/>
+        </moves>
+        <caught-moves>
+            <move name="Ember" level="1"/>
+            <move name="Astonish" level="1"/>
+        </caught-moves>
+        <drop id="926" chances="100"/>
+    </pokemon>
+
+    <pokemon name="Frillish" chances="10" time="day" build="BS" grass="1" ai="AttackingMoveGenerator" id="4">
+        <stats levelDown="1" levelUp="1"/>
+        <moves>
+            <move name="Bubble"/>
+            <move name="Bubble"/>
+            <move name="Bubble"/>
+            <move name="Bubble"/>
+        </moves>
+        <caught-moves>
+            <move name="Bubble" level="1"/>
+        </caught-moves>
+        <drop id="926" chances="100"/>
+    </pokemon>
+
+    <pokemon name="Darumaka" chances="10" time="day" build="BP" grass="1" ai="AttackingMoveGenerator" id="5">
+        <stats levelDown="1" levelUp="1"/>
+        <moves>
+            <move name="Tackle"/>
+			<move name="Tackle"/>
+            <move name="Tackle"/>
+            <move name="Tackle"/>
+        </moves>
+        <caught-moves>
+            <move name="Tackle" level="1"/>
+        </caught-moves>
+        <drop id="926" chances="100"/>
+    </pokemon>
+
+    <pokemon name="Mienfoo" chances="10" time="day" build="BP" grass="1" ai="AttackingMoveGenerator" id="6">
+        <stats levelDown="1" levelUp="1"/>
+        <moves>
+            <move name="Pound"/>
+            <move name="Pound"/>
+            <move name="Pound"/>
+            <move name="Pound"/>
+        </moves>
+        <caught-moves>
+            <move name="Pound" level="1"/>
+        </caught-moves>
+        <drop id="926" chances="100"/>
+    </pokemon>
+
+    <pokemon name="Porygon" chances="10" time="day" build="BP" grass="1" ai="AttackingMoveGenerator" id="7">
+        <stats levelDown="1" levelUp="1"/>
+        <moves>
+            <move name="Tackle"/>
+			<move name="Tackle"/>
+            <move name="Tackle"/>
+            <move name="Tackle"/>
+        </moves>
+        <caught-moves>
+            <move name="Tackle" level="1"/>
+        </caught-moves>
+        <drop id="926" chances="100"/>
+    </pokemon>
+
+    <pokemon name="Skrelp" chances="10" time="day" build="BS" grass="1" ai="AttackingMoveGenerator" id="8">
+        <stats levelDown="1" levelUp="1"/>
+        <moves>
+            <move name="Tackle"/>
+            <move name="Tackle"/>
+            <move name="Tackle"/>
+        </moves>
+        <caught-moves>
+            <move name="Tackle" level="1"/>
+            <move name="Water Gun" level="1"/>
+        </caught-moves>
+        <drop id="926" chances="100"/>
+    </pokemon>
+
+    <pokemon name="Bagon" chances="10" time="day" build="BS" grass="1" ai="AttackingMoveGenerator" id="9">
+        <stats levelDown="1" levelUp="1"/>
+        <moves>
+            <move name="Bite"/>
+            <move name="Bite"/>
+            <move name="Bite"/>
+            <move name="Bite"/>
+        </moves>
+        <caught-moves>
+            <move name="Bite" level="1"/>
+        </caught-moves>
+        <drop id="926" chances="100"/>
+    </pokemon>
+
+    <pokemon name="Riolu" chances="10" time="day" build="BS" grass="1" ai="AttackingMoveGenerator" id="10">
+        <stats levelDown="1" levelUp="1"/>
+        <moves>
+            <move name="Quick Attack"/>
+            <move name="Quick Attack"/>
+            <move name="Quick Attack"/>
+            <move name="Quick Attack"/>
+        </moves>
+        <caught-moves>
+            <move name="Quick Attack" level="1"/>
+        </caught-moves>
+        <drop id="926" chances="100"/>
+    </pokemon>
+
+    <pokemon name="Raikou" chances="10" time="day" build="OP" grass="1" ai="StatChangingMoveGenerator" id="11">
+        <stats levelDown="1" levelUp="1"/>
+        <moves>
+            <move name="Tackle"/>
+			<move name="Tackle"/>
+			<move name="Tackle"/>
+			<move name="Tackle"/>
+        </moves>
+        <caught-moves>
+            <move name="Extrasensory" level="1"/>
+			<move name="Discharge" level="1"/>
+			<move name="Bite" level="1"/>
+			<move name="Leer" level="1"/>
+        </caught-moves>
+        <drop id="926" chances="100"/>
+    </pokemon>
+
+    <pokemon name="Entei" chances="10" time="day" build="BS" grass="1" ai="AttackingMoveGenerator" id="12">
+        <stats levelDown="1" levelUp="1"/>
+        <moves>
+            <move name="Tackle"/>
+            <move name="Tackle"/>
+            <move name="Tackle"/>
+            <move name="Tackle"/>
+        </moves>
+        <caught-moves>
+            <move name="Extrasensory" level="1"/>
+			<move name="Sacred Fire" level="1"/>
+			<move name="Bite" level="1"/>
+			<move name="Leer" level="1"/>
+        </caught-moves>
+        <drop id="926" chances="100"/>
+    </pokemon>
+
+    <pokemon name="Suicune" chances="10" time="day" build="BS" grass="1" ai="AttackingMoveGenerator" id="13">
+        <stats levelDown="1" levelUp="1"/>
+        <moves>
+            <move name="Tackle"/>
+            <move name="Tackle"/>
+            <move name="Tackle"/>
+            <move name="Tackle"/>
+        </moves>
+        <caught-moves>
+            <move name="Bite" level="1"/>
+			<move name="Bubble Beam" level="1"/>
+			<move name="Rain Dance" level="1"/>
+			<move name="Leer" level="1"/>
+        </caught-moves>
+        <drop id="926" chances="100"/>
+    </pokemon>
+</pokemons>

@@ -1,0 +1,92 @@
+<pokemons>
+    <pokemon name="Luvdisc" chances="30" time="day" build="OS" grass="1" ai="StatChangingMoveGenerator" id="1"
+             fishing="">
+        <stats levelDown="56" levelUp="59"/>
+        <moves>
+            <move name="Water Pulse"/>
+        </moves>
+        <caught-moves>
+            <move name="Water Pulse" level="1"/>
+        </caught-moves>
+        <drop id="157" chances="1" />
+    </pokemon>
+
+    <pokemon name="Luvdisc" chances="30" time="night" build="OS" grass="1" ai="StatChangingMoveGenerator" id="2"
+             fishing="">
+        <stats levelDown="56" levelUp="59"/>
+        <moves>
+            <move name="Water Pulse"/>
+        </moves>
+        <caught-moves>
+            <move name="Water Pulse" level="1"/>
+        </caught-moves>
+        <drop id="157" chances="1" />
+    </pokemon>
+
+    <pokemon name="Qwilfish" chances="30" time="day" build="OP" grass="1" ai="StatChangingMoveGenerator" id="3"
+             fishing="">
+        <stats levelDown="56" levelUp="59"/>
+        <moves>
+            <move name="Aqua Tail"/>
+        </moves>
+        <caught-moves>
+            <move name="Aqua Tail" level="1"/>
+        </caught-moves>
+    </pokemon>
+    <pokemon name="Qwilfish" chances="30" time="night" build="OP" grass="1" ai="StatChangingMoveGenerator"
+             id="4"
+             fishing="">
+        <stats levelDown="56" levelUp="59"/>
+        <moves>
+            <move name="Aqua Tail"/>
+        </moves>
+        <caught-moves>
+            <move name="Aqua Tail" level="1"/>
+        </caught-moves>
+    </pokemon>
+
+    <pokemon name="Azumarill" chances="30" time="night" build="OP" grass="1" ai="StatChangingMoveGenerator" id="5" fishing="">
+        <stats levelDown="56" levelUp="59"/>
+        <moves>
+            <move name="Aqua Jet"/>
+            <move name="Play Rough"/>
+        </moves>
+        <caught-moves>
+            <move name="Play Rough" level="1"/>
+        </caught-moves>
+    </pokemon>
+
+    <pokemon name="Azumarill" chances="30" time="night" build="OP" grass="1" ai="StatChangingMoveGenerator" id="6" fishing="">
+        <stats levelDown="56" levelUp="59"/>
+        <moves>
+            <move name="Aqua Jet"/>
+            <move name="Play Rough"/>
+        </moves>
+        <caught-moves>
+            <move name="Play Rough" level="1"/>
+        </caught-moves>
+    </pokemon>
+
+
+    <pokemon name="Totodile" chances="0.05" time="day" build="OP" grass="1" ai="StatChangingMoveGenerator" id="9" fishing="" sr="">
+        <stats levelDown="1" levelUp="2"/>
+        <moves>
+            <move name="Scratch"/>
+        </moves>
+        <caught-moves>
+            <move name="Scratch" level="1"/>
+            <move name="Leer" level="1"/>
+        </caught-moves>
+    </pokemon>
+
+    <pokemon name="Totodile" chances="0.05" time="night" build="OP" grass="1" ai="StatChangingMoveGenerator" id="10" fishing="" sr="">
+        <stats levelDown="1" levelUp="2"/>
+        <moves>
+            <move name="Scratch"/>
+        </moves>
+        <caught-moves>
+            <move name="Scratch" level="1"/>
+            <move name="Leer" level="1"/>
+        </caught-moves>
+    </pokemon>
+</pokemons>

@@ -1,4 +1,6 @@
 import java.awt.EventQueue;
+import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 
 import javax.xml.parsers.ParserConfigurationException;
@@ -7,7 +9,11 @@ public class Main {
 	
 	static List<Moves> t;
 	
-	public static void main(String[] args) {
+	public static void main(String[] args) {		
+		
+		PokemonReader r = new PokemonReader();
+		r.getPokemonList();
+	
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
@@ -15,8 +21,7 @@ public class Main {
 					window.frame.setVisible(true);
 				} catch (Exception e) {
 					e.printStackTrace();					
-				}						
-				System.out.println("Gello");
+				}					
 			}
 		});		
 	

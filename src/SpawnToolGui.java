@@ -1,38 +1,29 @@
-import java.awt.EventQueue;
-
-import javax.swing.JFrame;
 import java.awt.Color;
-import javax.swing.GroupLayout;
-import javax.swing.GroupLayout.Alignment;
-import javax.swing.JLabel;
-import javax.swing.JTextField;
-import javax.swing.JButton;
-import javax.swing.LayoutStyle.ComponentPlacement;
+import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.File;
-import java.util.Scanner;
-import java.awt.event.ActionEvent;
-import javax.swing.JEditorPane;
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.swing.GroupLayout;
+import javax.swing.GroupLayout.Alignment;
+import javax.swing.JButton;
 import javax.swing.JFileChooser;
-import javax.swing.JScrollPane;
-import javax.swing.JToolBar;
-import javax.swing.JProgressBar;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
 import javax.swing.JList;
-import javax.swing.JScrollBar;
-import javax.swing.JFormattedTextField;
-import javax.swing.JTextPane;
-import javax.swing.JMenuBar;
 import javax.swing.JMenu;
+import javax.swing.JMenuBar;
 import javax.swing.JMenuItem;
+import javax.swing.JProgressBar;
+import javax.swing.JScrollBar;
+import javax.swing.JScrollPane;
+import javax.swing.LayoutStyle.ComponentPlacement;
+import javax.swing.ListModel;
 
 public class SpawnToolGui {
 
 	JFrame frame;
-	private JTextField textField;
-	private JTextField textField_1;
-	private JTextField textField_2;
-	private JTextField textField_3;
-	private JTextField textField_4;
 	
 	
 	public static File openFile;
@@ -57,34 +48,20 @@ public class SpawnToolGui {
 
 	public static String filename;
 	
-	public static JFileChooser fc;
+	public static JFileChooser fc = new JFileChooser();
 	
 	public static File Open ;	
+	
+	public static String ID = "ID_String";
 	
 	public SpawnToolGui() {
 		initialize();
 	}
 
+	@SuppressWarnings("null")
 	private void initialize() {
 		frame = new JFrame();
 		frame.getContentPane().setBackground(Color.WHITE);
-		
-		
-		
-		textField = new JTextField();
-		textField.setColumns(10);
-		
-		textField_1 = new JTextField();
-		textField_1.setColumns(10);
-		
-		textField_2 = new JTextField();
-		textField_2.setColumns(10);
-		
-		textField_3 = new JTextField();
-		textField_3.setColumns(10);
-		
-		textField_4 = new JTextField();
-		textField_4.setColumns(10);
 		
 		JButton btnEdit = new JButton("Edit");
 		
@@ -124,6 +101,18 @@ public class SpawnToolGui {
 		JLabel lblAiType = new JLabel("AI Type");
 		
 		JLabel lblName = new JLabel("Name");
+		
+		
+		
+		JLabel lblIdstring = new JLabel(ID);
+		
+		JLabel lblNamestring = new JLabel("Name_String");
+		
+		JLabel lblRatestring = new JLabel("Rate_String");
+		
+		JLabel lblTimestring = new JLabel("Time_String");
+		
+		JLabel lblAitypestring = new JLabel("AI_TypeString");
 		GroupLayout groupLayout = new GroupLayout(frame.getContentPane());
 		groupLayout.setHorizontalGroup(
 			groupLayout.createParallelGroup(Alignment.LEADING)
@@ -131,7 +120,7 @@ public class SpawnToolGui {
 					.addGap(27)
 					.addGroup(groupLayout.createParallelGroup(Alignment.LEADING)
 						.addGroup(groupLayout.createSequentialGroup()
-							.addComponent(lblPokemon, GroupLayout.DEFAULT_SIZE, 149, Short.MAX_VALUE)
+							.addComponent(lblPokemon, GroupLayout.DEFAULT_SIZE, 127, Short.MAX_VALUE)
 							.addGap(32))
 						.addComponent(scrollPane, GroupLayout.PREFERRED_SIZE, 159, GroupLayout.PREFERRED_SIZE))
 					.addGroup(groupLayout.createParallelGroup(Alignment.LEADING)
@@ -159,13 +148,13 @@ public class SpawnToolGui {
 										.addComponent(lblName)
 										.addComponent(lblId))
 									.addPreferredGap(ComponentPlacement.RELATED, 50, Short.MAX_VALUE)
-									.addGroup(groupLayout.createParallelGroup(Alignment.LEADING, false)
-										.addComponent(progressBar, GroupLayout.DEFAULT_SIZE, 156, Short.MAX_VALUE)
-										.addComponent(textField)
-										.addComponent(textField_1, GroupLayout.PREFERRED_SIZE, 156, GroupLayout.PREFERRED_SIZE)
-										.addComponent(textField_2, GroupLayout.PREFERRED_SIZE, 156, GroupLayout.PREFERRED_SIZE)
-										.addComponent(textField_3, GroupLayout.PREFERRED_SIZE, 156, GroupLayout.PREFERRED_SIZE)
-										.addComponent(textField_4, GroupLayout.PREFERRED_SIZE, 156, GroupLayout.PREFERRED_SIZE)))
+									.addGroup(groupLayout.createParallelGroup(Alignment.LEADING)
+										.addComponent(lblAitypestring)
+										.addComponent(lblTimestring)
+										.addComponent(lblRatestring)
+										.addComponent(lblNamestring)
+										.addComponent(lblIdstring)
+										.addComponent(progressBar, GroupLayout.PREFERRED_SIZE, 156, GroupLayout.PREFERRED_SIZE)))
 								.addGroup(groupLayout.createSequentialGroup()
 									.addComponent(lblAttack)
 									.addPreferredGap(ComponentPlacement.RELATED, 57, Short.MAX_VALUE)
@@ -195,26 +184,29 @@ public class SpawnToolGui {
 							.addComponent(scrollPane, GroupLayout.PREFERRED_SIZE, 288, GroupLayout.PREFERRED_SIZE)
 							.addGap(7))
 						.addGroup(groupLayout.createSequentialGroup()
-							.addGroup(groupLayout.createParallelGroup(Alignment.TRAILING)
-								.addComponent(lblId)
-								.addComponent(textField, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE))
-							.addPreferredGap(ComponentPlacement.UNRELATED)
-							.addGroup(groupLayout.createParallelGroup(Alignment.BASELINE)
-								.addComponent(textField_1, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
-								.addComponent(lblName))
-							.addPreferredGap(ComponentPlacement.UNRELATED)
-							.addGroup(groupLayout.createParallelGroup(Alignment.BASELINE)
-								.addComponent(textField_2, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
-								.addComponent(lblRate))
-							.addGap(11)
-							.addGroup(groupLayout.createParallelGroup(Alignment.BASELINE)
-								.addComponent(textField_3, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
-								.addComponent(lblTime))
-							.addPreferredGap(ComponentPlacement.UNRELATED)
 							.addGroup(groupLayout.createParallelGroup(Alignment.LEADING)
-								.addComponent(lblAiType, Alignment.TRAILING)
-								.addComponent(textField_4, Alignment.TRAILING, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE))
-							.addGap(61)
+								.addGroup(groupLayout.createSequentialGroup()
+									.addComponent(lblId)
+									.addPreferredGap(ComponentPlacement.UNRELATED)
+									.addComponent(lblName)
+									.addPreferredGap(ComponentPlacement.UNRELATED)
+									.addComponent(lblRate)
+									.addGap(11)
+									.addComponent(lblTime)
+									.addGap(17)
+									.addComponent(lblAiType))
+								.addGroup(groupLayout.createSequentialGroup()
+									.addPreferredGap(ComponentPlacement.RELATED)
+									.addComponent(lblIdstring)
+									.addPreferredGap(ComponentPlacement.UNRELATED)
+									.addComponent(lblNamestring)
+									.addPreferredGap(ComponentPlacement.UNRELATED)
+									.addComponent(lblRatestring)
+									.addPreferredGap(ComponentPlacement.UNRELATED)
+									.addComponent(lblTimestring)
+									.addGap(18)
+									.addComponent(lblAitypestring)))
+							.addGap(60)
 							.addGroup(groupLayout.createParallelGroup(Alignment.LEADING)
 								.addComponent(progressBar, Alignment.TRAILING, GroupLayout.PREFERRED_SIZE, 24, GroupLayout.PREFERRED_SIZE)
 								.addComponent(lblHp, Alignment.TRAILING))
@@ -243,21 +235,8 @@ public class SpawnToolGui {
 								.addComponent(btnAdd)
 								.addComponent(btnEdit)
 								.addComponent(btnSave))))
-					.addContainerGap(22, Short.MAX_VALUE))
+					.addContainerGap(16, Short.MAX_VALUE))
 		);
-		
-		JList<PokemonReader> list = new JList<PokemonReader>();
-		
-		scrollPane.setViewportView(list);
-		
-		JScrollBar scrollBar = new JScrollBar();
-		scrollPane.setRowHeaderView(scrollBar);
-		
-		JLabel lblPokemons = new JLabel("Pokemons");
-		scrollPane.setColumnHeaderView(lblPokemons);
-		frame.getContentPane().setLayout(groupLayout);
-		frame.setBounds(100, 100, 544, 596);
-		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		
 		JMenuBar menuBar = new JMenuBar();
 		frame.setJMenuBar(menuBar);
@@ -273,31 +252,78 @@ public class SpawnToolGui {
 			
 			public void actionPerformed(ActionEvent arg0) {		
 				
-				filename = File.separator+"tmp";
-				fc = new JFileChooser(new File(filename));
-				Open = fc.getSelectedFile();
-				fc.showOpenDialog(frame);			
-				setfileOpen(Open);			
+				OpenMenuActionListener OpenMenuActions = new OpenMenuActionListener();
 				
+				fc.setCurrentDirectory(new java.io.File(".\\src\\assets\\data\\spawnFiles"));
+				fc.setDialogTitle("choosertitle");
+				fc.setAcceptAllFileFilterUsed(true);
+
+				if (fc.showOpenDialog(null) == JFileChooser.APPROVE_OPTION) {
+				  System.out.println("Selected File : " + fc.getSelectedFile());
+				  Open = fc.getSelectedFile();
+
+				} else {
+				  System.out.println("No Selection ");
+				}	
+						
+				
+				
+				setfileOpenLocation(Open);					
 			}					
 		});
 		
 		
+		JList<String> list = new JList<String>();
+		PokemonListData listData = new PokemonListData();
+		list.setModel(listData.pokemonModel());
+		
+		scrollPane.setViewportView(list);
+		
+		JScrollBar scrollBar = new JScrollBar();
+		scrollPane.setRowHeaderView(scrollBar);
+		
+		JLabel lblPokemons = new JLabel("Pokemons");
+		scrollPane.setColumnHeaderView(lblPokemons);
+		frame.getContentPane().setLayout(groupLayout);
+		frame.setBounds(100, 100, 544, 596);
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		
+		
+		
 		
 		JMenuItem mntmExit = new JMenuItem("Exit");
-		mnFile.add(mntmExit);
-	}
-	
-	public void setfileOpen(File fileOpen) {
-		fileOpen = Open;
-	}	
-
-	public String getfileOpen() {		
 		
-		return Open.toString();
+		mnFile.add(mntmExit);
+		
+		mntmExit.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				
+			}			
+		});		
 	}
 	
+	public void setfileOpenLocation(File Open) {
+		SpawnToolGui.Open = Open;
+		System.out.println(Open);
+		
+	}		
 	
+	public String getfileOpenLocation() {		
+		
+		System.out.println("in getFileOpen"+SpawnToolGui.Open);
+		
+		String OpenFileLocation = SpawnToolGui.Open.toString();
+		
+		OpenFileLocation = OpenFileLocation.replace("\\", "\\\\");
+		
+		
+		System.out.println("OpenFileLocation : " + OpenFileLocation);		
+		
+		return OpenFileLocation;
+	}
+
 	
 }
 

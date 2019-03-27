@@ -15,5 +15,15 @@ public class Pokemons {
 		this.time = time;
 		
 	}
+	
+	public String getPokemonId() 		{ return id; }
+	public String getPokemonName()		 { return name;}
+	public String getPokemonAi( ) 		{ return ai; }
+	public String getPokemonTime() 		{ return time; }
+	public String getPokemonBuild()	 { return build; }
+	public String getPokemonChances() {return chances; }
+	public String getPokemonGrass() 	{ return grass; }
+	
+	
 
 }

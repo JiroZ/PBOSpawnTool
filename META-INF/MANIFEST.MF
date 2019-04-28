@@ -5,7 +5,8 @@ Bundle-SymbolicName: PBOSpawnTool
 Bundle-Version: 1.0.0.qualifier
 Bundle-ClassPath: PBOSpawnTool.jar,
  lib/miglayout-swing.jar,
- lib/miglayout-core.jar
+ lib/miglayout-core.jar,
+ jgoodies-forms-1.8.0.jar
 Export-Package: .,
  Assets.data,
  Assets.data.spawnFiles,

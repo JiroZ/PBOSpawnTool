@@ -16,7 +16,7 @@ import java.io.IOException;
 
 public class PokemonReader {
 
-	private static ArrayList<Pokemons> ListOfpokemons = new ArrayList<>();
+	private static ArrayList<Pokemons> ListOfpokemons = new ArrayList();
 
 	private static List<Moves> move;
 
@@ -26,17 +26,21 @@ public class PokemonReader {
 
 	private static SpawnToolGui g = new SpawnToolGui();
 
-	private static OpenMenuActionListener OpenMenuActions;
-
+	private static OpenMenuActionListener OpenMenuActions;	
+	
 	private static DocumentBuilderFactory builderFactory = DocumentBuilderFactory.newInstance();
+	
+	
 
 	public List<Pokemons> getPokemonList() {
 
-		try {
-
+		try {			
 			File InputFile = new File("D:\\projects\\PBOSpawnTool\\src\\Assets\\data\\spawnFiles\\12.spawn");
-
-			DocumentBuilder documentBuilder = builderFactory.newDocumentBuilder();
+			
+			
+			
+			DocumentBuilder documentBuilder;
+			documentBuilder = builderFactory.newDocumentBuilder();
 
 			Document document;
 
@@ -60,11 +64,12 @@ public class PokemonReader {
 					Element pokemonElement = (Element) thePokemon;
 
 					
-					 //System.out.println(pokemonElement.getAttribute("id"));
+					// System.out.println(pokemonElement.getAttribute("id"));
 					
 					 
 
-					ListOfpokemons.add(new Pokemons(pokemonElement.getAttribute("id"),
+					ListOfpokemons.add(new Pokemons(
+							pokemonElement.getAttribute("id"),
 							pokemonElement.getAttribute("name"), 
 							pokemonElement.getAttribute("ai"),
 							pokemonElement.getAttribute("time"),

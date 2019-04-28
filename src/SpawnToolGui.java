@@ -1,10 +1,12 @@
 import java.awt.Color;
+import java.awt.Dimension;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
 
+import javax.swing.DefaultListModel;
 import javax.swing.GroupLayout;
 import javax.swing.GroupLayout.Alignment;
 import javax.swing.JButton;
@@ -20,18 +22,18 @@ import javax.swing.JScrollBar;
 import javax.swing.JScrollPane;
 import javax.swing.LayoutStyle.ComponentPlacement;
 import javax.swing.ListModel;
+import javax.swing.ListSelectionModel;
+import javax.swing.event.ListSelectionEvent;
+import javax.swing.event.ListSelectionListener;
 
-public class SpawnToolGui {
+public class SpawnToolGui  {
 
 	JFrame frame;
-	
 	
 	public static File openFile;
 	
 	public static JButton btnSave = new JButton("Save");
-	
-	public static JButton btnAdd = new JButton("Add");
-	
+
 	public static JScrollPane scrollPane = new JScrollPane();
 	
 	public static JProgressBar progressBar = new JProgressBar();
@@ -54,12 +56,13 @@ public class SpawnToolGui {
 	
 	public static String ID = "ID_String";
 	
+	
 	public SpawnToolGui() {
 		initialize();
 	}
 
 	@SuppressWarnings("null")
-	private void initialize() {
+	private void initialize()  {
 		frame = new JFrame();
 		frame.getContentPane().setBackground(Color.WHITE);
 		
@@ -76,6 +79,22 @@ public class SpawnToolGui {
 			}
 
 		  }
+		});
+		
+		JButton btnAdd = new JButton("Add");
+		
+		btnAdd.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				try {
+					SpawnToolAddGui addGUI = new SpawnToolAddGui();
+					addGUI.frame.setVisible(true);
+				} catch (Exception addexception) {
+					addexception.printStackTrace();
+				}
+				
+			}			
 		});
 		
 		JLabel lblPokemon = new JLabel("Pokemon");
@@ -119,9 +138,7 @@ public class SpawnToolGui {
 				.addGroup(groupLayout.createSequentialGroup()
 					.addGap(27)
 					.addGroup(groupLayout.createParallelGroup(Alignment.LEADING)
-						.addGroup(groupLayout.createSequentialGroup()
-							.addComponent(lblPokemon, GroupLayout.DEFAULT_SIZE, 127, Short.MAX_VALUE)
-							.addGap(32))
+						.addComponent(lblPokemon, GroupLayout.DEFAULT_SIZE, GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
 						.addComponent(scrollPane, GroupLayout.PREFERRED_SIZE, 159, GroupLayout.PREFERRED_SIZE))
 					.addGroup(groupLayout.createParallelGroup(Alignment.LEADING)
 						.addGroup(groupLayout.createSequentialGroup()
@@ -179,8 +196,8 @@ public class SpawnToolGui {
 					.addGap(43)
 					.addGroup(groupLayout.createParallelGroup(Alignment.TRAILING)
 						.addGroup(groupLayout.createSequentialGroup()
-							.addComponent(lblPokemon, GroupLayout.PREFERRED_SIZE, 170, GroupLayout.PREFERRED_SIZE)
-							.addPreferredGap(ComponentPlacement.UNRELATED)
+							.addComponent(lblPokemon, GroupLayout.PREFERRED_SIZE, 155, GroupLayout.PREFERRED_SIZE)
+							.addGap(26)
 							.addComponent(scrollPane, GroupLayout.PREFERRED_SIZE, 288, GroupLayout.PREFERRED_SIZE)
 							.addGap(7))
 						.addGroup(groupLayout.createSequentialGroup()
@@ -265,22 +282,31 @@ public class SpawnToolGui {
 				} else {
 				  System.out.println("No Selection ");
 				}	
-						
-				
 				
 				setfileOpenLocation(Open);					
 			}					
-		});
+		});	
 		
+		// Added name list pokemonListData now i need to find out why its printing 0 in SpawnToolGui also check if names a still being added to PokemonListData
+
+
+
 		
 		JList<String> list = new JList<String>();
-		PokemonListData listData = new PokemonListData();
-		list.setModel(listData.pokemonModel());
+		list = new JList<String>();
+		list.setSelectionMode(ListSelectionModel.SINGLE_INTERVAL_SELECTION);
+		list.setLayoutOrientation(JList.HORIZONTAL_WRAP);
+		list.setVisibleRowCount(-1);
+		list.addListSelectionListener(new ListSelectionListener() {
+
+			@Override
+			public void valueChanged(ListSelectionEvent arg0) {
+				// TODO Auto-generated method stub
+				
+			}}
+		);
 		
 		scrollPane.setViewportView(list);
-		
-		JScrollBar scrollBar = new JScrollBar();
-		scrollPane.setRowHeaderView(scrollBar);
 		
 		JLabel lblPokemons = new JLabel("Pokemons");
 		scrollPane.setColumnHeaderView(lblPokemons);
@@ -323,8 +349,6 @@ public class SpawnToolGui {
 		
 		return OpenFileLocation;
 	}
-
-	
 }
 
 

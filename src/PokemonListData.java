@@ -1,29 +1,56 @@
-import java.awt.Container;
-import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
+import java.util.Map.Entry;
 
-import javax.swing.JList;
-import javax.swing.ListModel;
+import javax.swing.DefaultListModel;
 
-public class PokemonListData {
+public class PokemonListData extends PokemonReader {
 	
-	public ListModel<String> pokemonModel(){
+	
+	private DefaultListModel<String> namelistModel;
+	
+	public String name;	
+	public String ID;
+	
+	public	List<Pokemons> pokemonsList = getPokemonList();	
+	
+	private int pokemonListSize = pokemonsList.size();
+	
+	public DefaultListModel<String> pokemonNameModel(){	
 		
-		PokemonReader pokemonData = new PokemonReader();
-		JList<String> list = new JList<String>();
+		namelistModel = new DefaultListModel<String>();	
 		
-		List<Pokemons> ListOfpokemons = pokemonData.getPokemonList();
-		
-		System.out.println("beforeloop");
-		
-		ListModel<String> names = null;
-		for (Pokemons pokemon : ListOfpokemons) {
+		for(int i = 0; i<=pokemonListSize-1; i++) {	
+			
+		name = getPokemonList().get(i).getPokemonName();	
+		namelistModel.add(i, name);	
 
-			((Container) names).add(pokemon.getPokemonName().toString(), list);
-		}
-		System.out.println("afterloop");
+		System.out.println("Added to list:"+name);
+		System.out.println(i);
 		
-		return names;	
+		}
+		return namelistModel;			
+	}
+	public DefaultListModel<String> dbNameListModel() {
+		
+		DefaultListModel<String> dbNameListModel = new DefaultListModel<String>();
+		
+		PokemonDatabaseReader dbReader = new PokemonDatabaseReader();
+		Map<String,String> pokemonMap = dbReader.getPokemonMap();
+		int count = 0;
+		
+		System.out.println(dbReader.getPokemonMap().size());
+		
+		for(Entry<String, String> Entries : pokemonMap.entrySet()) {
+			name = Entries.getValue();
+			ID = Entries.getKey();		
+			System.out.println(name);
+			dbNameListModel.add(count, ID + ":" + name);		
+			
+			count++;
+		}
+			
+		return dbNameListModel;
 		
 	}
 

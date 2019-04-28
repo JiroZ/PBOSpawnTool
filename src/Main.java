@@ -5,15 +5,15 @@ import java.util.List;
 
 import javax.xml.parsers.ParserConfigurationException;
 
-public class Main {
+public class Main  {
 	
 	static List<Moves> t;
 	
-	public static void main(String[] args) {		
+	public static void main(String[] args) {			
 		
-		PokemonReader r = new PokemonReader();
-		r.getPokemonList();
-	
+		PokemonDatabaseReader db = new PokemonDatabaseReader();
+		db.getPokemonMap();
+		
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {

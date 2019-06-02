@@ -1,118 +1,118 @@
-<pokemons>
-	<pokemon name="Gyarados" chances="45" time="day" build="BS" grass="1" ai="AttackingMoveGenerator" id="1" fishing="">
-		<stats levelDown="21" levelUp="23" />
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><pokemons>
+	<pokemon ai="AttackingMoveGenerator" build="BS" chances="45" fishing="" grass="1" id="1" name="Gyarados" time="day">
+		<stats levelDown="21" levelUp="23"/>
 		<moves>
-			<move name="Water Pulse" />
+			<move name="Water Pulse"/>
 		</moves>
 		<caught-moves>
-			<move name="Bite" level="1" />
+			<move level="1" name="Bite"/>
 		</caught-moves>
 	</pokemon>
-	<pokemon name="Tentacool" chances="40" time="day" build="BS" grass="1" ai="MostEffectiveMoveGenerator" id="2" fishing="">
-		<stats levelDown="21" levelUp="23" />
+	<pokemon ai="MostEffectiveMoveGenerator" build="BS" chances="40" fishing="" grass="1" id="2" name="Tentacool" time="day">
+		<stats levelDown="21" levelUp="23"/>
 		<moves>
-			<move name="Bubble Beam" />
+			<move name="Bubble Beam"/>
 		</moves>
 		<moves>
-			<move name="Acid Spray" />
+			<move name="Acid Spray"/>
 		</moves>
 		<caught-moves>
-			<move name="Wrap" level="1" />
+			<move level="1" name="Wrap"/>
 		</caught-moves>
 	</pokemon>
-	<pokemon name="Sharpedo" chances="40" time="day" build="OP" grass="1" ai="MostEffectiveMoveGenerator" id="3" fishing="">
-		<stats levelDown="21" levelUp="23" />
+	<pokemon ai="MostEffectiveMoveGenerator" build="OP" chances="40" fishing="" grass="1" id="3" name="Sharpedo" time="day">
+		<stats levelDown="21" levelUp="23"/>
 		<moves>
-			<move name="Aqua Jet" />
-			<move name="Assurance" />
+			<move name="Aqua Jet"/>
+			<move name="Assurance"/>
 		</moves>
 		<caught-moves>
-			<move name="Aqua Jet" level="1" />
+			<move level="1" name="Aqua Jet"/>
 		</caught-moves>
 	</pokemon>
-	<pokemon name="Gyarados" chances="45" time="night" build="BS" grass="1" ai="AttackingMoveGenerator" id="4" fishing="">
-		<stats levelDown="21" levelUp="23" />
+	<pokemon ai="AttackingMoveGenerator" build="BS" chances="45" fishing="" grass="1" id="4" name="Gyarados" time="night">
+		<stats levelDown="21" levelUp="23"/>
 		<moves>
-			<move name="Bite" />
+			<move name="Bite"/>
 		</moves>
 		<caught-moves>
-			<move name="Bite" level="1" />
+			<move level="1" name="Bite"/>
 		</caught-moves>
 	</pokemon>
-	<pokemon name="Tentacool" chances="40" time="night" build="BS" grass="1" ai="MostEffectiveMoveGenerator" id="5" fishing="">
-		<stats levelDown="21" levelUp="23" />
+	<pokemon ai="MostEffectiveMoveGenerator" build="BS" chances="40" fishing="" grass="1" id="5" name="Tentacool" time="night">
+		<stats levelDown="21" levelUp="23"/>
 		<moves>
-			<move name="Bubble Beam" />
+			<move name="Bubble Beam"/>
 		</moves>
 		<moves>
-			<move name="Acid Spray" />
-		</moves>
-		<caught-moves>
-			<move name="Wrap" level="1" />
-		</caught-moves>
-	</pokemon>
-	<pokemon name="Sharpedo" chances="40" time="night" build="OP" grass="1" ai="MostEffectiveMoveGenerator" id="6" fishing="">
-		<stats levelDown="21" levelUp="23" />
-		<moves>
-			<move name="Aqua Jet" />
-			<move name="Assurance" />
+			<move name="Acid Spray"/>
 		</moves>
 		<caught-moves>
-			<move name="Aqua Jet" level="1" />
+			<move level="1" name="Wrap"/>
 		</caught-moves>
 	</pokemon>
-	<pokemon name="Tentacool" chances="8" time="day" build="BS" grass="1" ai="AttackingMoveGenerator" id="7" fishing="">
-		<stats levelDown="1" levelUp="3" />
+	<pokemon ai="MostEffectiveMoveGenerator" build="OP" chances="40" fishing="" grass="1" id="6" name="Sharpedo" time="night">
+		<stats levelDown="21" levelUp="23"/>
 		<moves>
-			<move name="Wrap" />
+			<move name="Aqua Jet"/>
+			<move name="Assurance"/>
 		</moves>
 		<caught-moves>
-			<move name="Wrap" level="1" />
+			<move level="1" name="Aqua Jet"/>
 		</caught-moves>
 	</pokemon>
-	<pokemon name="Tentacool" chances="8" time="night" build="BS" grass="1" ai="AttackingMoveGenerator" id="8" fishing="">
-		<stats levelDown="1" levelUp="3" />
+	<pokemon ai="AttackingMoveGenerator" build="BS" chances="8" fishing="" grass="1" id="7" name="Tentacool" time="day">
+		<stats levelDown="1" levelUp="3"/>
 		<moves>
-			<move name="Wrap" />
+			<move name="Wrap"/>
 		</moves>
 		<caught-moves>
-			<move name="Wrap" level="1" />
+			<move level="1" name="Wrap"/>
 		</caught-moves>
 	</pokemon>
-	<pokemon name="Carvanha" chances="8" time="day" build="BS" grass="1" ai="AttackingMoveGenerator" id="9" fishing="">
-		<stats levelDown="1" levelUp="3" />
+	<pokemon ai="AttackingMoveGenerator" build="BS" chances="8" fishing="" grass="1" id="8" name="Tentacool" time="night">
+		<stats levelDown="1" levelUp="3"/>
 		<moves>
-			<move name="Bite" />
+			<move name="Wrap"/>
 		</moves>
 		<caught-moves>
-			<move name="Bite" level="1" />
+			<move level="1" name="Wrap"/>
 		</caught-moves>
 	</pokemon>
-	<pokemon name="Carvanha" chances="8" time="night" build="BS" grass="1" ai="AttackingMoveGenerator" id="10" fishing="">
-		<stats levelDown="1" levelUp="3" />
+	<pokemon ai="AttackingMoveGenerator" build="BS" chances="8" fishing="" grass="1" id="9" name="Carvanha" time="day">
+		<stats levelDown="1" levelUp="3"/>
 		<moves>
-			<move name="Bite" />
+			<move name="Bite"/>
 		</moves>
 		<caught-moves>
-			<move name="Bite" level="1" />
+			<move level="1" name="Bite"/>
 		</caught-moves>
 	</pokemon>
-	<pokemon name="Horsea" chances="1" time="day" build="BS" grass="1" ai="AttackingMoveGenerator" id="11" fishing="">
-		<stats levelDown="1" levelUp="2" />
+	<pokemon ai="AttackingMoveGenerator" build="BS" chances="8" fishing="" grass="1" id="10" name="Carvanha" time="night">
+		<stats levelDown="1" levelUp="3"/>
 		<moves>
-			<move name="Bubble" />
+			<move name="Bite"/>
 		</moves>
 		<caught-moves>
-			<move name="Bubble" level="1" />
+			<move level="1" name="Bite"/>
 		</caught-moves>
 	</pokemon>
-	<pokemon name="Horsea" chances="1" time="night" build="BS" grass="1" ai="AttackingMoveGenerator" id="12" fishing="">
-		<stats levelDown="1" levelUp="2" />
+	<pokemon ai="AttackingMoveGenerator" build="BS" chances="1" fishing="" grass="1" id="11" name="Horsea" time="day">
+		<stats levelDown="1" levelUp="2"/>
 		<moves>
-			<move name="Bubble" />
+			<move name="Bubble"/>
 		</moves>
 		<caught-moves>
-			<move name="Bubble" level="1" />
+			<move level="1" name="Bubble"/>
 		</caught-moves>
 	</pokemon>
-</pokemons>
+	<pokemon ai="AttackingMoveGenerator" build="BS" chances="1" fishing="" grass="1" id="12" name="Horsea" time="night">
+		<stats levelDown="1" levelUp="2"/>
+		<moves>
+			<move name="Bubble"/>
+		</moves>
+		<caught-moves>
+			<move level="1" name="Bubble"/>
+		</caught-moves>
+	</pokemon>
+<pokemon ai="StatChangingMoveGenerator" build="OP" chances="23" grass="1" id="4" name="Charmander"><stats levelDown="LevelDown" levelUp="LevelUp"/><moves><move name="Tackle"/><move name="Bubble"/><move name="Move_3"/><move name="Move_4"/></moves></pokemon></pokemons>

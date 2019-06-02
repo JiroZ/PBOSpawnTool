@@ -63,6 +63,7 @@ public class SpawnToolGuiMain {
 		frame = new JFrame();
 		frame.getContentPane().setBackground(Color.WHITE);
 		frame.getContentPane().setLayout(null);
+		frame.setTitle("PBO's Wild Spawn Tool Designed By Jiro");
 		
 		JScrollPane scrollPane = new JScrollPane();
 		scrollPane.setBounds(10, 186, 159, 299);

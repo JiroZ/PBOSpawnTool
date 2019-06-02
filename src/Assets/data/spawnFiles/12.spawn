@@ -1,4 +1,4 @@
-<pokemons>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><pokemons>
 	<pokemon ai="StatChangingMoveGenerator" build="OP" chances="50" grass="1" id="1" name="Caterpie" time="day">
 		<stats levelDown="1" levelUp="3"/>
 		<moves>
@@ -13,7 +13,6 @@
 	<pokemon ai="StatChangingMoveGenerator" build="OP" chances="50" grass="1" id="2" name="Zigzagoon" time="day">
 		<stats levelDown="1" levelUp="3"/>
 		<moves>
-
 			<move name="Growl"/>
 		</moves>
 		<caught-moves>
@@ -162,4 +161,4 @@
 		</caught-moves>
 		<drop chances="100" id="791"/>
 	</pokemon>
-</pokemons>
+<pokemon ai="StatChangingMoveGenerator" build="OP" chances="24" grass="Grass" id="4" name="Charmander"><stats levelDown="LevelDown" levelUp="LevelUp"/><moves><move name="Tackle"/><move name="Bubble"/><move name="Move_3"/><move name="Move_4"/></moves></pokemon></pokemons>

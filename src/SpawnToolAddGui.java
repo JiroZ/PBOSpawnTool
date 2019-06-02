@@ -57,6 +57,10 @@ public class SpawnToolAddGui extends PokemonListData {
 	private JTextField textField_6;
 	private JTextField txtLeveldown;
 	private JTextField txtLevelup;
+	private JTextField txtLevel;
+	private JTextField txtLevel_1;
+	private JTextField txtLevel_2;
+	private JTextField txtLevel_3;
 
 //	/**
 //	 * Launch the application.
@@ -158,6 +162,23 @@ public class SpawnToolAddGui extends PokemonListData {
 		txtLevelup.setText("LevelUp");
 		txtLevelup.setColumns(10);
 		
+
+		txtMove = new JTextField();
+		txtMove.setText("Move_1");
+		txtMove.setColumns(10);
+		
+		textField = new JTextField();
+		textField.setText("Move_2");
+		textField.setColumns(10);
+		
+		textField_1 = new JTextField();
+		textField_1.setText("Move_3");
+		textField_1.setColumns(10);
+		
+		textField_2 = new JTextField();
+		textField_2.setText("Move_4");
+		textField_2.setColumns(10);
+		
 		btnAdd.addActionListener(new ActionListener() {
 			
 			
@@ -180,7 +201,13 @@ public class SpawnToolAddGui extends PokemonListData {
 						comboBoxBuild.getSelectedItem().toString(),
 						txtGrass.getText(),
 						this.announcement,
-						comboBox.getSelectedItem().toString()
+						comboBox.getSelectedItem().toString(),
+						txtLeveldown.getText(),
+						txtLevelup.getText(),
+						txtMove.getText(),
+						textField.getText(),
+						textField_1.getText(),
+						textField_2.getText()
 						);
 				
 				System.out.println(txtName.getText());
@@ -196,21 +223,6 @@ public class SpawnToolAddGui extends PokemonListData {
 		});
 		
 		
-		txtMove = new JTextField();
-		txtMove.setText("Move_1");
-		txtMove.setColumns(10);
-		
-		textField = new JTextField();
-		textField.setText("Move_2");
-		textField.setColumns(10);
-		
-		textField_1 = new JTextField();
-		textField_1.setText("Move_3");
-		textField_1.setColumns(10);
-		
-		textField_2 = new JTextField();
-		textField_2.setText("Move_4");
-		textField_2.setColumns(10);
 		
 		JLabel lblInbattleMoves = new JLabel("In-Battle Moves");
 		
@@ -234,7 +246,23 @@ public class SpawnToolAddGui extends PokemonListData {
 		
 		JLabel lblPokemondata = new JLabel("Pokemon-Data");
 		
-		JLabel lblLevelRange = new JLabel("Level Range");
+		JLabel lblLevelRange = new JLabel("Pokemon Level Range");
+		
+		txtLevel = new JTextField();
+		txtLevel.setText("Level_1");
+		txtLevel.setColumns(10);
+		
+		txtLevel_1 = new JTextField();
+		txtLevel_1.setText("Level_2");
+		txtLevel_1.setColumns(10);
+		
+		txtLevel_2 = new JTextField();
+		txtLevel_2.setText("Level_3");
+		txtLevel_2.setColumns(10);
+		
+		txtLevel_3 = new JTextField();
+		txtLevel_3.setText("Level_4");
+		txtLevel_3.setColumns(10);
 		
 		
 		
@@ -249,78 +277,95 @@ public class SpawnToolAddGui extends PokemonListData {
 					.addGroup(groupLayout.createParallelGroup(Alignment.LEADING)
 						.addGroup(groupLayout.createSequentialGroup()
 							.addComponent(lblPokemonimage, GroupLayout.PREFERRED_SIZE, 156, GroupLayout.PREFERRED_SIZE)
-							.addPreferredGap(ComponentPlacement.UNRELATED)
+							.addPreferredGap(ComponentPlacement.RELATED)
 							.addGroup(groupLayout.createParallelGroup(Alignment.LEADING)
-								.addComponent(lblPokemondata)
-								.addComponent(lblLevelRange)
-								.addGroup(groupLayout.createSequentialGroup()
-									.addComponent(textField_3, GroupLayout.PREFERRED_SIZE, 97, GroupLayout.PREFERRED_SIZE)
-									.addPreferredGap(ComponentPlacement.RELATED)
-									.addComponent(textField_4, GroupLayout.PREFERRED_SIZE, 97, GroupLayout.PREFERRED_SIZE))
 								.addComponent(lblCaughtmoves)
 								.addGroup(groupLayout.createSequentialGroup()
 									.addGroup(groupLayout.createParallelGroup(Alignment.TRAILING, false)
-										.addComponent(txtLeveldown)
-										.addComponent(textField_5, GroupLayout.DEFAULT_SIZE, 97, Short.MAX_VALUE))
-									.addPreferredGap(ComponentPlacement.RELATED)
-									.addGroup(groupLayout.createParallelGroup(Alignment.TRAILING, false)
-										.addComponent(txtLevelup)
-										.addComponent(textField_6, GroupLayout.DEFAULT_SIZE, 97, Short.MAX_VALUE)))))
+										.addComponent(textField_5, Alignment.LEADING)
+										.addComponent(textField_3, Alignment.LEADING))
+									.addPreferredGap(ComponentPlacement.UNRELATED)
+									.addGroup(groupLayout.createParallelGroup(Alignment.LEADING, false)
+										.addComponent(textField_4)
+										.addComponent(textField_6)))
+								.addGroup(groupLayout.createSequentialGroup()
+									.addGap(4)
+									.addGroup(groupLayout.createParallelGroup(Alignment.LEADING)
+										.addComponent(lblLevelRange)
+										.addGroup(groupLayout.createSequentialGroup()
+											.addComponent(txtLevelup, GroupLayout.PREFERRED_SIZE, 95, GroupLayout.PREFERRED_SIZE)
+											.addPreferredGap(ComponentPlacement.RELATED)
+											.addComponent(txtLeveldown, 99, 99, 99))))
+								.addGroup(groupLayout.createSequentialGroup()
+									.addComponent(txtLevel, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
+									.addPreferredGap(ComponentPlacement.UNRELATED)
+									.addComponent(txtLevel_1, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE))
+								.addGroup(groupLayout.createSequentialGroup()
+									.addComponent(txtLevel_2, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
+									.addPreferredGap(ComponentPlacement.UNRELATED)
+									.addComponent(txtLevel_3, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE))))
 						.addGroup(groupLayout.createParallelGroup(Alignment.TRAILING)
 							.addGroup(groupLayout.createSequentialGroup()
-								.addComponent(btnAdd, GroupLayout.PREFERRED_SIZE, 67, GroupLayout.PREFERRED_SIZE)
-								.addPreferredGap(ComponentPlacement.RELATED)
-								.addComponent(btnCancel))
-							.addGroup(groupLayout.createSequentialGroup()
 								.addComponent(panel, GroupLayout.PREFERRED_SIZE, 156, GroupLayout.PREFERRED_SIZE)
-								.addGroup(groupLayout.createParallelGroup(Alignment.LEADING)
+								.addPreferredGap(ComponentPlacement.UNRELATED)
+								.addGroup(groupLayout.createParallelGroup(Alignment.LEADING, false)
 									.addGroup(groupLayout.createSequentialGroup()
-										.addPreferredGap(ComponentPlacement.UNRELATED)
-										.addGroup(groupLayout.createParallelGroup(Alignment.LEADING, false)
-											.addGroup(groupLayout.createSequentialGroup()
-												.addComponent(comboBox, GroupLayout.PREFERRED_SIZE, 97, GroupLayout.PREFERRED_SIZE)
-												.addPreferredGap(ComponentPlacement.RELATED)
-												.addComponent(txtChances))
-											.addComponent(comboBoxAI, 0, GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-											.addComponent(comboBoxBuild, 0, GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-											.addComponent(txtGrass)
-											.addGroup(groupLayout.createSequentialGroup()
-												.addComponent(txtMove, GroupLayout.PREFERRED_SIZE, 97, GroupLayout.PREFERRED_SIZE)
-												.addPreferredGap(ComponentPlacement.RELATED)
-												.addComponent(textField, GroupLayout.PREFERRED_SIZE, 97, GroupLayout.PREFERRED_SIZE))
-											.addGroup(groupLayout.createSequentialGroup()
-												.addComponent(textField_1, GroupLayout.PREFERRED_SIZE, 97, GroupLayout.PREFERRED_SIZE)
-												.addPreferredGap(ComponentPlacement.RELATED)
-												.addComponent(textField_2, GroupLayout.PREFERRED_SIZE, 97, GroupLayout.PREFERRED_SIZE))
-											.addComponent(lblInbattleMoves)
-											.addComponent(txtName, GroupLayout.DEFAULT_SIZE, 149, Short.MAX_VALUE)
-											.addComponent(txtId)))
+										.addComponent(comboBox, GroupLayout.PREFERRED_SIZE, 97, GroupLayout.PREFERRED_SIZE)
+										.addPreferredGap(ComponentPlacement.RELATED)
+										.addComponent(txtChances))
+									.addComponent(comboBoxAI, 0, GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+									.addComponent(comboBoxBuild, 0, GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+									.addComponent(txtGrass)
 									.addGroup(groupLayout.createSequentialGroup()
-										.addGap(40)
-										.addComponent(chckbxGlobalAnnouncement))))))
-					.addContainerGap(36, Short.MAX_VALUE))
+										.addComponent(txtMove, GroupLayout.PREFERRED_SIZE, 97, GroupLayout.PREFERRED_SIZE)
+										.addPreferredGap(ComponentPlacement.RELATED)
+										.addComponent(textField, GroupLayout.PREFERRED_SIZE, 97, GroupLayout.PREFERRED_SIZE))
+									.addGroup(groupLayout.createSequentialGroup()
+										.addComponent(textField_1, GroupLayout.PREFERRED_SIZE, 97, GroupLayout.PREFERRED_SIZE)
+										.addPreferredGap(ComponentPlacement.RELATED)
+										.addComponent(textField_2, GroupLayout.PREFERRED_SIZE, 97, GroupLayout.PREFERRED_SIZE))
+									.addComponent(lblInbattleMoves)
+									.addComponent(txtName, GroupLayout.DEFAULT_SIZE, 149, Short.MAX_VALUE)
+									.addComponent(txtId)
+									.addComponent(lblPokemondata)))
+							.addGroup(groupLayout.createSequentialGroup()
+								.addGroup(groupLayout.createParallelGroup(Alignment.TRAILING)
+									.addComponent(chckbxGlobalAnnouncement)
+									.addGroup(groupLayout.createSequentialGroup()
+										.addComponent(btnAdd, GroupLayout.PREFERRED_SIZE, 67, GroupLayout.PREFERRED_SIZE)
+										.addPreferredGap(ComponentPlacement.RELATED)
+										.addComponent(btnCancel)))
+								.addPreferredGap(ComponentPlacement.RELATED))))
+					.addGap(75))
 		);
 		groupLayout.setVerticalGroup(
 			groupLayout.createParallelGroup(Alignment.TRAILING)
 				.addGroup(groupLayout.createSequentialGroup()
 					.addGroup(groupLayout.createParallelGroup(Alignment.LEADING)
 						.addGroup(groupLayout.createSequentialGroup()
-							.addGap(18)
-							.addGroup(groupLayout.createParallelGroup(Alignment.LEADING)
+							.addContainerGap(23, Short.MAX_VALUE)
+							.addGroup(groupLayout.createParallelGroup(Alignment.TRAILING, false)
 								.addGroup(groupLayout.createSequentialGroup()
-									.addGap(65)
+									.addGap(49)
+									.addGroup(groupLayout.createParallelGroup(Alignment.BASELINE)
+										.addComponent(txtLevel, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
+										.addComponent(txtLevel_1, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE))
+									.addPreferredGap(ComponentPlacement.RELATED, GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+									.addGroup(groupLayout.createParallelGroup(Alignment.BASELINE)
+										.addComponent(txtLevel_2, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
+										.addComponent(txtLevel_3, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE))
+									.addPreferredGap(ComponentPlacement.RELATED)
 									.addComponent(lblLevelRange)
 									.addPreferredGap(ComponentPlacement.RELATED)
 									.addGroup(groupLayout.createParallelGroup(Alignment.BASELINE)
-										.addComponent(txtLeveldown, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
-										.addComponent(txtLevelup, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE))
-									.addPreferredGap(ComponentPlacement.RELATED)
-									.addComponent(lblPokemondata))
+										.addComponent(txtLevelup, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
+										.addComponent(txtLeveldown, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)))
 								.addComponent(lblPokemonimage, GroupLayout.PREFERRED_SIZE, 138, GroupLayout.PREFERRED_SIZE))
 							.addPreferredGap(ComponentPlacement.UNRELATED)
 							.addGroup(groupLayout.createParallelGroup(Alignment.LEADING)
 								.addGroup(groupLayout.createSequentialGroup()
-									.addGap(10)
+									.addComponent(lblPokemondata)
+									.addPreferredGap(ComponentPlacement.RELATED)
 									.addComponent(txtId, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
 									.addPreferredGap(ComponentPlacement.RELATED)
 									.addComponent(txtName, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
@@ -344,12 +389,12 @@ public class SpawnToolAddGui extends PokemonListData {
 									.addGroup(groupLayout.createParallelGroup(Alignment.BASELINE)
 										.addComponent(textField_1, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
 										.addComponent(textField_2, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE))
-									.addPreferredGap(ComponentPlacement.UNRELATED)
+									.addGap(18)
 									.addComponent(chckbxGlobalAnnouncement)
-									.addPreferredGap(ComponentPlacement.RELATED, 12, Short.MAX_VALUE)
+									.addPreferredGap(ComponentPlacement.RELATED, 9, Short.MAX_VALUE)
 									.addGroup(groupLayout.createParallelGroup(Alignment.BASELINE)
-										.addComponent(btnCancel)
-										.addComponent(btnAdd)))
+										.addComponent(btnAdd)
+										.addComponent(btnCancel)))
 								.addComponent(panel, GroupLayout.PREFERRED_SIZE, 273, GroupLayout.PREFERRED_SIZE)))
 						.addGroup(groupLayout.createSequentialGroup()
 							.addContainerGap()
@@ -414,12 +459,12 @@ public class SpawnToolAddGui extends PokemonListData {
 		
 		frame.setTitle("Add Pokemon");
 		frame.getContentPane().setLayout(groupLayout);
-		frame.setBounds(100, 100, 428, 530);
+		frame.setBounds(100, 100, 454, 611);
 		frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
 		frame.setResizable(false);
 	}
 
-	protected void AddPokemon(String name, String id, String chances, String ai, String build, String grass, String announce,String time) {
+	protected void AddPokemon(String name, String id, String chances, String ai, String build, String grass, String announce,String time,String levelDown,String levelUp,String Move1,String Move2, String Move3,String Move4) {
 		
 		File path = PokemonReader.InputFile;	
 		try {
@@ -465,12 +510,47 @@ public class SpawnToolAddGui extends PokemonListData {
 				pokemon.setAttributeNode(announceAttr);
 			}
 			
-		}
-		else {
+			Element stats = document.createElement("stats");
+			pokemon.appendChild(stats);
 			
-			//return a error message file doesnt have root node of pokemons
+			Attr levelDownAttr = document.createAttribute("levelDown");
+			levelDownAttr.setValue(levelDown);
+			stats.setAttributeNode(levelDownAttr);
+			Attr levelUpAttr = document.createAttribute("levelUp");
+			levelUpAttr.setValue(levelUp);			
+			stats.setAttributeNode(levelUpAttr);
 			
+			Element moves = document.createElement("moves");
+			pokemon.appendChild(moves);
+			
+			Element move1 = document.createElement("move");
+			moves.appendChild(move1);
+			Element move2 = document.createElement("move");
+			moves.appendChild(move2);
+			Element move3 = document.createElement("move");
+			moves.appendChild(move3);
+			Element move4 = document.createElement("move");
+			moves.appendChild(move4);
+						
+			if(Move1 != "Move_1") {
+			Attr move1Attr = document.createAttribute("name");
+			move1Attr.setValue(Move1);
+			move1.setAttributeNode(move1Attr);}
+			if(Move2 != "Move_2") {
+			Attr move2Attr = document.createAttribute("name");
+			move2Attr.setValue(Move2);
+			move2.setAttributeNode(move2Attr);}
+			if(Move3 != "Move_3") {
+			Attr move3Attr = document.createAttribute("name");
+			move3Attr.setValue(Move3);
+			move3.setAttributeNode(move3Attr);}
+			if(Move4 != "Move_4") {
+			Attr move4Attr = document.createAttribute("name");
+			move4Attr.setValue(Move4);
+			move4.setAttributeNode(move4Attr);}
 		}
+			
+			
 		
 		TransformerFactory transformerFactory = TransformerFactory.newInstance();
 	    Transformer transformer = transformerFactory.newTransformer();

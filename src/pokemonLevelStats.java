@@ -8,7 +8,9 @@ public class pokemonLevelStats {
 		this.levelUp = levelUp;
 		this.levelDown = levelDown;
 	}
-
-	
-
+	public String pokemonLevelDown( ) {
+		return levelDown;}
+	public String pokemonLevelUp() {
+		return levelUp;	
+	}
 }

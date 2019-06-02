@@ -9,21 +9,19 @@ public class Main  {
 	
 	static List<Moves> t;
 	
-	public static void main(String[] args) {			
+	public static void main(String[] args) {
 		
-		PokemonDatabaseReader db = new PokemonDatabaseReader();
-		db.getPokemonMap();
 		
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
-					SpawnToolGui window = new SpawnToolGui();
+					SpawnToolGuiMain window = new SpawnToolGuiMain();
 					window.frame.setVisible(true);
 				} catch (Exception e) {
-					e.printStackTrace();					
-				}					
+					e.printStackTrace();
+				}
 			}
-		});		
+		});
 	
 }
 }

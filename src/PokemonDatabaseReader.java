@@ -15,11 +15,10 @@ public class PokemonDatabaseReader {
 	public String line;
 	public ArrayList<String> NameList = new ArrayList<String>();				
 	public ArrayList<String> IDList = new ArrayList<String>();
-	public Map<String,String> pokemonMap = new HashMap<String,String>();
+	public HashMap<String, String> pokemonMap = new HashMap<String,String>();
 	
-	void PokemonNameID() {
-		
-		Stack<String> stack = new Stack();
+	void PokemonNameID() {		
+
 		BufferedReader br = null;
 		try {
 			br = new BufferedReader(new FileReader(csvFile));
@@ -65,13 +64,13 @@ public class PokemonDatabaseReader {
 		
 		return IDList;
 	}
-	public Map<String,String> getPokemonMap() {
+	public HashMap<String, String> getPokemonMap() {
 		this.PokemonNameID();
 		System.out.println(pokemonMap.size());
 		return this.pokemonMap;		
 	}
 	
-	public void setPokemonMap(Map<String, String> pokemonMap) {
+	public void setPokemonMap(HashMap<String, String> pokemonMap) {
 		this.pokemonMap = pokemonMap;
 	}
 	public void setNameList(ArrayList<String> nameList) {

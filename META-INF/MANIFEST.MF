@@ -12,3 +12,4 @@ Export-Package: .,
  Assets.data.spawnFiles,
  net.miginfocom.layout,
  net.miginfocom.swing
+Import-Package: javax.swing

@@ -1,7 +1,4 @@
-import java.awt.EventQueue;
-
 import javax.swing.JFrame;
-import javax.swing.WindowConstants;
 
 public class SpawnToolEditGui {
 
@@ -36,7 +33,7 @@ public class SpawnToolEditGui {
 	private void initialize() {
 		frame = new JFrame();
 		frame.setBounds(100, 100, 450, 300);
-		frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
+		frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
 	}
 
 }

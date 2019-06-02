@@ -21,7 +21,7 @@ public class Pokemons {
 	public String getPokemonAi( ) 		{ return ai; }
 	public String getPokemonTime() 		{ return time; }
 	public String getPokemonBuild()	 { return build; }
-	public String getPokemonChances() {return chances; }
+	public String getPokemonChances() { return chances; }
 	public String getPokemonGrass() 	{ return grass; }
 	
 	

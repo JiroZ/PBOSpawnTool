@@ -24,27 +24,24 @@ public class PokemonReader {
 
 	private static List<pokemonLevelStats> pokemonStat;
 
-	private static SpawnToolGui g = new SpawnToolGui();
-
-	private static OpenMenuActionListener OpenMenuActions;	
+	private static SpawnToolGuiMain g = new SpawnToolGuiMain();
 	
 	private static DocumentBuilderFactory builderFactory = DocumentBuilderFactory.newInstance();
-	
+	 
+	public static File InputFile = null;
 	
 
 	public List<Pokemons> getPokemonList() {
 
 		try {			
-			File InputFile = new File("D:\\projects\\PBOSpawnTool\\src\\Assets\\data\\spawnFiles\\12.spawn");
-			
-			
+			InputFile = new File(g.getfileOpenLocation());
+			//InputFile = new File("D:\\projects\\PBOSpawnTool\\src\\Assets\\data\\spawnFiles\\12.spawn");
+			setInputFile(InputFile);
 			
 			DocumentBuilder documentBuilder;
 			documentBuilder = builderFactory.newDocumentBuilder();
 
-			Document document;
-
-			try {
+			Document document;			
 				document = documentBuilder.parse(InputFile);
 
 				document.normalize();
@@ -81,24 +78,58 @@ public class PokemonReader {
 
 				}
 
-			} catch (SAXException e) {
-				e.printStackTrace();
+			} catch (Exception e) {
+				e.printStackTrace();}
 				
-			} catch (IOException e) {
-				e.printStackTrace();
-			}
-
-		} catch (ParserConfigurationException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-
 		
 				
 		
 		return ListOfpokemons;
 	}
+	
+	public List<pokemonLevelStats> getStatList() {
+		 
+		 
+		  try {
+			  	DocumentBuilderFactory builderFactory = DocumentBuilderFactory.newInstance();
+			  	DocumentBuilder documentBuilder = builderFactory.newDocumentBuilder();		
+				  Document document = documentBuilder.parse(this.GetInputfile());
+				  document.normalize();
+		  
+				  NodeList rootNode = document.getElementsByTagName("pokemons");
+		  
+				  Element rootElement = (Element) rootNode;
+		  
+				  NodeList statList = document.getElementsByTagName("stats");
+		  
+				  for(int i=0; i<=statList.getLength();i++) {
+		 
+					  Node theStat = statList.item(i);
+		 
+					  Element levelElement = (Element) theStat;
+		  
+					  pokemonStat.add(new pokemonLevelStats( 
+							  levelElement.getAttribute("levelDown"),
+							  levelElement.getAttribute("levelUp")
+							  ));
+				  		}			  
+		  		} catch(Exception e) {
+			e.printStackTrace();}
+		  
+		  return pokemonStat; 
+			
+	}
 
+
+
+	public void setInputFile(File InputFile) {
+		PokemonReader.InputFile = InputFile;		
+	}	
+	
+	public File GetInputfile() {
+		return PokemonReader.InputFile;		
+	}
+	
 	/*
 	 * public List<Moves> getMovesList() throws ParserConfigurationException {
 	 * 
@@ -173,38 +204,6 @@ public class PokemonReader {
 	 * }
 	 */
 
-	/*
-	 * public List<pokemonLevelStats> getStatList() throws
-	 * ParserConfigurationException{
-	 * 
-	 * DocumentBuilderFactory builderFactory = DocumentBuilderFactory.newInstance();
-	 * 
-	 * DocumentBuilder documentBuilder = builderFactory.newDocumentBuilder();
-	 * Document document; try { document =
-	 * documentBuilder.parse(XmlReader.class.getResourceAsStream(g.getfileOpen()));
-	 * document.normalize();
-	 * 
-	 * NodeList rootNode = document.getElementsByTagName("pokemons");
-	 * 
-	 * Element rootElement = (Element) rootNode;
-	 * 
-	 * NodeList moveList = document.getElementsByTagName("stats");
-	 * 
-	 * for(int i=0; i<=moveList.getLength();i++) {
-	 * 
-	 * Node theMove = moveList.item(i);
-	 * 
-	 * Element moveElement = (Element) theMove;
-	 * 
-	 * pokemonStat.add(new pokemonLevelStats( moveElement.getAttribute("levelDown"),
-	 * moveElement.getAttribute("levelUp") )); }
-	 * 
-	 * } catch (SAXException | IOException e) { // TODO Auto-generated catch block
-	 * e.printStackTrace(); }
-	 * 
-	 * return pokemonStat;
-	 * 
-	 * 
-	 * }
-	 */
+	
+	 
 }

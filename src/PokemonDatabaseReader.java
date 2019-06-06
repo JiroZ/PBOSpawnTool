@@ -6,16 +6,23 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Map.Entry;
+import java.util.SortedMap;
 import java.util.Stack;
+import java.util.TreeMap;
 
 public class PokemonDatabaseReader {
 	
 	public String cvsSplitBy = null;
 	private String csvFile = ".\\src\\Assets\\data\\moveset.csv";
+	private String itemFile = ".\\src\\Assets\\data\\items.csv";
 	public String line;
 	public ArrayList<String> NameList = new ArrayList<String>();				
 	public ArrayList<String> IDList = new ArrayList<String>();
-	public HashMap<String, String> pokemonMap = new HashMap<String,String>();
+	public ArrayList<String> itemNameList = new ArrayList<String>();
+	public ArrayList<String> itemIDList = new ArrayList<String>();
+	public SortedMap<String, String> pokemonMap = new TreeMap<String,String>();
+	public SortedMap<String, String> itemMap = new TreeMap<String,String>();
+	
 	
 	void PokemonNameID() {		
 
@@ -57,6 +64,50 @@ public class PokemonDatabaseReader {
 		
 	}
 	
+	void ItemDatabase() {
+	
+		try {
+			BufferedReader br = new BufferedReader(new FileReader(itemFile));		
+		
+			while ((line = br.readLine()) != null) {			    
+			
+			    String[] cols = line.split(",");			
+			    itemNameList.add(cols[0]);
+			    itemIDList.add(cols[3]);				    
+			    itemMap.put(cols[3], cols[0]);			    			    
+			}
+		} catch (Exception e) {	
+			e.printStackTrace();
+		}
+		
+		setItemIDList(itemIDList);
+		setItemNameList(itemNameList);
+		setItemMap(itemMap);
+	}
+	
+	
+	public void setItemMap(SortedMap<String, String> itemMap) {
+			this.itemMap = itemMap;
+	}
+	public void setItemNameList(ArrayList<String> itemNameList) {
+			this.itemNameList = itemNameList;
+	}
+	public void setItemIDList(ArrayList<String> itemIDList) {
+		this.itemIDList = itemIDList;
+	}	
+	public ArrayList<String> getItemNameList() {
+		return itemNameList;
+		}
+	public ArrayList<String> getItemIDList() {
+		return itemIDList;
+		}
+	public SortedMap<String,String> getItemMap() {
+		this.ItemDatabase();
+		return itemMap;
+	}
+	
+	
+	
 	public ArrayList<String> getNameList() {
 		return NameList;
 	}
@@ -64,14 +115,13 @@ public class PokemonDatabaseReader {
 		
 		return IDList;
 	}
-	public HashMap<String, String> getPokemonMap() {
+	public SortedMap<String, String> getPokemonMap() {
 		this.PokemonNameID();
-		System.out.println(pokemonMap.size());
 		return this.pokemonMap;		
 	}
 	
-	public void setPokemonMap(HashMap<String, String> pokemonMap) {
-		this.pokemonMap = pokemonMap;
+	public void setPokemonMap(SortedMap<String, String> pokemonMap2) {
+		this.pokemonMap = pokemonMap2;
 	}
 	public void setNameList(ArrayList<String> nameList) {
 		this.NameList = nameList;		

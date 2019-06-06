@@ -2,6 +2,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
+import java.util.SortedMap;
 
 import javax.swing.DefaultListModel;
 
@@ -22,8 +23,7 @@ public class PokemonListData extends PokemonReader {
 	
 	private DefaultListModel idListModel;
 	
-	public String name,chances,ID,time,build,grass,AI,iDs;
-	
+	public String name,chances,ID,time,build,grass,AI,iDs;	
 	
 	public	List<Pokemons> pokemonsList = getPokemonList();	
 	
@@ -100,7 +100,7 @@ public class PokemonListData extends PokemonReader {
 		DefaultListModel dbNameListModel = new DefaultListModel();
 		
 		PokemonDatabaseReader dbReader = new PokemonDatabaseReader();
-		HashMap<String,String> pokemonMap = dbReader.getPokemonMap();
+		SortedMap<String,String> pokemonMap = dbReader.getPokemonMap();
 		int count = 0;
 		
 		System.out.println(dbReader.getPokemonMap().size());
@@ -108,7 +108,7 @@ public class PokemonListData extends PokemonReader {
 		for(Entry<String, String> Entries : pokemonMap.entrySet()) {
 			name = Entries.getValue();
 			ID = Entries.getKey();		
-			System.out.println(name);
+			//System.out.println(name);
 			dbNameListModel.add(count, ID + ":" + name);		
 			
 			count++;

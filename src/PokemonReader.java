@@ -34,8 +34,8 @@ public class PokemonReader {
 	public List<Pokemons> getPokemonList() {
 
 		try {			
-			InputFile = new File(g.getfileOpenLocation());
-			//InputFile = new File("D:\\projects\\PBOSpawnTool\\src\\Assets\\data\\spawnFiles\\12.spawn");
+			//InputFile = new File(g.getfileOpenLocation());
+			InputFile = new File("D:\\projects\\PBOSpawnTool\\src\\Assets\\data\\spawnFiles\\12.spawn");
 			setInputFile(InputFile);
 			
 			DocumentBuilder documentBuilder;
@@ -91,19 +91,31 @@ public class PokemonReader {
 		 
 		 
 		  try {
+			  
+			  InputFile = new File("D:\\projects\\PBOSpawnTool\\src\\Assets\\data\\spawnFiles\\12.spawn");
 			  	DocumentBuilderFactory builderFactory = DocumentBuilderFactory.newInstance();
 			  	DocumentBuilder documentBuilder = builderFactory.newDocumentBuilder();		
-				  Document document = documentBuilder.parse(this.GetInputfile());
+				  Document document = documentBuilder.parse(InputFile);
 				  document.normalize();
 		  
-				  NodeList rootNode = document.getElementsByTagName("pokemons");
-		  
-				  Element rootElement = (Element) rootNode;
+				  NodeList pokemonsList = document.getElementsByTagName("pokemons");
+				  
+				  Node pokemonsNode = pokemonsList.item(0);
+				  
+				  NodeList pokemonList = document.getElementsByTagName("pokemon");
+				  
+				  Node pokemonNode = pokemonList.item(0);			  				  
 		  
 				  NodeList statList = document.getElementsByTagName("stats");
-		  
-				  for(int i=0; i<=statList.getLength();i++) {
-		 
+				  
+				  
+				  
+				 
+				  
+				  for(int i=0; i<=pokemonList.getLength();i++) {
+					  
+					 				  
+					  
 					  Node theStat = statList.item(i);
 		 
 					  Element levelElement = (Element) theStat;

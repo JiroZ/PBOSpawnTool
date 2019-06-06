@@ -11,6 +11,8 @@ import javax.swing.LayoutStyle.ComponentPlacement;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.File;
+import java.util.Map.Entry;
+import java.util.SortedMap;
 
 import javax.swing.JPanel;
 import javax.swing.JList;
@@ -61,6 +63,8 @@ public class SpawnToolAddGui extends PokemonListData {
 	private JTextField txtLevel_1;
 	private JTextField txtLevel_2;
 	private JTextField txtLevel_3;
+	private JLabel lblItemDrop;
+	private JTextField txtDropchance;
 
 //	/**
 //	 * Launch the application.
@@ -146,6 +150,19 @@ public class SpawnToolAddGui extends PokemonListData {
 		for(int i = 0 ; i < timeSet.length; i++) {
 			comboBox.addItem(timeSet[i]);
 		}
+	
+		JComboBox comboBox_1 = new JComboBox();
+		PokemonDatabaseReader db = new PokemonDatabaseReader();
+		SortedMap<String,String> Items = db.getItemMap();
+		
+		for(Entry<String, String> itemNames : Items.entrySet())
+		{
+			System.out.println("hello");
+			System.out.println("itemvalues : "+itemNames.getValue());
+			comboBox_1.addItem(itemNames.getValue());			
+		}		
+		
+		
 		
 		txtGrass = new JTextField();
 		txtGrass.setText("Grass");
@@ -179,13 +196,68 @@ public class SpawnToolAddGui extends PokemonListData {
 		textField_2.setText("Move_4");
 		textField_2.setColumns(10);
 		
+		
+		
+		
+		
+		txtDropchance = new JTextField();
+		txtDropchance.setText("dropChance");
+		txtDropchance.setColumns(10);
+		
+		textField_3 = new JTextField();
+		textField_3.setText("Move_1");
+		textField_3.setColumns(10);
+		
+		textField_4 = new JTextField();
+		textField_4.setText("Move_2");
+		textField_4.setColumns(10);
+		
+		textField_5 = new JTextField();
+		textField_5.setText("Move_3");
+		textField_5.setColumns(10);
+		
+		textField_6 = new JTextField();
+		textField_6.setText("Move_4");
+		textField_6.setColumns(10);
+		
+		txtLevel = new JTextField();
+		txtLevel.setText("Level_1");
+		txtLevel.setColumns(10);
+		
+		txtLevel_1 = new JTextField();
+		txtLevel_1.setText("Level_2");
+		txtLevel_1.setColumns(10);
+		
+		txtLevel_2 = new JTextField();
+		txtLevel_2.setText("Level_3");
+		txtLevel_2.setColumns(10);
+		
+		txtLevel_3 = new JTextField();
+		txtLevel_3.setText("Level_4");
+		txtLevel_3.setColumns(10);
+		
+		
+		
 		btnAdd.addActionListener(new ActionListener() {
+			
 			
 			
 			private String announcement;
 
 			@Override
 			public void actionPerformed(ActionEvent event) {				
+				String ItemID = "false";
+				
+				
+				
+				for(Entry<String, String> itemNames : Items.entrySet())
+				{
+					
+					if(comboBox_1.getSelectedItem().equals(itemNames.getValue())) {
+						ItemID = itemNames.getKey();
+					}
+					
+				}				
 				
 				if(chckbxGlobalAnnouncement.isSelected()) {
 					announcement = "true";
@@ -207,7 +279,17 @@ public class SpawnToolAddGui extends PokemonListData {
 						txtMove.getText(),
 						textField.getText(),
 						textField_1.getText(),
-						textField_2.getText()
+						textField_2.getText(),
+						txtDropchance.getText(),
+						ItemID,
+						textField_3.getText(),
+						textField_4.getText(),
+						textField_5.getText(),
+						textField_6.getText(),
+						txtLevel.getText(),
+						txtLevel_1.getText(),
+						txtLevel_2.getText(),
+						txtLevel_3.getText()
 						);
 				
 				System.out.println(txtName.getText());
@@ -226,21 +308,7 @@ public class SpawnToolAddGui extends PokemonListData {
 		
 		JLabel lblInbattleMoves = new JLabel("In-Battle Moves");
 		
-		textField_3 = new JTextField();
-		textField_3.setText("Move_1");
-		textField_3.setColumns(10);
 		
-		textField_4 = new JTextField();
-		textField_4.setText("Move_2");
-		textField_4.setColumns(10);
-		
-		textField_5 = new JTextField();
-		textField_5.setText("Move_3");
-		textField_5.setColumns(10);
-		
-		textField_6 = new JTextField();
-		textField_6.setText("Move_4");
-		textField_6.setColumns(10);
 		
 		JLabel lblCaughtmoves = new JLabel("Caught-Moves");
 		
@@ -248,21 +316,10 @@ public class SpawnToolAddGui extends PokemonListData {
 		
 		JLabel lblLevelRange = new JLabel("Pokemon Level Range");
 		
-		txtLevel = new JTextField();
-		txtLevel.setText("Level_1");
-		txtLevel.setColumns(10);
 		
-		txtLevel_1 = new JTextField();
-		txtLevel_1.setText("Level_2");
-		txtLevel_1.setColumns(10);
+		lblItemDrop = new JLabel("Item Drop");
 		
-		txtLevel_2 = new JTextField();
-		txtLevel_2.setText("Level_3");
-		txtLevel_2.setColumns(10);
 		
-		txtLevel_3 = new JTextField();
-		txtLevel_3.setText("Level_4");
-		txtLevel_3.setColumns(10);
 		
 		
 		
@@ -306,36 +363,40 @@ public class SpawnToolAddGui extends PokemonListData {
 									.addComponent(txtLevel_3, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE))))
 						.addGroup(groupLayout.createParallelGroup(Alignment.TRAILING)
 							.addGroup(groupLayout.createSequentialGroup()
+								.addComponent(btnAdd, GroupLayout.PREFERRED_SIZE, 67, GroupLayout.PREFERRED_SIZE)
+								.addPreferredGap(ComponentPlacement.RELATED)
+								.addComponent(btnCancel)
+								.addPreferredGap(ComponentPlacement.RELATED))
+							.addGroup(groupLayout.createSequentialGroup()
 								.addComponent(panel, GroupLayout.PREFERRED_SIZE, 156, GroupLayout.PREFERRED_SIZE)
 								.addPreferredGap(ComponentPlacement.UNRELATED)
 								.addGroup(groupLayout.createParallelGroup(Alignment.LEADING, false)
+									.addComponent(lblItemDrop)
 									.addGroup(groupLayout.createSequentialGroup()
 										.addComponent(comboBox, GroupLayout.PREFERRED_SIZE, 97, GroupLayout.PREFERRED_SIZE)
 										.addPreferredGap(ComponentPlacement.RELATED)
 										.addComponent(txtChances))
-									.addComponent(comboBoxAI, 0, GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
 									.addComponent(comboBoxBuild, 0, GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
 									.addComponent(txtGrass)
 									.addGroup(groupLayout.createSequentialGroup()
 										.addComponent(txtMove, GroupLayout.PREFERRED_SIZE, 97, GroupLayout.PREFERRED_SIZE)
 										.addPreferredGap(ComponentPlacement.RELATED)
 										.addComponent(textField, GroupLayout.PREFERRED_SIZE, 97, GroupLayout.PREFERRED_SIZE))
+									.addComponent(lblInbattleMoves)
+									.addComponent(txtName, GroupLayout.DEFAULT_SIZE, 149, Short.MAX_VALUE)
+									.addComponent(txtId)
+									.addComponent(lblPokemondata)
 									.addGroup(groupLayout.createSequentialGroup()
 										.addComponent(textField_1, GroupLayout.PREFERRED_SIZE, 97, GroupLayout.PREFERRED_SIZE)
 										.addPreferredGap(ComponentPlacement.RELATED)
 										.addComponent(textField_2, GroupLayout.PREFERRED_SIZE, 97, GroupLayout.PREFERRED_SIZE))
-									.addComponent(lblInbattleMoves)
-									.addComponent(txtName, GroupLayout.DEFAULT_SIZE, 149, Short.MAX_VALUE)
-									.addComponent(txtId)
-									.addComponent(lblPokemondata)))
-							.addGroup(groupLayout.createSequentialGroup()
-								.addGroup(groupLayout.createParallelGroup(Alignment.TRAILING)
-									.addComponent(chckbxGlobalAnnouncement)
+									.addComponent(comboBoxAI, 0, GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+									.addComponent(comboBox_1, 0, GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
 									.addGroup(groupLayout.createSequentialGroup()
-										.addComponent(btnAdd, GroupLayout.PREFERRED_SIZE, 67, GroupLayout.PREFERRED_SIZE)
-										.addPreferredGap(ComponentPlacement.RELATED)
-										.addComponent(btnCancel)))
-								.addPreferredGap(ComponentPlacement.RELATED))))
+										.addComponent(txtDropchance, GroupLayout.PREFERRED_SIZE, 96, GroupLayout.PREFERRED_SIZE)
+										.addPreferredGap(ComponentPlacement.UNRELATED)
+										.addComponent(chckbxGlobalAnnouncement)))
+								.addPreferredGap(ComponentPlacement.RELATED, 18, Short.MAX_VALUE))))
 					.addGap(75))
 		);
 		groupLayout.setVerticalGroup(
@@ -343,7 +404,7 @@ public class SpawnToolAddGui extends PokemonListData {
 				.addGroup(groupLayout.createSequentialGroup()
 					.addGroup(groupLayout.createParallelGroup(Alignment.LEADING)
 						.addGroup(groupLayout.createSequentialGroup()
-							.addContainerGap(23, Short.MAX_VALUE)
+							.addContainerGap(43, Short.MAX_VALUE)
 							.addGroup(groupLayout.createParallelGroup(Alignment.TRAILING, false)
 								.addGroup(groupLayout.createSequentialGroup()
 									.addGap(49)
@@ -363,6 +424,7 @@ public class SpawnToolAddGui extends PokemonListData {
 								.addComponent(lblPokemonimage, GroupLayout.PREFERRED_SIZE, 138, GroupLayout.PREFERRED_SIZE))
 							.addPreferredGap(ComponentPlacement.UNRELATED)
 							.addGroup(groupLayout.createParallelGroup(Alignment.LEADING)
+								.addComponent(panel, GroupLayout.PREFERRED_SIZE, 273, GroupLayout.PREFERRED_SIZE)
 								.addGroup(groupLayout.createSequentialGroup()
 									.addComponent(lblPokemondata)
 									.addPreferredGap(ComponentPlacement.RELATED)
@@ -389,13 +451,8 @@ public class SpawnToolAddGui extends PokemonListData {
 									.addGroup(groupLayout.createParallelGroup(Alignment.BASELINE)
 										.addComponent(textField_1, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
 										.addComponent(textField_2, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE))
-									.addGap(18)
-									.addComponent(chckbxGlobalAnnouncement)
-									.addPreferredGap(ComponentPlacement.RELATED, 9, Short.MAX_VALUE)
-									.addGroup(groupLayout.createParallelGroup(Alignment.BASELINE)
-										.addComponent(btnAdd)
-										.addComponent(btnCancel)))
-								.addComponent(panel, GroupLayout.PREFERRED_SIZE, 273, GroupLayout.PREFERRED_SIZE)))
+									.addPreferredGap(ComponentPlacement.RELATED)
+									.addComponent(lblItemDrop))))
 						.addGroup(groupLayout.createSequentialGroup()
 							.addContainerGap()
 							.addComponent(lblCaughtmoves)
@@ -406,7 +463,18 @@ public class SpawnToolAddGui extends PokemonListData {
 							.addPreferredGap(ComponentPlacement.RELATED)
 							.addGroup(groupLayout.createParallelGroup(Alignment.BASELINE)
 								.addComponent(textField_5, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
-								.addComponent(textField_6, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE))))
+								.addComponent(textField_6, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE))
+							.addPreferredGap(ComponentPlacement.RELATED, 402, Short.MAX_VALUE)))
+					.addGap(1)
+					.addComponent(comboBox_1, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
+					.addPreferredGap(ComponentPlacement.RELATED)
+					.addGroup(groupLayout.createParallelGroup(Alignment.BASELINE)
+						.addComponent(txtDropchance, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
+						.addComponent(chckbxGlobalAnnouncement))
+					.addGap(11)
+					.addGroup(groupLayout.createParallelGroup(Alignment.BASELINE)
+						.addComponent(btnAdd)
+						.addComponent(btnCancel))
 					.addContainerGap())
 		);
 		panel.setLayout(new BorderLayout(0, 0));
@@ -459,12 +527,12 @@ public class SpawnToolAddGui extends PokemonListData {
 		
 		frame.setTitle("Add Pokemon");
 		frame.getContentPane().setLayout(groupLayout);
-		frame.setBounds(100, 100, 454, 611);
+		frame.setBounds(100, 100, 516, 634);
 		frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
 		frame.setResizable(false);
 	}
 
-	protected void AddPokemon(String name, String id, String chances, String ai, String build, String grass, String announce,String time,String levelDown,String levelUp,String Move1,String Move2, String Move3,String Move4) {
+	protected void AddPokemon(String name, String id, String chances, String ai, String build, String grass, String announce,String time,String levelDown,String levelUp,String Move1,String Move2, String Move3,String Move4,String dropChance,String itemID,String caughtMove1,String caughtMove2,String caughtMove3,String caughtMove4,String caughtLevel1,String caughtLevel2,String caughtLevel3,String caughtLevel4) {
 		
 		File path = PokemonReader.InputFile;	
 		try {
@@ -531,6 +599,18 @@ public class SpawnToolAddGui extends PokemonListData {
 			moves.appendChild(move3);
 			Element move4 = document.createElement("move");
 			moves.appendChild(move4);
+			
+			
+			
+			Element dropChances = document.createElement("drop");
+			pokemon.appendChild(dropChances);
+			
+			Attr dropchancesAttr  = document.createAttribute("chances");
+			dropchancesAttr.setValue(dropChance);
+			dropChances.setAttributeNode(dropchancesAttr);
+			Attr  itemIDAttr = document.createAttribute("id");
+			itemIDAttr.setValue(itemID);
+			dropChances.setAttributeNode(itemIDAttr);
 						
 			if(Move1 != "Move_1") {
 			Attr move1Attr = document.createAttribute("name");
@@ -548,6 +628,59 @@ public class SpawnToolAddGui extends PokemonListData {
 			Attr move4Attr = document.createAttribute("name");
 			move4Attr.setValue(Move4);
 			move4.setAttributeNode(move4Attr);}
+			
+			Element caughtMoves = document.createElement("caught-moves");
+			pokemon.appendChild(caughtMoves);
+			
+			Element caughtMove1Ele = document.createElement("move");
+			caughtMoves.appendChild(caughtMove1Ele);
+			Element caughtMove2Ele = document.createElement("move");
+			caughtMoves.appendChild(caughtMove2Ele);
+			Element caughtMove3Ele = document.createElement("move");
+			caughtMoves.appendChild(caughtMove3Ele);
+			Element caughtMove4Ele = document.createElement("move");
+			caughtMoves.appendChild(caughtMove4Ele);
+			
+				if(caughtMove1 != "Move_1") {
+				Attr caughtMove1Attr = document.createAttribute("name");
+				caughtMove1Attr.setValue(Move1);
+				caughtMove1Ele.setAttributeNode(caughtMove1Attr);				
+					if(caughtLevel1 != "Level_1") {
+						Attr caughtLevel1Attr = document.createAttribute("level");
+						caughtLevel1Attr.setValue(caughtLevel1);
+						caughtMove1Ele.setAttributeNode(caughtLevel1Attr);			
+					}
+				}
+				if(caughtMove2 != "Move_2") {
+				Attr caughtMove2Attr = document.createAttribute("name");
+				caughtMove2Attr.setValue(caughtMove2);
+				caughtMove2Ele.setAttributeNode(caughtMove2Attr);
+					if(caughtLevel2 != "Level_2") {
+						Attr caughtLevel2Attr = document.createAttribute("level");
+						caughtLevel2Attr.setValue(caughtLevel2);
+						caughtMove2Ele.setAttributeNode(caughtLevel2Attr);		
+					}
+				}
+				if(caughtMove3 != "Move_3") {
+				Attr caughtMove3Attr = document.createAttribute("name");
+				caughtMove3Attr.setValue(caughtMove3);
+				caughtMove3Ele.setAttributeNode(caughtMove3Attr);
+				if(caughtLevel3 != "Level_3") {
+					Attr caughtLevel3Attr = document.createAttribute("level");
+					caughtLevel3Attr.setValue(caughtLevel3);
+					caughtMove3Ele.setAttributeNode(caughtLevel3Attr);		
+				}
+				}
+				if(caughtMove4 != "Move_4") {
+				Attr caughtMove4Attr = document.createAttribute("name");
+				caughtMove4Attr.setValue(Move4);
+				caughtMove4Ele.setAttributeNode(caughtMove4Attr);
+				if(caughtLevel3 != "Level_4") {
+					Attr caughtLevel4Attr = document.createAttribute("level");
+					caughtLevel4Attr.setValue(caughtLevel4);
+					caughtMove4Ele.setAttributeNode(caughtLevel4Attr);		
+				}				
+			}		
 		}
 			
 			

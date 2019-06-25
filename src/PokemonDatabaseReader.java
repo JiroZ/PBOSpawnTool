@@ -3,6 +3,7 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Map.Entry;
@@ -42,8 +43,8 @@ public class PokemonDatabaseReader {
 			    NameList.add(cols[0]);
 			    IDList.add(cols[1]);
 			//    System.out.println(cols[0]+" Added to the names List");
-			    pokemonMap.put(cols[1], cols[0]);
-			    
+			    pokemonMap.put(cols[1], cols[0]);		    
+			   
 			    			    
 			}
 		} catch (IOException e) {

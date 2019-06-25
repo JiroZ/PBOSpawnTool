@@ -23,7 +23,21 @@ public class PokemonListData extends PokemonReader {
 	
 	private DefaultListModel idListModel;
 	
-	public String name,chances,ID,time,build,grass,AI,iDs;	
+	private DefaultListModel honeyListModel;
+	
+	private DefaultListModel fishingListModel;
+	
+	private DefaultListModel notCatchableListModel;
+	
+	private DefaultListModel cannotRunListModel;
+	
+	private DefaultListModel announceListModel;
+	
+	private DefaultListModel srListModel;
+		
+	public String name,chances,ID,time,build,grass,AI,iDs;
+
+	boolean honey,fishing,notCatchable,cannotRun,announce,sr;	
 	
 	public	List<Pokemons> pokemonsList = getPokemonList();	
 	
@@ -31,7 +45,6 @@ public class PokemonListData extends PokemonReader {
 	
 	
 	public DefaultListModel pokemonNameModel(){
-		
 		namelistModel = new DefaultListModel();
 		for(int i = 0; i<=pokemonListSize-1; i++) {				
 		name = getPokemonList().get(i).getPokemonName();	
@@ -51,6 +64,7 @@ public class PokemonListData extends PokemonReader {
 	}
 	
 	public DefaultListModel pokemonTimeModel() {
+		
 		timeListModel = new DefaultListModel();
 		for(int i = 0; i<=pokemonListSize-1; i++) {				
 		time = getPokemonList().get(i).getPokemonTime();
@@ -60,6 +74,7 @@ public class PokemonListData extends PokemonReader {
 	}
 	
 	public DefaultListModel pokemonBuildModel() {
+		
 		buildListModel = new DefaultListModel();
 		for(int i = 0; i<=pokemonListSize-1; i++) {				
 		build = getPokemonList().get(i).getPokemonBuild();
@@ -93,6 +108,59 @@ public class PokemonListData extends PokemonReader {
 		idListModel.add(i, ID);		
 		}
 		return idListModel;
+	}
+	public DefaultListModel pokemonHoneyModel() {
+		honeyListModel = new DefaultListModel();
+		for(int i = 0; i<=pokemonListSize-1; i++) {				
+		honey = getPokemonList().get(i).getPokemonHoney();
+		honeyListModel.add(i, honey);		
+		}
+		
+		return honeyListModel;
+	}
+	
+	public DefaultListModel pokemonFishingModel() {
+		fishingListModel = new DefaultListModel();
+		for(int i = 0; i<=pokemonListSize-1; i++) {				
+		fishing = getPokemonList().get(i).getPokemonFishing();
+		fishingListModel.add(i, fishing);		
+		}
+		
+		return fishingListModel;
+	}
+	
+	public DefaultListModel pokemonNotCatchableModel() {
+		notCatchableListModel = new DefaultListModel();
+		for(int i = 0; i<=pokemonListSize-1; i++) {				
+		notCatchable = getPokemonList().get(i).getPokemonNotCatchable();
+		notCatchableListModel.add(i, notCatchable);		
+		}		
+		return notCatchableListModel;
+	}
+	public DefaultListModel pokemonCannotRunModel() {
+		cannotRunListModel = new DefaultListModel();
+		for(int i = 0; i<=pokemonListSize-1; i++) {				
+		cannotRun = getPokemonList().get(i).getPokemonCannotRun();
+		cannotRunListModel.add(i, cannotRun);		
+		}		
+		return cannotRunListModel;
+	}	
+	public DefaultListModel pokemonAnnounceModel( ) {
+		announceListModel = new DefaultListModel();
+		for(int i = 0; i<=pokemonListSize-1; i++) {				
+			announce = getPokemonList().get(i).getPokemonAnnounce();
+			announceListModel.add(i, sr);		
+			}		
+			return announceListModel;
+		
+	}
+	public DefaultListModel pokemonSRAnnounceModel() {
+		srListModel = new DefaultListModel();
+		for(int i = 0; i<=pokemonListSize-1; i++) {				
+		sr = getPokemonList().get(i).getPokemonSr();
+		srListModel.add(i, sr);		
+		}		
+		return srListModel;
 	}
 	
 	public DefaultListModel dbNameListModel() {

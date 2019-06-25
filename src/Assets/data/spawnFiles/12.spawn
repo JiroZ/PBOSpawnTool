@@ -3,6 +3,7 @@
 		<stats levelDown="1" levelUp="3"/>
 		<moves>
 			<move name="String Shot"/>
+			<move name="Tackle"/>
 		</moves>
 		<caught-moves>
 			<move level="1" name="Tackle"/>
@@ -161,4 +162,4 @@
 		</caught-moves>
 		<drop chances="100" id="791"/>
 	</pokemon>
-<pokemon ai="StatChangingMoveGenerator" build="OP" chances="24" grass="Grass" id="4" name="Charmander"><stats levelDown="LevelDown" levelUp="LevelUp"/><moves><move name="Tackle"/><move name="Bubble"/><move name="Move_3"/><move name="Move_4"/></moves></pokemon><pokemon ai="StatChangingMoveGenerator" announce="" build="OP" chances="24" grass="1" id="1" name="Bulbasaur"><stats levelDown="5" levelUp="2"/><moves><move name="Tackle"/><move name="Bubble"/><move name="Move_3"/><move name="Move_4"/></moves><drop chances="32" id=" but it also lowers its base Attack stat.&quot;"/><caught-moves><move level="Level_1" name="Tackle"/><move level="Level_2" name="Bubble"/><move level="Level_3" name="Move_3"/><move level="Level_4" name="Move_4"/></caught-moves></pokemon></pokemons>
+</pokemons>

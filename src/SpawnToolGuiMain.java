@@ -42,6 +42,18 @@ public class SpawnToolGuiMain {
 	
 	private JLabel lblIdstring = new JLabel("ID_String");
 	
+	private JLabel lblHoneyboolean = new JLabel("Honey_Boolean");
+	
+	private JLabel lblFishingboolean = new JLabel("Fishing_boolean");
+	
+	private JLabel lblNotcatchableboolean = new JLabel("notCatchable_Boolean");
+	
+	private JLabel lblCannotrunboolean = new JLabel("cannotRun_Boolean");
+	
+	private JLabel lblAnnounceboolean = new JLabel("Announce_Boolean");
+	
+	private JLabel lblSrannounce = new JLabel("SR_Announce");
+	
 	private static JScrollPane scrollPane = new JScrollPane();
 
 	public static String filename;
@@ -83,7 +95,7 @@ public class SpawnToolGuiMain {
 		
 		
 		JButton btnAdd = new JButton("Add");
-		btnAdd.setBounds(420, 462, 57, 23);
+		btnAdd.setBounds(420, 502, 57, 23);
 		frame.getContentPane().add(btnAdd);		
 		btnAdd.addActionListener(new ActionListener() {			
 			@Override
@@ -100,11 +112,15 @@ public class SpawnToolGuiMain {
 		});
 		
 		JButton btnSave = new JButton("Save");
-		btnSave.setBounds(349, 462, 67, 23);
+		btnSave.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent arg0) {
+			}
+		});
+		btnSave.setBounds(349, 502, 67, 23);
 		frame.getContentPane().add(btnSave);
 		
 		JButton btnEdit = new JButton("Edit");
-		btnEdit.setBounds(285, 462, 57, 23);		
+		btnEdit.setBounds(288, 502, 57, 23);		
 		frame.getContentPane().add(btnEdit);
 		
 		JLabel lblPokemonimage = new JLabel("Pokemon_Image");
@@ -177,6 +193,110 @@ public class SpawnToolGuiMain {
 		Component verticalStrut = Box.createVerticalStrut(20);
 		verticalStrut.setBounds(224, 0, 1, 20);
 		frame.getContentPane().add(verticalStrut);
+		
+		JLabel lblHoney = new JLabel("Honey");
+		lblHoney.setBounds(179, 187, 46, 14);
+		frame.getContentPane().add(lblHoney);
+		
+		
+		lblHoneyboolean.setBounds(235, 187, 107, 14);
+		frame.getContentPane().add(lblHoneyboolean);
+		
+		JLabel lblFish = new JLabel("Fish");
+		lblFish.setBounds(179, 212, 46, 14);
+		frame.getContentPane().add(lblFish);
+		
+
+		lblFishingboolean.setBounds(235, 212, 92, 14);
+		frame.getContentPane().add(lblFishingboolean);
+		
+		JLabel lblNotcatchable = new JLabel("notCatchable");
+		lblNotcatchable.setBounds(179, 237, 46, 14);
+		frame.getContentPane().add(lblNotcatchable);
+		
+
+		lblNotcatchableboolean.setBounds(235, 237, 131, 14);
+		frame.getContentPane().add(lblNotcatchableboolean);
+		
+		JLabel lblCannotrun = new JLabel("cannotRun");
+		lblCannotrun.setBounds(179, 262, 46, 14);
+		frame.getContentPane().add(lblCannotrun);
+		
+
+		lblCannotrunboolean.setBounds(235, 262, 125, 14);
+		frame.getContentPane().add(lblCannotrunboolean);
+		
+		JLabel lblAnnounce = new JLabel("Announce");
+		lblAnnounce.setBounds(179, 287, 46, 14);
+		frame.getContentPane().add(lblAnnounce);
+		
+
+		lblAnnounceboolean.setBounds(235, 287, 107, 14);
+		frame.getContentPane().add(lblAnnounceboolean);
+		
+		JLabel lblSr = new JLabel("SR");
+		lblSr.setBounds(179, 312, 46, 14);
+		frame.getContentPane().add(lblSr);
+		
+		
+		lblSrannounce.setBounds(235, 312, 80, 14);
+		frame.getContentPane().add(lblSrannounce);
+		
+		JLabel lblCaughtmoves = new JLabel("Caught-Moves");
+		lblCaughtmoves.setBounds(179, 337, 92, 14);
+		frame.getContentPane().add(lblCaughtmoves);
+		
+		JLabel lblMove = new JLabel("Move_1");
+		lblMove.setBounds(179, 362, 46, 14);
+		frame.getContentPane().add(lblMove);
+		
+		JLabel lblLevel = new JLabel("Level_1");
+		lblLevel.setBounds(179, 387, 46, 14);
+		frame.getContentPane().add(lblLevel);
+		
+		JLabel lblMove_1 = new JLabel("Move_2");
+		lblMove_1.setBounds(235, 362, 46, 14);
+		frame.getContentPane().add(lblMove_1);
+		
+		JLabel lblLevel_1 = new JLabel("Level_2");
+		lblLevel_1.setBounds(235, 387, 46, 14);
+		frame.getContentPane().add(lblLevel_1);
+		
+		JLabel lblMove_2 = new JLabel("Move_3");
+		lblMove_2.setBounds(179, 412, 46, 14);
+		frame.getContentPane().add(lblMove_2);
+		
+		JLabel lblLevel_2 = new JLabel("Level_3");
+		lblLevel_2.setBounds(179, 437, 46, 14);
+		frame.getContentPane().add(lblLevel_2);
+		
+		JLabel lblMove_3 = new JLabel("Move_4");
+		lblMove_3.setBounds(235, 412, 46, 14);
+		frame.getContentPane().add(lblMove_3);
+		
+		JLabel lblLevel_3 = new JLabel("Level_4");
+		lblLevel_3.setBounds(235, 437, 46, 14);
+		frame.getContentPane().add(lblLevel_3);
+		
+		JLabel lblInbattlemoves = new JLabel("inBattle-Moves");
+		lblInbattlemoves.setBounds(314, 337, 102, 14);
+		frame.getContentPane().add(lblInbattlemoves);
+		
+		JLabel lblMove_4 = new JLabel("Move_1");
+		lblMove_4.setBounds(314, 362, 64, 14);
+		frame.getContentPane().add(lblMove_4);
+		
+		JLabel lblMove_5 = new JLabel("Move_2");
+		lblMove_5.setBounds(388, 362, 67, 14);
+		frame.getContentPane().add(lblMove_5);
+		
+		JLabel lblMove_6 = new JLabel("Move_3");
+		lblMove_6.setBounds(314, 387, 64, 14);
+		frame.getContentPane().add(lblMove_6);
+		
+		JLabel lblMove_7 = new JLabel("Move_4");
+		lblMove_7.setBounds(388, 387, 67, 14);
+		frame.getContentPane().add(lblMove_7);
 		btnEdit.addActionListener(new ActionListener() {
 			
 			 public void actionPerformed(ActionEvent e) {
@@ -190,7 +310,7 @@ public class SpawnToolGuiMain {
 			  }
 			});
 		
-		frame.setBounds(100, 100, 503, 557);
+		frame.setBounds(100, 100, 503, 597);
 		frame.setResizable(false);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		
@@ -288,7 +408,31 @@ public class SpawnToolGuiMain {
 									.pokemonIDModel()
 									.getElementAt(list
 											.getSelectedIndex())
-									.toString());;
+									.toString());
+							lblHoneyboolean.setText(data
+									.pokemonHoneyModel()
+									.getElementAt(list.getSelectedIndex())
+									.toString());
+							lblFishingboolean.setText(data
+									.pokemonFishingModel()
+									.getElementAt(list.getSelectedIndex())
+									.toString());
+							lblNotcatchableboolean.setText(data
+									.pokemonNotCatchableModel()
+									.getElementAt(list.getSelectedIndex())
+									.toString());
+							lblCannotrunboolean.setText(data
+									.pokemonCannotRunModel()
+									.getElementAt(list.getSelectedIndex())
+									.toString());
+							lblAnnounceboolean.setText(data
+									.pokemonAnnounceModel()
+									.getElementAt(list.getSelectedIndex())
+									.toString());
+							lblSrannounce.setText(data
+									.pokemonSRAnnounceModel()
+									.getElementAt(list.getSelectedIndex())
+									.toString());						
 							
 						}
 						
